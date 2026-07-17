@@ -25,7 +25,7 @@ The methodology follows a structured engineering lifecycle.
 13. Templates
 14. Samples
 
-See [ENGINEERING-LIFECYCLE.md](ENGINEERING-LIFECYCLE.md) for an overview.
+See [Engineering Lifecycle](ENGINEERING-LIFECYCLE.md) for an overview.
 
 ## Repository Structure
 
