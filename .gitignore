@@ -1,0 +1,35 @@
+# Build output
+**/bin/
+**/obj/
+artifacts/
+
+# Test and mutation output
+**/TestResults/
+StrykerOutput/
+
+# IDE and user settings
+.idea/
+.vs/
+.vscode/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Operating system files
+.DS_Store
+Thumbs.db
+
+# User's settings
+*.DotSettings.user
+*.sln.DotSettings.user
+
+# Internal architecture documents
+docs/architecture/internal
+docs/development
+docs/analysis
+
+# Ignore development settings across all projects
+**/Properties/launchSettings.json
+**/appsettings.Development.json
+**/appsettings.development.json
