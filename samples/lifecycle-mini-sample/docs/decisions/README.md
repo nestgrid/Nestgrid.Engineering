@@ -1,14 +1,8 @@
 # Decisions
 
-This directory contains decision records for significant choices made throughout the engineering lifecycle.
+This directory contains decision records for the Lifecycle Mini Sample.
 
 Decision records preserve context, rationale, alternatives and consequences so future readers can understand why decisions were made.
-
-## Recommended Location
-
-Decision records should live under `docs/decisions/` in product repositories.
-
-Start with all records directly in `docs/decisions/`. If the number of records grows, organise them into `adr/`, `bdr/`, `pdr/` and `tdr/` subdirectories.
 
 ## Decision Types
 
@@ -29,22 +23,26 @@ Start with all records directly in `docs/decisions/`. If the number of records g
 
 | ID | Title | Type | Status | Date |
 | --- | --- | --- | --- | --- |
-| `<PREFIX-000>` | `<Decision title>` | `<Type>` | `<Status>` | `<YYYY-MM-DD>` |
+| [ADR-001](ADR-001-use-modular-monolith.md) | Use Modular Monolith | Architecture | Accepted | 2026-07-19 |
 
 ## Guidance
 
-Use [Decision.Template.md](Decision.Template.md) when creating a new decision record.
+Decision records in this sample are intentionally small.
 
-Decision records should be concise, specific and honest about trade-offs.
+They demonstrate how to preserve reasoning without overwhelming the reader.
 
 ---
 
 ## Navigation
 
+**Sample**
+
+- [Lifecycle Mini Sample](../../README.md)
+
 **Engineering Lifecycle**
 
-- [Engineering Lifecycle](../ENGINEERING-LIFECYCLE.md)
+- [Engineering Lifecycle](../../../../ENGINEERING-LIFECYCLE.md)
 
 **Repository**
 
-- [Nestgrid.Engineering](../README.md)
+- [Nestgrid.Engineering](../../../../README.md)
