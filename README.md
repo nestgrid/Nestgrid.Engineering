@@ -24,6 +24,8 @@ The methodology follows a structured engineering lifecycle.
 12. [Documentation](docs/12%20Documentation/README.md)
 13. [Templates](docs/13%20Templates/README.md)
 14. [Samples](docs/14%20Samples/README.md)
+15. [Engineering Workflow](docs/15%20Engineering%20Workflow/README.md)
+16. [Engineering Artefacts](docs/16%20Engineering%20Artefacts/README.md)
 
 See [Engineering Lifecycle](ENGINEERING-LIFECYCLE.md) for an overview.
 
@@ -37,9 +39,64 @@ Guidance for each stage of the engineering lifecycle.
 
 Reusable documentation and engineering templates.
 
+`/templates/artefacts`
+
+Reusable templates for standard engineering workflow artefacts.
+
 `/samples`
 
 Reference samples demonstrating the methodology in practice.
+
+## Product Repository Convention
+
+Product repositories should separate enduring handbook knowledge from lifecycle artefacts.
+
+Recommended structure:
+
+```text
+docs/
+  handbooks/
+    01 Philosophy/
+    02 Language/
+    03 Discovery/
+    04 Domain Modelling/
+    05 Architecture/
+    06 Decisions/
+    07 Solution Structure/
+    08 Coding Standards/
+    09 Testing/
+    10 Deployment/
+    11 Operations/
+    12 Documentation/
+  artefacts/
+    discovery/
+    architecture/
+    implementation/
+    quality/
+    security/
+    platform/
+    release/
+```
+
+`docs/handbooks/` contains long-lived product knowledge.
+
+`docs/artefacts/` contains lifecycle outputs produced during engineering work.
+
+Artefacts should use the standard templates from `/templates/artefacts`.
+
+Standard artefact flow:
+
+```text
+Product Brief
+  -> Architecture Pack
+  -> Implementation Plan / Implementation Report
+  -> Test Strategy
+  -> Security Assessment
+  -> Deployment Guide / Operational Readiness Review
+  -> Release Report
+```
+
+Chats are for thinking. Artefacts are for engineering.
 
 ## Contributing
 

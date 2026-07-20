@@ -44,6 +44,22 @@ The exact structure should reflect the repository's purpose.
 
 A documentation repository, product repository, library repository and tooling repository may need different root folders.
 
+### Separate Handbook and Artefacts
+
+Product repositories should separate long-lived product knowledge from lifecycle artefacts.
+
+Recommended structure:
+
+```text
+docs/
+  handbooks/
+  artefacts/
+```
+
+`docs/handbooks/` should contain enduring product documentation such as philosophy, language, domain model, architecture and operations.
+
+`docs/artefacts/` should contain workflow outputs such as Product Briefs, Architecture Packs, Implementation Reports, Test Strategies, Security Assessments and Deployment Guides.
+
 ## Key Takeaways
 
 - The repository root should communicate purpose quickly.
@@ -51,11 +67,13 @@ A documentation repository, product repository, library repository and tooling r
 - Documentation should be discoverable.
 - Root clutter should be avoided.
 - Structure should match repository purpose.
+- Handbook content and lifecycle artefacts should be separated in product repositories.
 
 ## Related Reading
 
 - [02 Source Structure](02%20Source%20Structure.md)
 - [04 Naming and Organisation](04%20Naming%20and%20Organisation.md)
+- [Engineering Artefacts](../16%20Engineering%20Artefacts/README.md)
 
 ---
 

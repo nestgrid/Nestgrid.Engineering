@@ -6,9 +6,16 @@ Decision records preserve context, rationale, alternatives and consequences so f
 
 ## Recommended Location
 
-Decision records should live under `docs/decisions/` in product repositories.
+Decision records should live with the product documentation structure chosen by the repository.
 
-Start with all records directly in `docs/decisions/`. If the number of records grows, organise them into `adr/`, `bdr/`, `pdr/` and `tdr/` subdirectories.
+Recommended locations are:
+
+- `docs/handbooks/06 Decisions/`
+- `docs/decisions/`
+
+Choose one location and link to it consistently.
+
+Start with all records directly in the chosen decision location. If the number of records grows, organise them into `adr/`, `bdr/`, `pdr/` and `tdr/` subdirectories.
 
 ## Decision Types
 

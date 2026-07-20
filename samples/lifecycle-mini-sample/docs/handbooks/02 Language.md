@@ -1,6 +1,6 @@
 # Language
 
-> Part of the **[Lifecycle Mini Sample](../README.md)**.
+> Part of the **[Lifecycle Mini Sample](../../README.md)**.
 
 ## Purpose
 
@@ -39,7 +39,7 @@ The word `Task` is preferred over `Ticket`, `Issue` or `Work Item` because the p
 ## Related Reading
 
 - [Discovery](03%20Discovery.md)
-- [Language Guidance](../../../docs/02%20Language/README.md)
+- [Language Guidance](../../../../docs/02%20Language/README.md)
 
 ---
 
@@ -55,12 +55,12 @@ The word `Task` is preferred over `Ticket`, `Issue` or `Work Item` because the p
 
 **Sample**
 
-- [Lifecycle Mini Sample](../README.md)
+- [Lifecycle Mini Sample](../../README.md)
 
 **Engineering Lifecycle**
 
-- [Engineering Lifecycle](../../../ENGINEERING-LIFECYCLE.md)
+- [Engineering Lifecycle](../../../../ENGINEERING-LIFECYCLE.md)
 
 **Repository**
 
-- [Nestgrid.Engineering](../../../README.md)
+- [Nestgrid.Engineering](../../../../README.md)
