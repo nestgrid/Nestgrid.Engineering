@@ -1,6 +1,6 @@
 # Discovery
 
-> Part of the **[Lifecycle Mini Sample](../README.md)**.
+> Part of the **[Lifecycle Mini Sample](../../README.md)**.
 
 ## Purpose
 
@@ -62,7 +62,7 @@ Excluded:
 ## Related Reading
 
 - [Domain Modelling](04%20Domain%20Modelling.md)
-- [Discovery Guidance](../../../docs/03%20Discovery/README.md)
+- [Discovery Guidance](../../../../docs/03%20Discovery/README.md)
 
 ---
 
@@ -78,12 +78,12 @@ Excluded:
 
 **Sample**
 
-- [Lifecycle Mini Sample](../README.md)
+- [Lifecycle Mini Sample](../../README.md)
 
 **Engineering Lifecycle**
 
-- [Engineering Lifecycle](../../../ENGINEERING-LIFECYCLE.md)
+- [Engineering Lifecycle](../../../../ENGINEERING-LIFECYCLE.md)
 
 **Repository**
 
-- [Nestgrid.Engineering](../../../README.md)
+- [Nestgrid.Engineering](../../../../README.md)

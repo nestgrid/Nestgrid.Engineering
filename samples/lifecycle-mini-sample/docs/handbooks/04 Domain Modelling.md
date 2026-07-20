@@ -1,6 +1,6 @@
 # Domain Modelling
 
-> Part of the **[Lifecycle Mini Sample](../README.md)**.
+> Part of the **[Lifecycle Mini Sample](../../README.md)**.
 
 ## Purpose
 
@@ -71,7 +71,7 @@ It protects rules about title, assignee, status and completion.
 ## Related Reading
 
 - [Architecture](05%20Architecture.md)
-- [Domain Modelling Guidance](../../../docs/04%20Domain%20Modelling/README.md)
+- [Domain Modelling Guidance](../../../../docs/04%20Domain%20Modelling/README.md)
 
 ---
 
@@ -87,12 +87,12 @@ It protects rules about title, assignee, status and completion.
 
 **Sample**
 
-- [Lifecycle Mini Sample](../README.md)
+- [Lifecycle Mini Sample](../../README.md)
 
 **Engineering Lifecycle**
 
-- [Engineering Lifecycle](../../../ENGINEERING-LIFECYCLE.md)
+- [Engineering Lifecycle](../../../../ENGINEERING-LIFECYCLE.md)
 
 **Repository**
 
-- [Nestgrid.Engineering](../../../README.md)
+- [Nestgrid.Engineering](../../../../README.md)

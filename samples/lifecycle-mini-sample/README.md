@@ -12,26 +12,36 @@ The product is deliberately simple so the sample can focus on methodology rather
 
 ## Sample Contents
 
-`/docs`
+`/docs/handbooks`
 
-Lifecycle artefacts showing how early-stage engineering thinking may be captured.
+Sample handbook pages showing how early-stage engineering thinking may be captured.
 
 `/docs/decisions`
 
 Decision records that preserve important choices made during the sample.
 
-## Lifecycle Artefacts
+`/docs/handbooks/06 Decisions.md` explains the role of decisions in the sample, while the records live in `/docs/decisions`.
 
-1. [Philosophy](docs/01%20Philosophy.md)
-2. [Language](docs/02%20Language.md)
-3. [Discovery](docs/03%20Discovery.md)
-4. [Domain Modelling](docs/04%20Domain%20Modelling.md)
-5. [Architecture](docs/05%20Architecture.md)
-6. [Decisions](docs/06%20Decisions.md)
+`/docs/artefacts`
+
+Reserved for workflow artefacts such as Product Briefs, Architecture Packs and Release Reports.
+
+## Sample Handbook
+
+1. [Philosophy](docs/handbooks/01%20Philosophy.md)
+2. [Language](docs/handbooks/02%20Language.md)
+3. [Discovery](docs/handbooks/03%20Discovery.md)
+4. [Domain Modelling](docs/handbooks/04%20Domain%20Modelling.md)
+5. [Architecture](docs/handbooks/05%20Architecture.md)
+6. [Decisions](docs/handbooks/06%20Decisions.md)
 
 ## Decisions
 
 - [Decision Index](docs/decisions/README.md)
+
+## Artefacts
+
+- [Artefact Notes](docs/artefacts/README.md)
 
 ## Notes
 

@@ -27,6 +27,10 @@ Upon completing this book, engineers should be able to:
 3. [03 Template Usage](03%20Template%20Usage.md)
 4. [04 Template Maintenance](04%20Template%20Maintenance.md)
 
+## Template Sets
+
+- [Artefact Templates](../../templates/artefacts/)
+
 ## Outcome
 
 Upon completing this book, engineers should be able to use templates to improve consistency while still applying appropriate judgement to each context.
@@ -40,6 +44,7 @@ Upon completing this book, engineers should be able to use templates to improve 
 ### Next
 
 - [Samples](../14%20Samples/README.md)
+- [Engineering Workflow](../15%20Engineering%20Workflow/README.md)
 
 ---
 

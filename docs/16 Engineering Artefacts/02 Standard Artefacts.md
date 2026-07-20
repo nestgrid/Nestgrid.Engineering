@@ -1,0 +1,84 @@
+# Standard Artefacts
+
+> Part of the **[Engineering Artefacts](README.md)**.
+
+## Purpose
+
+Standard artefacts define the expected outputs of each engineering workflow stage.
+
+## Guidance
+
+The standard artefact set should be used as the default across Nestgrid product repositories.
+
+Teams may add specialist artefacts when needed, but should not bypass the standard set without a clear reason.
+
+## Artefact Set
+
+| Stage | Owner | Primary Artefact | Main Consumer |
+| --- | --- | --- | --- |
+| Discovery | Product | Product Brief | Architecture |
+| Architecture | Architecture | Architecture Pack | Engineering |
+| Implementation | Engineering | Implementation Plan / Report | Quality, Security |
+| Quality | Quality | Test Strategy / Release Readiness Report | Release, Engineering |
+| Security | Security | Security Assessment | Release, Engineering, Platform |
+| Platform | Platform | Deployment Guide / Operational Readiness Review | Operations, Release |
+| Release | Delivery | Release Report | Stakeholders, Operations |
+
+### Feedback Artefacts
+
+Feedback artefacts should be used when a role cannot proceed confidently.
+
+Common examples:
+
+- Product Feedback
+- Architecture Feedback
+- Engineering Feedback
+- Quality Feedback
+- Security Feedback
+- Operational Feedback
+
+### Template Location
+
+Reusable templates live in:
+
+```text
+templates/artefacts/
+```
+
+Completed project artefacts should live in the relevant product repository, not in this methodology repository.
+
+## Key Takeaways
+
+- Each lifecycle stage has a primary artefact.
+- Feedback artefacts make concerns explicit.
+- Templates provide consistent structure.
+- Completed artefacts belong with the product repository.
+
+## Related Reading
+
+- [04 Repository Storage](04%20Repository%20Storage.md)
+- [Templates](../13%20Templates/README.md)
+
+---
+
+## Navigation
+
+**Previous**
+
+- [01 Artefact Purpose](01%20Artefact%20Purpose.md)
+
+**Next**
+
+- [03 Artefact Metadata](03%20Artefact%20Metadata.md)
+
+**Book**
+
+- [Engineering Artefacts](README.md)
+
+**Engineering Lifecycle**
+
+- [Engineering Lifecycle](../../ENGINEERING-LIFECYCLE.md)
+
+**Repository**
+
+- [Nestgrid.Engineering](../../README.md)

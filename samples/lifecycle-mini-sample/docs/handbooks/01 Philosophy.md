@@ -1,6 +1,6 @@
 # Philosophy
 
-> Part of the **[Lifecycle Mini Sample](../README.md)**.
+> Part of the **[Lifecycle Mini Sample](../../README.md)**.
 
 ## Purpose
 
@@ -36,7 +36,7 @@ Advanced automation, custom workflows and deep integrations are intentionally de
 ## Related Reading
 
 - [Language](02%20Language.md)
-- [Philosophy Guidance](../../../docs/01%20Philosophy/README.md)
+- [Philosophy Guidance](../../../../docs/01%20Philosophy/README.md)
 
 ---
 
@@ -44,7 +44,7 @@ Advanced automation, custom workflows and deep integrations are intentionally de
 
 **Previous**
 
-- [Lifecycle Mini Sample](../README.md)
+- [Lifecycle Mini Sample](../../README.md)
 
 **Next**
 
@@ -52,12 +52,12 @@ Advanced automation, custom workflows and deep integrations are intentionally de
 
 **Sample**
 
-- [Lifecycle Mini Sample](../README.md)
+- [Lifecycle Mini Sample](../../README.md)
 
 **Engineering Lifecycle**
 
-- [Engineering Lifecycle](../../../ENGINEERING-LIFECYCLE.md)
+- [Engineering Lifecycle](../../../../ENGINEERING-LIFECYCLE.md)
 
 **Repository**
 
-- [Nestgrid.Engineering](../../../README.md)
+- [Nestgrid.Engineering](../../../../README.md)

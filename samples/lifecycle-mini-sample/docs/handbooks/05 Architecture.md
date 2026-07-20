@@ -1,6 +1,6 @@
 # Architecture
 
-> Part of the **[Lifecycle Mini Sample](../README.md)**.
+> Part of the **[Lifecycle Mini Sample](../../README.md)**.
 
 ## Purpose
 
@@ -58,7 +58,7 @@ The system should expose basic health checks, useful logs and clear configuratio
 ## Related Reading
 
 - [Decisions](06%20Decisions.md)
-- [Architecture Guidance](../../../docs/05%20Architecture/README.md)
+- [Architecture Guidance](../../../../docs/05%20Architecture/README.md)
 
 ---
 
@@ -74,12 +74,12 @@ The system should expose basic health checks, useful logs and clear configuratio
 
 **Sample**
 
-- [Lifecycle Mini Sample](../README.md)
+- [Lifecycle Mini Sample](../../README.md)
 
 **Engineering Lifecycle**
 
-- [Engineering Lifecycle](../../../ENGINEERING-LIFECYCLE.md)
+- [Engineering Lifecycle](../../../../ENGINEERING-LIFECYCLE.md)
 
 **Repository**
 
-- [Nestgrid.Engineering](../../../README.md)
+- [Nestgrid.Engineering](../../../../README.md)

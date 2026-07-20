@@ -8,6 +8,8 @@ Decision records preserve context, rationale, alternatives and consequences so f
 
 Decision records should live under `docs/decisions/` in product repositories.
 
+The product handbook may include `docs/handbooks/06 Decisions/` to explain decision governance, decision types and review practices.
+
 Start with all records directly in `docs/decisions/`. If the number of records grows, organise them into `adr/`, `bdr/`, `pdr/` and `tdr/` subdirectories.
 
 ## Decision Types

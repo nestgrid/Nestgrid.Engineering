@@ -1,6 +1,6 @@
 # Decisions
 
-> Part of the **[Lifecycle Mini Sample](../README.md)**.
+> Part of the **[Lifecycle Mini Sample](../../README.md)**.
 
 ## Purpose
 
@@ -18,7 +18,7 @@ Small implementation choices are intentionally omitted to keep the sample focuse
 
 | ID | Title | Type | Status |
 | --- | --- | --- | --- |
-| [ADR-001](decisions/ADR-001-use-modular-monolith.md) | Use Modular Monolith | Architecture | Accepted |
+| [ADR-001](../decisions/ADR-001-use-modular-monolith.md) | Use Modular Monolith | Architecture | Accepted |
 
 ### Decision Rationale
 
@@ -34,8 +34,8 @@ This demonstrates that architecture decisions should preserve reasoning, alterna
 
 ## Related Reading
 
-- [Decision Index](decisions/README.md)
-- [Decisions Guidance](../../../docs/06%20Decisions/README.md)
+- [Decision Index](../decisions/README.md)
+- [Decisions Guidance](../../../../docs/06%20Decisions/README.md)
 
 ---
 
@@ -47,16 +47,16 @@ This demonstrates that architecture decisions should preserve reasoning, alterna
 
 **Next**
 
-- [Decision Index](decisions/README.md)
+- [Decision Index](../decisions/README.md)
 
 **Sample**
 
-- [Lifecycle Mini Sample](../README.md)
+- [Lifecycle Mini Sample](../../README.md)
 
 **Engineering Lifecycle**
 
-- [Engineering Lifecycle](../../../ENGINEERING-LIFECYCLE.md)
+- [Engineering Lifecycle](../../../../ENGINEERING-LIFECYCLE.md)
 
 **Repository**
 
-- [Nestgrid.Engineering](../../../README.md)
+- [Nestgrid.Engineering](../../../../README.md)

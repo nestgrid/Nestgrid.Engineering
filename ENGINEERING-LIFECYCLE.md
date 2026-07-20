@@ -24,6 +24,8 @@ The lifecycle is technology-agnostic and may be applied to products of any size.
 12. [Documentation](docs/12%20Documentation/README.md)
 13. [Templates](docs/13%20Templates/README.md)
 14. [Samples](docs/14%20Samples/README.md)
+15. [Engineering Workflow](docs/15%20Engineering%20Workflow/README.md)
+16. [Engineering Artefacts](docs/16%20Engineering%20Artefacts/README.md)
 
 ---
 
@@ -136,6 +138,22 @@ Read [Templates](docs/13%20Templates/README.md).
 Provides practical reference implementations demonstrating the engineering methodology in practice.
 
 Read [Samples](docs/14%20Samples/README.md).
+
+---
+
+## Engineering Workflow
+
+Defines how work flows between product, architecture, engineering, quality, security and platform responsibilities.
+
+Read [Engineering Workflow](docs/15%20Engineering%20Workflow/README.md).
+
+---
+
+## Engineering Artefacts
+
+Defines the standard artefacts produced and consumed throughout the engineering workflow.
+
+Read [Engineering Artefacts](docs/16%20Engineering%20Artefacts/README.md).
 
 ---
 

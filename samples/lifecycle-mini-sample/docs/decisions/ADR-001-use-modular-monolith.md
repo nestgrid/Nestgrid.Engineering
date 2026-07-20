@@ -66,8 +66,8 @@ If future requirements introduce independent scale, ownership or deployment need
 
 ## Related Documentation
 
-- [Architecture](../05%20Architecture.md)
-- [Domain Modelling](../04%20Domain%20Modelling.md)
+- [Architecture](../handbooks/05%20Architecture.md)
+- [Domain Modelling](../handbooks/04%20Domain%20Modelling.md)
 
 ---
 
