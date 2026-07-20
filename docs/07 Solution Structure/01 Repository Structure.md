@@ -51,14 +51,30 @@ Product repositories should separate long-lived product knowledge from lifecycle
 Recommended structure:
 
 ```text
+src/
+tests/
 docs/
   handbooks/
   artefacts/
+  decisions/
+samples/        optional
+assets/         optional
+scripts/        optional
+tools/          optional
+.github/        optional
 ```
+
+`src/` should contain production code.
+
+`tests/` should contain automated tests.
 
 `docs/handbooks/` should contain enduring product documentation such as philosophy, language, domain model, architecture and operations.
 
 `docs/artefacts/` should contain workflow outputs such as Product Briefs, Architecture Packs, Implementation Reports, Test Strategies, Security Assessments and Deployment Guides.
+
+`docs/decisions/` should contain decision records. The product handbook may explain how decisions are governed, but the decision records themselves should live in `docs/decisions/`.
+
+Optional folders such as `samples/`, `assets/`, `scripts/`, `tools/` and `.github/` should be added when the repository needs examples, supporting assets, automation, internal tooling or GitHub-specific workflows.
 
 ## Key Takeaways
 

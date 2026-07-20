@@ -54,6 +54,8 @@ Product repositories should separate enduring handbook knowledge from lifecycle 
 Recommended structure:
 
 ```text
+src/
+tests/
 docs/
   handbooks/
     01 Philosophy/
@@ -76,11 +78,23 @@ docs/
     security/
     platform/
     release/
+  decisions/
+samples/        optional
+assets/         optional
+scripts/        optional
+tools/          optional
+.github/        optional
 ```
+
+`src/` contains production code.
+
+`tests/` contains automated tests.
 
 `docs/handbooks/` contains long-lived product knowledge.
 
 `docs/artefacts/` contains lifecycle outputs produced during engineering work.
+
+`docs/decisions/` contains decision records.
 
 Artefacts should use the standard templates from `/templates/artefacts`.
 

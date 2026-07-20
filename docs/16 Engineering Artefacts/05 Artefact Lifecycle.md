@@ -58,7 +58,7 @@ Superseded artefacts may remain for traceability but should not be treated as cu
 
 **Next**
 
-- [Engineering Workflow](../15%20Engineering%20Workflow/README.md)
+- [06 Starting a Project Repository](06%20Starting%20a%20Project%20Repository.md)
 
 **Book**
 

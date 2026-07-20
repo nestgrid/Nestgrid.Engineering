@@ -20,6 +20,8 @@ Sample handbook pages showing how early-stage engineering thinking may be captur
 
 Decision records that preserve important choices made during the sample.
 
+`/docs/handbooks/06 Decisions.md` explains the role of decisions in the sample, while the records live in `/docs/decisions`.
+
 `/docs/artefacts`
 
 Reserved for workflow artefacts such as Product Briefs, Architecture Packs and Release Reports.

@@ -15,6 +15,8 @@ Completed artefacts for a product or solution should live with the product repos
 ### Recommended Product Repository Structure
 
 ```text
+src/
+tests/
 docs/
   handbooks/
     01 Philosophy/
@@ -37,7 +39,21 @@ docs/
     security/
     platform/
     release/
+  decisions/
+samples/        optional
+assets/         optional
+scripts/        optional
+tools/          optional
+.github/        optional
 ```
+
+### Source
+
+`src/` contains production code.
+
+### Tests
+
+`tests/` contains automated tests.
 
 ### Handbook
 
@@ -68,15 +84,32 @@ Examples:
 
 ### Decisions
 
-Product decisions may live under `docs/handbooks/06 Decisions/` or `docs/decisions/`.
+Product decision records should live under `docs/decisions/`.
 
-The repository should choose one location and link to it consistently.
+The product handbook may include `docs/handbooks/06 Decisions/` to explain decision governance, decision types and how decisions are reviewed.
+
+The records themselves should remain in `docs/decisions/`.
+
+### Optional Folders
+
+`samples/` contains reference examples, sample applications, sample data or demo usage.
+
+`assets/` contains images, diagrams, logos, screenshots and static supporting files.
+
+`scripts/` contains repeatable local or CI helper scripts.
+
+`tools/` contains custom internal tooling.
+
+`.github/` contains GitHub workflows, issue templates, pull request templates and contribution automation.
 
 ## Key Takeaways
 
 - Product artefacts belong in the product repository.
+- `src/` contains production code.
+- `tests/` contains automated tests.
 - `docs/handbooks/` contains enduring knowledge.
 - `docs/artefacts/` contains lifecycle outputs.
+- `docs/decisions/` contains decision records.
 - Structure should make handover documents easy to find.
 
 ## Related Reading
