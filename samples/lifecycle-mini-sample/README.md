@@ -26,6 +26,10 @@ Decision records that preserve important choices made during the sample.
 
 Reserved for workflow artefacts such as Product Briefs, Architecture Packs and Release Reports.
 
+`/docs/initiatives`
+
+Scoped lifecycle runs for significant features, enhancements or other engineering initiatives.
+
 ## Sample Handbook
 
 1. [Philosophy](docs/handbooks/01%20Philosophy.md)
@@ -42,6 +46,10 @@ Reserved for workflow artefacts such as Product Briefs, Architecture Packs and R
 ## Artefacts
 
 - [Artefact Notes](docs/artefacts/README.md)
+
+## Initiatives
+
+- [Multi-Currency Initiative](docs/initiatives/2026-08-multi-currency/README.md)
 
 ## Notes
 

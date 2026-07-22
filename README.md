@@ -79,6 +79,7 @@ docs/
     06 Platform/
     07 Release/
   decisions/
+  initiatives/
 samples/        optional
 assets/         optional
 scripts/        optional
@@ -95,6 +96,8 @@ tools/          optional
 `docs/artefacts/` contains lifecycle outputs produced during engineering work.
 
 `docs/decisions/` contains decision records.
+
+`docs/initiatives/` contains lifecycle artefacts and decisions for scoped engineering initiatives such as major features, enhancements, migrations and platform work.
 
 Artefacts should use the standard templates from `/templates/artefacts`.
 

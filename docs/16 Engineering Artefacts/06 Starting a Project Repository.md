@@ -40,6 +40,7 @@ docs/
     06 Platform/
     07 Release/
   decisions/
+  initiatives/
 samples/        optional
 assets/         optional
 scripts/        optional
@@ -59,6 +60,8 @@ tools/          optional
 
 `docs/decisions/` contains decision records.
 
+`docs/initiatives/` contains scoped lifecycle runs for major features, enhancements, migrations, platform work and other engineering initiatives.
+
 `samples/` contains reference examples, sample applications, sample data or demo usage.
 
 `assets/` contains images, diagrams, logos, screenshots and static supporting files.
@@ -72,7 +75,7 @@ tools/          optional
 ## Starting Steps
 
 1. Create `src/`, `tests/` and `docs/`.
-2. Create `docs/handbooks/`, `docs/artefacts/` and `docs/decisions/`.
+2. Create `docs/handbooks/`, `docs/artefacts/`, `docs/decisions/` and `docs/initiatives/`.
 3. Add a README to each major folder explaining its purpose.
 4. Add the initial handbook books needed by the project.
 5. Copy standard artefact templates when the first workflow artefacts are produced.
@@ -86,6 +89,7 @@ tools/          optional
 - Keep handbook pages, artefacts and decision records separate.
 - Decision governance belongs in the handbook.
 - Decision records belong in `docs/decisions/`.
+- Initiative artefacts belong with the initiative under `docs/initiatives/`.
 - Optional folders should be added only when they have a clear purpose.
 
 ## Related Reading
@@ -104,7 +108,7 @@ tools/          optional
 
 **Next**
 
-- [Engineering Workflow](../15%20Engineering%20Workflow/README.md)
+- [07 Initiative Artefacts](07%20Initiative%20Artefacts.md)
 
 **Book**
 
