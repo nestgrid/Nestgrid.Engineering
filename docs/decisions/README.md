@@ -24,6 +24,7 @@ Decision records preserve context, rationale, alternatives and consequences so f
 | ID | Title | Type | Status | Date |
 | --- | --- | --- | --- | --- |
 | [ADR-001](ADR-001-use-markdown-first-documentation.md) | Use Markdown-First Documentation | Architecture | Accepted | 2026-07-19 |
+| [TDR-001](TDR-001-number-lifecycle-artefact-directories.md) | Number Lifecycle Artefact Directories | Technical | Accepted | 2026-07-22 |
 
 ## Guidance
 

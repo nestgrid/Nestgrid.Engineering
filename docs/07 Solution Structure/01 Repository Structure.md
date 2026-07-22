@@ -56,6 +56,13 @@ tests/
 docs/
   handbooks/
   artefacts/
+    01 Discovery/
+    02 Architecture/
+    03 Implementation/
+    04 Quality/
+    05 Security/
+    06 Platform/
+    07 Release/
   decisions/
 samples/        optional
 assets/         optional
@@ -71,6 +78,8 @@ tools/          optional
 `docs/handbooks/` should contain enduring product documentation such as philosophy, language, domain model, architecture and operations.
 
 `docs/artefacts/` should contain workflow outputs such as Product Briefs, Architecture Packs, Implementation Reports, Test Strategies, Security Assessments and Deployment Guides.
+
+Lifecycle artefact folders should be numbered by workflow order rather than sorted alphabetically.
 
 `docs/decisions/` should contain decision records. The product handbook may explain how decisions are governed, but the decision records themselves should live in `docs/decisions/`.
 
