@@ -40,6 +40,7 @@ docs/
     06 Platform/
     07 Release/
   decisions/
+  initiatives/
 samples/        optional
 assets/         optional
 scripts/        optional
@@ -102,6 +103,32 @@ The product handbook may include `docs/handbooks/06 Decisions/` to explain decis
 
 The records themselves should remain in `docs/decisions/`.
 
+### Initiatives
+
+`docs/initiatives/` contains scoped lifecycle runs for major features, enhancements, migrations, platform work and other engineering initiatives.
+
+Initiative artefacts should not be mixed into product-level `docs/artefacts/`.
+
+Each initiative should be self-contained:
+
+```text
+docs/
+  initiatives/
+    <yyyy-mm>-<initiative-name>/
+      README.md
+      artefacts/
+        01 Discovery/
+        02 Architecture/
+        03 Implementation/
+        04 Quality/
+        05 Security/
+        06 Platform/
+        07 Release/
+      decisions/
+```
+
+When an initiative completes, enduring product knowledge should be promoted into `docs/handbooks/`, enduring product decisions should be promoted or linked from `docs/decisions/`, and initiative artefacts should remain as historical evidence.
+
 ### Optional Folders
 
 `samples/` contains reference examples, sample applications, sample data or demo usage.
@@ -122,12 +149,14 @@ The records themselves should remain in `docs/decisions/`.
 - `docs/handbooks/` contains enduring knowledge.
 - `docs/artefacts/` contains lifecycle outputs.
 - `docs/decisions/` contains decision records.
+- `docs/initiatives/` contains scoped lifecycle runs.
 - Structure should make handover documents easy to find.
 
 ## Related Reading
 
 - [Repository Structure](../07%20Solution%20Structure/01%20Repository%20Structure.md)
 - [05 Artefact Lifecycle](05%20Artefact%20Lifecycle.md)
+- [07 Initiative Artefacts](07%20Initiative%20Artefacts.md)
 
 ---
 

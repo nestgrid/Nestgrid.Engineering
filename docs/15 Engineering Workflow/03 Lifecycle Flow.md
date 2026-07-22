@@ -8,6 +8,10 @@ Lifecycle flow defines the normal movement of work from idea to production readi
 
 ## Guidance
 
+The workflow applies to any engineering initiative, regardless of scope.
+
+The scale and quantity of artefacts should be proportionate to the significance and risk of the initiative.
+
 The workflow should be adapted to the size and risk of the work, but the default flow is:
 
 1. Product discovers what should be built and why.
@@ -48,17 +52,32 @@ Small changes may use lightweight artefacts.
 
 Large, risky or cross-team changes should use the full set of artefacts and review gates.
 
+The same lifecycle may be applied to:
+
+- Products
+- Major features
+- Significant enhancements
+- Platform initiatives
+- Security initiatives
+- Migration programmes
+
+Product-level artefacts describe the product as a whole.
+
+Initiative-level artefacts describe a scoped body of work and should be stored with that initiative.
+
 ## Key Takeaways
 
 - The default flow moves from product intent to production readiness.
 - Feedback loops are expected and should be explicit.
 - Workflow depth should match risk and complexity.
+- The lifecycle applies to any engineering initiative, not only whole products.
 - Silent redesign weakens traceability.
 
 ## Related Reading
 
 - [04 Handover Process](04%20Handover%20Process.md)
 - [05 Review Gates](05%20Review%20Gates.md)
+- [Initiative Artefacts](../16%20Engineering%20Artefacts/07%20Initiative%20Artefacts.md)
 
 ---
 

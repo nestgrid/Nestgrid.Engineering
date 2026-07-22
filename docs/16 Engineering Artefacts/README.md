@@ -26,6 +26,7 @@ Upon completing this book, engineers should be able to:
 4. [04 Repository Storage](04%20Repository%20Storage.md)
 5. [05 Artefact Lifecycle](05%20Artefact%20Lifecycle.md)
 6. [06 Starting a Project Repository](06%20Starting%20a%20Project%20Repository.md)
+7. [07 Initiative Artefacts](07%20Initiative%20Artefacts.md)
 
 ## Outcome
 

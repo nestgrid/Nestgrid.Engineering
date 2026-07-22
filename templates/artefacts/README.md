@@ -20,10 +20,23 @@ This folder contains reusable templates for the standard Nestgrid Engineering wo
 
 Start from the relevant template when creating a project artefact.
 
-Completed artefacts should usually live in the product repository under:
+Product-level artefacts should usually live in the product repository under:
 
 ```text
 docs/artefacts/
+  01 Discovery/
+  02 Architecture/
+  03 Implementation/
+  04 Quality/
+  05 Security/
+  06 Platform/
+  07 Release/
+```
+
+Initiative-level artefacts should live with the initiative:
+
+```text
+docs/initiatives/<yyyy-mm>-<initiative-name>/artefacts/
   01 Discovery/
   02 Architecture/
   03 Implementation/
