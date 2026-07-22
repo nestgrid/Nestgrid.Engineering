@@ -24,6 +24,13 @@ Completed artefacts should usually live in the product repository under:
 
 ```text
 docs/artefacts/
+  01 Discovery/
+  02 Architecture/
+  03 Implementation/
+  04 Quality/
+  05 Security/
+  06 Platform/
+  07 Release/
 ```
 
 See [Engineering Artefacts](../../docs/16%20Engineering%20Artefacts/README.md) for guidance.

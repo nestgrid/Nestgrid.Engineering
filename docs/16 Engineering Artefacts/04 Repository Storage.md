@@ -32,13 +32,13 @@ docs/
     11 Operations/
     12 Documentation/
   artefacts/
-    discovery/
-    architecture/
-    implementation/
-    quality/
-    security/
-    platform/
-    release/
+    01 Discovery/
+    02 Architecture/
+    03 Implementation/
+    04 Quality/
+    05 Security/
+    06 Platform/
+    07 Release/
   decisions/
 samples/        optional
 assets/         optional
@@ -71,6 +71,18 @@ Examples:
 ### Artefacts
 
 `docs/artefacts/` contains lifecycle outputs and evidence of engineering work.
+
+Lifecycle artefact folders should be numbered by workflow order:
+
+```text
+01 Discovery
+02 Architecture
+03 Implementation
+04 Quality
+05 Security
+06 Platform
+07 Release
+```
 
 Examples:
 

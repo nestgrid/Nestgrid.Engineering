@@ -6,13 +6,13 @@ This directory is included to demonstrate the recommended product repository str
 
 In a real product repository, this directory would contain lifecycle outputs such as:
 
-- Product Briefs
-- Architecture Packs
-- Implementation Reports
-- Test Strategies
-- Security Assessments
-- Deployment Guides
-- Release Reports
+- `01 Discovery/` - Product Briefs and discovery outputs.
+- `02 Architecture/` - Architecture Packs and architecture outputs.
+- `03 Implementation/` - Implementation Plans and Implementation Reports.
+- `04 Quality/` - Test Strategies and Release Readiness Reports.
+- `05 Security/` - Security Assessments and threat models.
+- `06 Platform/` - Deployment Guides and Operational Readiness Reviews.
+- `07 Release/` - Release Reports.
 
 ## Navigation
 
