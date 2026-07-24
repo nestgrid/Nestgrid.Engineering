@@ -1,6 +1,6 @@
 # Readability
 
-> Part of the **[Coding Standards](README.md)**.
+> Part of the **[Engineering Standards](README.md)**.
 
 ## Purpose
 
@@ -54,8 +54,8 @@ That person may not have the same context as the original author.
 
 ## Related Reading
 
-- [02 Consistency](02%20Consistency.md)
-- [05 Code Review](05%20Code%20Review.md)
+- [03 Consistency](03%20Consistency.md)
+- [06 Code Review](06%20Code%20Review.md)
 
 ---
 
@@ -63,15 +63,15 @@ That person may not have the same context as the original author.
 
 **Previous**
 
-- [Coding Standards](README.md)
+- [01 Technology Baseline](01%20Technology%20Baseline.md)
 
 **Next**
 
-- [02 Consistency](02%20Consistency.md)
+- [03 Consistency](03%20Consistency.md)
 
 **Book**
 
-- [Coding Standards](README.md)
+- [Engineering Standards](README.md)
 
 **Engineering Lifecycle**
 

@@ -20,6 +20,14 @@ Tests should describe expected behaviour clearly.
 
 They should make it obvious what scenario is being validated and why it matters.
 
+### Follow Arrange, Act, Assert
+
+Unit tests should normally follow the Arrange, Act, Assert structure.
+
+This keeps tests readable by separating setup, behaviour execution and verification.
+
+Use `// Arrange`, `// Act` and `// Assert` comments where they improve clarity, especially in non-trivial tests. Very small tests may omit the comments when the structure is already obvious.
+
 ### Keep Tests Fast
 
 Unit tests should usually be fast and deterministic.
@@ -47,6 +55,7 @@ Builders, factories or fixtures should clarify setup rather than hide important 
 ## Key Takeaways
 
 - Unit tests validate focused behaviour.
+- Unit tests should normally follow the Arrange, Act, Assert structure.
 - They should be fast and deterministic.
 - Domain rules deserve strong unit test coverage.
 - Tests should avoid private implementation coupling.

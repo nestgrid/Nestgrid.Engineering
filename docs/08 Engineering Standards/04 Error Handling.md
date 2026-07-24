@@ -1,6 +1,6 @@
 # Error Handling
 
-> Part of the **[Coding Standards](README.md)**.
+> Part of the **[Engineering Standards](README.md)**.
 
 ## Purpose
 
@@ -63,15 +63,15 @@ Retries, compensation, validation and fallback behaviour should be appropriate t
 
 **Previous**
 
-- [02 Consistency](02%20Consistency.md)
+- [03 Consistency](03%20Consistency.md)
 
 **Next**
 
-- [04 Dependency Management](04%20Dependency%20Management.md)
+- [05 Dependency Management](05%20Dependency%20Management.md)
 
 **Book**
 
-- [Coding Standards](README.md)
+- [Engineering Standards](README.md)
 
 **Engineering Lifecycle**
 

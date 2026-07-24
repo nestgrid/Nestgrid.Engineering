@@ -10,7 +10,7 @@ produced_by: Platform
 consumed_by: Operations, Release
 date:
 supersedes:
-related_adrs:
+related_decisions:
 related_work_items:
 related_repositories:
 ```

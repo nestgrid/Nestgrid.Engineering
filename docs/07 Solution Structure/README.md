@@ -40,7 +40,7 @@ Upon completing this book, engineers should be able to create and maintain solut
 
 ### Next
 
-- [Coding Standards](../08%20Coding%20Standards/README.md)
+- [Engineering Standards](../08%20Engineering%20Standards/README.md)
 
 ---
 

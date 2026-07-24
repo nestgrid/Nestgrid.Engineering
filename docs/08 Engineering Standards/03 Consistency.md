@@ -1,6 +1,6 @@
 # Consistency
 
-> Part of the **[Coding Standards](README.md)**.
+> Part of the **[Engineering Standards](README.md)**.
 
 ## Purpose
 
@@ -54,8 +54,8 @@ When that happens, the reason should be clear from the context or documented whe
 
 ## Related Reading
 
-- [01 Readability](01%20Readability.md)
-- [04 Dependency Management](04%20Dependency%20Management.md)
+- [02 Readability](02%20Readability.md)
+- [05 Dependency Management](05%20Dependency%20Management.md)
 
 ---
 
@@ -63,15 +63,15 @@ When that happens, the reason should be clear from the context or documented whe
 
 **Previous**
 
-- [01 Readability](01%20Readability.md)
+- [02 Readability](02%20Readability.md)
 
 **Next**
 
-- [03 Error Handling](03%20Error%20Handling.md)
+- [04 Error Handling](04%20Error%20Handling.md)
 
 **Book**
 
-- [Coding Standards](README.md)
+- [Engineering Standards](README.md)
 
 **Engineering Lifecycle**
 

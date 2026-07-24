@@ -10,7 +10,7 @@ produced_by: Engineering
 consumed_by: Quality, Security, Platform
 date:
 supersedes:
-related_adrs:
+related_decisions:
 related_work_items:
 related_repositories:
 ```

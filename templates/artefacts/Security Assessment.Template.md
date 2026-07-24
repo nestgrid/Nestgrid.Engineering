@@ -10,7 +10,7 @@ produced_by: Security
 consumed_by: Engineering, Platform, Release
 date:
 supersedes:
-related_adrs:
+related_decisions:
 related_work_items:
 related_repositories:
 ```

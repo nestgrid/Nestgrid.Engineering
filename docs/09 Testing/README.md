@@ -36,7 +36,7 @@ Upon completing this book, engineers should understand how to design and maintai
 
 ### Previous
 
-- [Coding Standards](../08%20Coding%20Standards/README.md)
+- [Engineering Standards](../08%20Engineering%20Standards/README.md)
 
 ### Next
 

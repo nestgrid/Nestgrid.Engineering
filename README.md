@@ -17,7 +17,7 @@ The methodology follows a structured engineering lifecycle.
 5. [Architecture](docs/05%20Architecture/README.md)
 6. [Decisions](docs/06%20Decisions/README.md)
 7. [Solution Structure](docs/07%20Solution%20Structure/README.md)
-8. [Coding Standards](docs/08%20Coding%20Standards/README.md)
+8. [Engineering Standards](docs/08%20Engineering%20Standards/README.md)
 9. [Testing](docs/09%20Testing/README.md)
 10. [Deployment](docs/10%20Deployment/README.md)
 11. [Operations](docs/11%20Operations/README.md)
@@ -65,7 +65,7 @@ docs/
     05 Architecture/
     06 Decisions/
     07 Solution Structure/
-    08 Coding Standards/
+    08 Engineering Standards/
     09 Testing/
     10 Deployment/
     11 Operations/
