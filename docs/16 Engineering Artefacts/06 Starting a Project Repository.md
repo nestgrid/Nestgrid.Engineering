@@ -26,7 +26,7 @@ docs/
     05 Architecture/
     06 Decisions/
     07 Solution Structure/
-    08 Coding Standards/
+    08 Engineering Standards/
     09 Testing/
     10 Deployment/
     11 Operations/

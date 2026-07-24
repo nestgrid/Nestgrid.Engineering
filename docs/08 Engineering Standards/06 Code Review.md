@@ -1,6 +1,6 @@
 # Code Review
 
-> Part of the **[Coding Standards](README.md)**.
+> Part of the **[Engineering Standards](README.md)**.
 
 ## Purpose
 
@@ -54,7 +54,7 @@ It should not be treated as a formality when important concerns remain unresolve
 
 ## Related Reading
 
-- [01 Readability](01%20Readability.md)
+- [02 Readability](02%20Readability.md)
 - [Testing](../09%20Testing/README.md)
 
 ---
@@ -63,7 +63,7 @@ It should not be treated as a formality when important concerns remain unresolve
 
 **Previous**
 
-- [04 Dependency Management](04%20Dependency%20Management.md)
+- [05 Dependency Management](05%20Dependency%20Management.md)
 
 **Next**
 
@@ -71,7 +71,7 @@ It should not be treated as a formality when important concerns remain unresolve
 
 **Book**
 
-- [Coding Standards](README.md)
+- [Engineering Standards](README.md)
 
 **Engineering Lifecycle**
 

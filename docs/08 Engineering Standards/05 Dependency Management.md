@@ -1,6 +1,6 @@
 # Dependency Management
 
-> Part of the **[Coding Standards](README.md)**.
+> Part of the **[Engineering Standards](README.md)**.
 
 ## Purpose
 
@@ -56,7 +56,7 @@ Dependency changes should be reviewed with appropriate care.
 ## Related Reading
 
 - [Solution Structure](../07%20Solution%20Structure/README.md)
-- [05 Code Review](05%20Code%20Review.md)
+- [06 Code Review](06%20Code%20Review.md)
 
 ---
 
@@ -64,15 +64,15 @@ Dependency changes should be reviewed with appropriate care.
 
 **Previous**
 
-- [03 Error Handling](03%20Error%20Handling.md)
+- [04 Error Handling](04%20Error%20Handling.md)
 
 **Next**
 
-- [05 Code Review](05%20Code%20Review.md)
+- [06 Code Review](06%20Code%20Review.md)
 
 **Book**
 
-- [Coding Standards](README.md)
+- [Engineering Standards](README.md)
 
 **Engineering Lifecycle**
 

@@ -10,7 +10,7 @@ produced_by: Release
 consumed_by: Stakeholders, Operations, Engineering
 date:
 supersedes:
-related_adrs:
+related_decisions:
 related_work_items:
 related_repositories:
 ```

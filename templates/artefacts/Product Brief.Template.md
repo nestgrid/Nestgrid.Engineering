@@ -10,7 +10,7 @@ produced_by: Product
 consumed_by: Architecture
 date:
 supersedes:
-related_adrs:
+related_decisions:
 related_work_items:
 related_repositories:
 ```

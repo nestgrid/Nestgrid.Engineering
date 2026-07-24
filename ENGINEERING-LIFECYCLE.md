@@ -17,7 +17,7 @@ The lifecycle is technology-agnostic and may be applied to products of any size.
 5. [Architecture](docs/05%20Architecture/README.md)
 6. [Decisions](docs/06%20Decisions/README.md)
 7. [Solution Structure](docs/07%20Solution%20Structure/README.md)
-8. [Coding Standards](docs/08%20Coding%20Standards/README.md)
+8. [Engineering Standards](docs/08%20Engineering%20Standards/README.md)
 9. [Testing](docs/09%20Testing/README.md)
 10. [Deployment](docs/10%20Deployment/README.md)
 11. [Operations](docs/11%20Operations/README.md)
@@ -85,11 +85,11 @@ Read [Solution Structure](docs/07%20Solution%20Structure/README.md).
 
 ---
 
-## Coding Standards
+## Engineering Standards
 
-Establishes consistent engineering practices to improve readability, maintainability and code quality.
+Establishes the baseline technologies and engineering practices used to improve consistency, readability, maintainability and code quality.
 
-Read [Coding Standards](docs/08%20Coding%20Standards/README.md).
+Read [Engineering Standards](docs/08%20Engineering%20Standards/README.md).
 
 ---
 

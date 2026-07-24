@@ -24,7 +24,7 @@ produced_by:
 consumed_by:
 date:
 supersedes:
-related_adrs:
+related_decisions:
 related_work_items:
 related_repositories:
 ```
