@@ -27,6 +27,7 @@ Upon completing this book, engineers should be able to:
 3. [03 Test Structure](03%20Test%20Structure.md)
 4. [04 Naming and Organisation](04%20Naming%20and%20Organisation.md)
 5. [05 Configuration and Environments](05%20Configuration%20and%20Environments.md)
+6. [06 Application Use Case Structure](06%20Application%20Use%20Case%20Structure.md)
 
 ## Outcome
 

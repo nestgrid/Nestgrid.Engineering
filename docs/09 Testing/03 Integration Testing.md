@@ -32,6 +32,10 @@ Data access, transactions, migrations and consistency expectations should be tes
 
 Persistence behaviour often differs from in-memory assumptions.
 
+In-memory persistence tests may be useful for repository smoke tests, but they do not validate provider mappings, relational constraints, migrations, precision, indexes or generated schema.
+
+Where those concerns matter, use provider-backed integration tests.
+
 ### Validate Contracts
 
 APIs and messages should be tested against expected contracts.
@@ -50,6 +54,7 @@ Slow or unstable integration tests should be reviewed because they reduce trust 
 - They should cover risks unit tests cannot.
 - Realistic dependencies improve confidence.
 - Persistence and contracts deserve attention.
+- In-memory persistence tests do not prove database provider behaviour.
 - Integration test cost should be managed.
 
 ## Related Reading

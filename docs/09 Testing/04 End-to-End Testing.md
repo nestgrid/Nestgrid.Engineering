@@ -44,6 +44,12 @@ End-to-end tests should exercise realistic paths where practical.
 
 They should avoid bypassing the behaviour they are intended to validate.
 
+### Validate API Contracts
+
+API workflow tests should cover more than route presence.
+
+Where APIs are part of the release surface, tests should cover successful requests, validation failures, response shapes, invalid payload mapping and authorisation posture.
+
 ## Key Takeaways
 
 - End-to-end tests validate important full-system flows.
@@ -51,6 +57,7 @@ They should avoid bypassing the behaviour they are intended to validate.
 - They should not duplicate lower-level testing.
 - Reliability is essential for trust.
 - Realistic behaviour improves confidence.
+- API workflows should validate contract behaviour, not only endpoint availability.
 
 ## Related Reading
 

@@ -67,7 +67,7 @@ It should not be treated as a formality when important concerns remain unresolve
 
 **Next**
 
-- [Testing](../09%20Testing/README.md)
+- [07 Application Response Model](07%20Application%20Response%20Model.md)
 
 **Book**
 

@@ -38,6 +38,12 @@ Repeated workflows, error handling, validation and integration patterns should b
 
 Unnecessary variation makes code harder to compare and maintain.
 
+### Avoid Unnecessary Abstractions
+
+Interfaces and abstractions should be introduced because the design needs them.
+
+They should not be introduced only to satisfy dependency injection, mocking or layering habits.
+
 ### Deviation Requires Reason
 
 Sometimes consistency should be broken to improve design.
@@ -50,6 +56,7 @@ When that happens, the reason should be clear from the context or documented whe
 - Existing appropriate patterns should be followed.
 - Formatting should be automated where possible.
 - Similar concepts should be named consistently.
+- Abstractions should exist for a clear design reason.
 - Deviations should be intentional.
 
 ## Related Reading

@@ -38,6 +38,26 @@ Shared abstractions should exist because they reduce real duplication or clarify
 
 They should not be introduced only to make code appear more generic.
 
+### Prefer Concrete Domain Services by Default
+
+Domain services should be implemented as concrete classes by default.
+
+Do not introduce interfaces solely to satisfy dependency injection, mocking or layering conventions.
+
+Introduce abstractions only when multiple implementations are required, the service represents an architectural boundary or genuine substitutability exists.
+
+Domain tests should exercise real Domain behaviour directly.
+
+Application tests may substitute external ports and infrastructure dependencies.
+
+### Consume Published Nestgrid Libraries
+
+Internal Nestgrid products should consume published Nestgrid libraries through NuGet packages rather than project references.
+
+Project references are acceptable during concurrent development of a library and its consumer.
+
+Before completion, the consuming product should migrate back to the published package.
+
 ### Review Dependency Changes
 
 Adding, removing or upgrading dependencies can affect security, behaviour and supportability.
@@ -51,6 +71,8 @@ Dependency changes should be reviewed with appropriate care.
 - External packages require justification.
 - Hidden coupling should be avoided.
 - Shared abstractions should solve real problems.
+- Domain services should be concrete by default.
+- Published Nestgrid libraries should be consumed through packages.
 - Dependency changes should be reviewed carefully.
 
 ## Related Reading

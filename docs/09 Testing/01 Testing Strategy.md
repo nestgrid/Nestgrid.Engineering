@@ -44,6 +44,20 @@ The testing strategy should evolve as the system grows.
 
 New risks, incidents, defects and architectural changes should influence testing priorities.
 
+### Use Coverage as a Signal
+
+Coverage should be used to identify untested code.
+
+It should not be treated as the primary measure of quality.
+
+Teams should judge test quality by confidence in important behaviours, not by percentages alone.
+
+### Use Mutation Testing Where It Adds Confidence
+
+Mutation testing should be used for important Domain and Application behaviour where ineffective tests would create meaningful risk.
+
+Mutation scores should guide improvement, but thresholds should be set proportionately to system maturity and risk.
+
 ## Key Takeaways
 
 - Testing strategy should focus on meaningful risk.
@@ -52,6 +66,8 @@ New risks, incidents, defects and architectural changes should influence testing
 - Fast feedback supports safe change.
 - Critical checks should be automated where practical.
 - Testing strategy should evolve with the system.
+- Coverage identifies gaps, but does not prove quality.
+- Mutation testing helps identify ineffective tests.
 
 ## Related Reading
 
