@@ -18,6 +18,10 @@ Primary artefact:
 
 - Product Brief
 
+Final handover artefact:
+
+- Architecture Handover
+
 ### Architecture Gate
 
 Architecture is ready for Engineering when system boundaries, key decisions, risks, trade-offs and implementation guidance are documented.

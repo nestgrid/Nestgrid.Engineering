@@ -34,6 +34,10 @@ Upon completing this book, engineers should be able to:
 
 Upon completing this book, engineers should have enough shared understanding to model the domain responsibly, make informed decisions and avoid premature technical design.
 
+## Related Guidance
+
+- [New Product Discovery Bootstrap](../16%20Engineering%20Artefacts/08%20New%20Product%20Discovery%20Bootstrap.md)
+
 ## Related Books
 
 ### Previous

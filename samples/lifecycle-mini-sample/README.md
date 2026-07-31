@@ -24,7 +24,7 @@ Decision records that preserve important choices made during the sample.
 
 `/docs/artefacts`
 
-Reserved for workflow artefacts such as Product Briefs, Architecture Packs and Release Reports.
+Reserved for workflow artefacts such as Product Briefs, Architecture Handovers, Architecture Packs and Release Reports.
 
 `/docs/initiatives`
 

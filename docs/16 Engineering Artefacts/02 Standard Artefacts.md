@@ -16,7 +16,7 @@ Teams may add specialist artefacts when needed, but should not bypass the standa
 
 | Stage | Owner | Primary Artefact | Main Consumer |
 | --- | --- | --- | --- |
-| Discovery | Product | Product Brief | Architecture |
+| Discovery | Product | Product Brief / Architecture Handover | Architecture |
 | Architecture | Architecture | Architecture Pack | Engineering |
 | Implementation | Engineering | Implementation Plan / Report | Quality, Security |
 | Quality | Quality | Test Strategy / Release Readiness Report | Release, Engineering |
@@ -47,9 +47,32 @@ templates/artefacts/
 
 Completed project artefacts should live in the relevant product repository, not in this methodology repository.
 
+### Discovery Approval and Handover
+
+The Product Brief is the Discovery approval artefact.
+
+It answers:
+
+> What have we discovered?
+
+Once the Product Brief is approved, Product should produce an Architecture Handover as the final act of Discovery.
+
+The Architecture Handover answers:
+
+> What should Architecture do next?
+
+Architecture should receive both artefacts:
+
+- Product Brief
+- Architecture Handover
+
+The Architecture Handover should be concise and should not repeat the full Product Brief.
+
 ## Key Takeaways
 
 - Each lifecycle stage has a primary artefact.
+- The Product Brief is the Discovery approval artefact.
+- The Architecture Handover is the final Discovery handover to Architecture.
 - Feedback artefacts make concerns explicit.
 - Templates provide consistent structure.
 - Completed artefacts belong with the product repository.

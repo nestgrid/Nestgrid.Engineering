@@ -91,3 +91,11 @@ Describe what is excluded.
 ## Recommendation
 
 Summarise the recommended next action.
+
+## Approval
+
+Record the approval outcome for Discovery.
+
+| Approved By | Date | Decision | Notes |
+| --- | --- | --- | --- |
+|  |  |  |  |

@@ -27,6 +27,7 @@ Upon completing this book, engineers should be able to:
 5. [05 Artefact Lifecycle](05%20Artefact%20Lifecycle.md)
 6. [06 Starting a Project Repository](06%20Starting%20a%20Project%20Repository.md)
 7. [07 Initiative Artefacts](07%20Initiative%20Artefacts.md)
+8. [08 New Product Discovery Bootstrap](08%20New%20Product%20Discovery%20Bootstrap.md)
 
 ## Outcome
 

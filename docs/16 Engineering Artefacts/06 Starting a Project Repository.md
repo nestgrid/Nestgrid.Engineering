@@ -81,6 +81,7 @@ tools/          optional
 5. Copy standard artefact templates when the first workflow artefacts are produced.
 6. Create the decision index under `docs/decisions/README.md`.
 7. Add optional folders only when the repository needs them.
+8. Use the new product Discovery bootstrap checklist to create the initial Discovery documentation set.
 
 ## Key Takeaways
 
@@ -95,6 +96,7 @@ tools/          optional
 ## Related Reading
 
 - [04 Repository Storage](04%20Repository%20Storage.md)
+- [New Product Discovery Bootstrap](08%20New%20Product%20Discovery%20Bootstrap.md)
 - [Repository Structure](../07%20Solution%20Structure/01%20Repository%20Structure.md)
 - [Lifecycle Mini Sample](../../samples/lifecycle-mini-sample/README.md)
 

@@ -78,7 +78,7 @@ tools/          optional
 
 `docs/handbooks/` should contain enduring product documentation such as philosophy, language, domain model, architecture and operations.
 
-`docs/artefacts/` should contain workflow outputs such as Product Briefs, Architecture Packs, Implementation Reports, Test Strategies, Security Assessments and Deployment Guides.
+`docs/artefacts/` should contain workflow outputs such as Product Briefs, Architecture Handovers, Architecture Packs, Implementation Reports, Test Strategies, Security Assessments and Deployment Guides.
 
 Lifecycle artefact folders should be numbered by workflow order rather than sorted alphabetically.
 

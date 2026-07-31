@@ -14,10 +14,10 @@ They should ask for an artefact, not a transcript summary.
 
 ### Product to Architecture
 
-Use when discovery is complete.
+Use when the Product Brief has been approved and Discovery is ready to close.
 
 ```text
-Produce a Product Brief for Architecture using the standard Nestgrid Engineering artefact template. Include goals, non-goals, scope, requirements, constraints, assumptions, risks, acceptance criteria and open questions.
+Produce an Architecture Handover for Architecture using the standard Nestgrid Engineering artefact template. Base it on the approved Product Brief. Include problem summary, approved vision, approved scope, business capabilities, outstanding architectural decisions, known risks, Discovery assumptions, open questions and recommended priorities.
 ```
 
 ### Architecture to Engineering
