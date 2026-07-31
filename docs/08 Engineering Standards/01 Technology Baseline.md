@@ -101,6 +101,7 @@ Products should prefer framework capabilities before introducing third-party lib
 
 - [TDR-002: Establish Technology Baseline](../decisions/TDR-002-establish-technology-baseline.md)
 - [02 Readability](02%20Readability.md)
+- [07 Application Response Model](07%20Application%20Response%20Model.md)
 - [Testing](../09%20Testing/README.md)
 
 ---

@@ -67,7 +67,7 @@ Uncontrolled drift between development, test and production environments makes b
 
 **Next**
 
-- [Engineering Standards](../08%20Engineering%20Standards/README.md)
+- [06 Application Use Case Structure](06%20Application%20Use%20Case%20Structure.md)
 
 **Book**
 

@@ -19,6 +19,8 @@ Upon completing this book, engineers should be able to:
 - Apply consistent naming, formatting and structure.
 - Handle errors and failures deliberately.
 - Manage dependencies responsibly.
+- Return application outcomes consistently.
+- Log operationally meaningful activity and failures.
 - Review code for correctness, clarity and maintainability.
 
 ## Chapters
@@ -29,6 +31,12 @@ Upon completing this book, engineers should be able to:
 4. [04 Error Handling](04%20Error%20Handling.md)
 5. [05 Dependency Management](05%20Dependency%20Management.md)
 6. [06 Code Review](06%20Code%20Review.md)
+7. [07 Application Response Model](07%20Application%20Response%20Model.md)
+8. [08 Logging](08%20Logging.md)
+9. [09 Domain Events](09%20Domain%20Events.md)
+10. [10 Strong Identifiers](10%20Strong%20Identifiers.md)
+11. [11 API Contracts](11%20API%20Contracts.md)
+12. [12 Database Migrations](12%20Database%20Migrations.md)
 
 ## Outcome
 

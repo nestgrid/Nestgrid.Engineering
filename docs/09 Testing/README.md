@@ -18,6 +18,8 @@ Upon completing this book, engineers should be able to:
 - Choose suitable test types for different risks.
 - Test domain rules and important behaviours.
 - Use automation to support fast feedback.
+- Use coverage to find untested code.
+- Use mutation testing to find ineffective tests.
 - Maintain tests as part of the system.
 
 ## Chapters
