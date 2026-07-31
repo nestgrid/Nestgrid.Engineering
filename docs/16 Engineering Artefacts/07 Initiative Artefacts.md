@@ -116,7 +116,7 @@ When an initiative completes:
 
 **Next**
 
-- [Engineering Workflow](../15%20Engineering%20Workflow/README.md)
+- [08 New Product Discovery Bootstrap](08%20New%20Product%20Discovery%20Bootstrap.md)
 
 **Book**
 

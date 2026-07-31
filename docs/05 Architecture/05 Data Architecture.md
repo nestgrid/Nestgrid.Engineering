@@ -56,6 +56,7 @@ Sensitive data should be handled deliberately from the beginning.
 
 - [04 Boundaries and Responsibilities](04%20Boundaries%20and%20Responsibilities.md)
 - [07 Security Architecture](07%20Security%20Architecture.md)
+- [Database Migrations](../08%20Engineering%20Standards/12%20Database%20Migrations.md)
 
 ---
 

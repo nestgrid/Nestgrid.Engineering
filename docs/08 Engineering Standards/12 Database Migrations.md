@@ -24,6 +24,30 @@ Tests that use in-memory persistence do not prove relational mappings, provider 
 
 Where those concerns matter, use provider-backed integration tests.
 
+### Use Provider-Appropriate Database Naming
+
+Database object naming should follow the standard convention for the selected database provider.
+
+For PostgreSQL, database objects should use `snake_case`.
+
+This applies to:
+
+- Tables
+- Columns
+- Primary keys
+- Foreign keys
+- Indexes
+- Constraints
+- Sequences
+
+.NET code should continue to use PascalCase for types and members.
+
+Entity Framework Core mappings should translate .NET names to the provider-appropriate database naming convention explicitly.
+
+Do not rely on accidental provider naming behaviour where a name is part of the database contract.
+
+When a product uses a non-standard database provider, the Architecture Pack should define the database naming convention for that provider.
+
 ### Handle Configuration Safely
 
 Default configuration should not contain committed local database credentials.
@@ -35,6 +59,8 @@ Connection strings and credentials should be managed through appropriate environ
 - Schema changes should be reviewable and repeatable.
 - Deferred migrations must be documented explicitly.
 - In-memory tests do not validate relational provider behaviour.
+- Database object naming should follow the selected provider convention.
+- PostgreSQL database objects should use `snake_case`.
 - Default configuration should not contain local database credentials.
 
 ## Related Reading

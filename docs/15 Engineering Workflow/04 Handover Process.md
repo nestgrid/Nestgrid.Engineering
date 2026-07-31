@@ -16,6 +16,16 @@ The latest approved artefact is the primary handover input.
 
 Drafts may be shared for review, but downstream work should normally begin from approved or explicitly accepted artefacts.
 
+### Separate Approval From Handover
+
+Some lifecycle stages have both an approval artefact and a handover artefact.
+
+For Discovery, the Product Brief is the approval artefact.
+
+Once approved, Product should produce an Architecture Handover for Architecture.
+
+The handover should explain what the next role should do, not repeat every detail already captured in the approved artefact.
+
 ### Include Metadata
 
 Each artefact should identify its title, version, status, owner, date and related artefacts.
@@ -38,6 +48,7 @@ Feedback should explain the concern, impact and recommended next action.
 
 - Handovers should not rely on memory.
 - Approved artefacts are the primary handover input.
+- Approval artefacts and handover artefacts may be separate.
 - Metadata supports traceability.
 - Feedback artefacts make blockers visible.
 

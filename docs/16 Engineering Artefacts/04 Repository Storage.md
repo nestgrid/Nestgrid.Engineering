@@ -88,6 +88,7 @@ Lifecycle artefact folders should be numbered by workflow order:
 Examples:
 
 - Product Brief
+- Architecture Handover
 - Architecture Pack
 - Implementation Plan
 - Test Strategy

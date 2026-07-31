@@ -21,6 +21,7 @@ Product owns discovery and product intent.
 Typical output:
 
 - Product Brief
+- Architecture Handover
 - Business Requirements
 - Acceptance Criteria
 

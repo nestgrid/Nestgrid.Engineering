@@ -5,6 +5,7 @@ This folder contains reusable templates for the standard Nestgrid Engineering wo
 ## Templates
 
 - [Product Brief](Product%20Brief.Template.md)
+- [Architecture Handover](Architecture%20Handover.Template.md)
 - [Architecture Pack](Architecture%20Pack.Template.md)
 - [Implementation Plan](Implementation%20Plan.Template.md)
 - [Implementation Report](Implementation%20Report.Template.md)
