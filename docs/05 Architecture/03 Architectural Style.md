@@ -14,6 +14,16 @@ Architectural styles should be chosen intentionally based on drivers, quality at
 
 No style is universally correct. A style is useful when it supports the needs of the solution better than the alternatives.
 
+### Define Architecture Principles
+
+Architecture should capture the principles that guide Engineering implementation.
+
+Principles should be technology-agnostic where possible and should explain the qualities the implementation must preserve.
+
+Examples include clear boundaries, explicit dependencies, observable behaviour, secure defaults, deployability, testability and operational simplicity.
+
+Architecture principles should be specific enough to guide trade-offs without becoming low-level coding rules.
+
 ### Choose for the Context
 
 The chosen style should fit the domain, team, delivery model, operational needs and expected change.
@@ -47,6 +57,7 @@ Future engineers should understand why the style was selected and which trade-of
 ## Key Takeaways
 
 - Architectural style should be chosen intentionally.
+- Architecture principles should guide Engineering implementation.
 - There is no universally correct style.
 - Every style has trade-offs.
 - Consistency improves maintainability.

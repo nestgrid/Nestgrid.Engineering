@@ -20,6 +20,7 @@ Upon completing this book, engineers should be able to:
 - Reason about data, integration, security and operational concerns.
 - Evaluate architectural trade-offs before implementation.
 - Validate architecture against the domain model and delivery constraints.
+- Use Review, Understand, Assess, Recommend and Execute to move from Discovery input to Architecture outputs.
 
 ## Chapters
 
@@ -32,10 +33,11 @@ Upon completing this book, engineers should be able to:
 7. [07 Security Architecture](07%20Security%20Architecture.md)
 8. [08 Operational Architecture](08%20Operational%20Architecture.md)
 9. [09 Architecture Validation](09%20Architecture%20Validation.md)
+10. [10 Architecture Workflow](10%20Architecture%20Workflow.md)
 
 ## Outcome
 
-Upon completing this book, engineers should have an architecture that explains how the solution will satisfy the domain model, quality attributes and operational needs before detailed implementation begins.
+Upon completing this book, engineers should have an approved architectural direction and architecture that explains how the solution will satisfy the domain model, quality attributes and operational needs before detailed implementation begins.
 
 ## Related Books
 

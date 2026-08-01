@@ -46,6 +46,22 @@ Examples:
 - Security sends Security Feedback to Architecture or Engineering when risk requires design or code changes.
 - Platform sends Operational Feedback when deployment or support concerns are discovered.
 
+### Architecture Internal Flow
+
+Architecture should normally move through:
+
+```text
+Review
+  -> Understand
+  -> Assess
+  -> Recommend
+  -> Execute
+```
+
+The Recommend checkpoint should occur before substantial Architecture artefacts are produced.
+
+Once the recommendation is approved, Architecture executes by producing the agreed Architecture artefacts.
+
 ### Scale the Workflow
 
 Small changes may use lightweight artefacts.
@@ -68,6 +84,7 @@ Initiative-level artefacts describe a scoped body of work and should be stored w
 ## Key Takeaways
 
 - The default flow moves from product intent to production readiness.
+- Architecture uses Review, Understand, Assess, Recommend and Execute internally.
 - Feedback loops are expected and should be explicit.
 - Workflow depth should match risk and complexity.
 - The lifecycle applies to any engineering initiative, not only whole products.

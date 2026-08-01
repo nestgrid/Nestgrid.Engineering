@@ -4,4 +4,5 @@ Architecture artefacts capture solution design, boundaries, decisions, trade-off
 
 Typical artefact:
 
+- Architecture Recommendation
 - Architecture Pack

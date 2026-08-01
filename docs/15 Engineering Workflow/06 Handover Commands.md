@@ -25,7 +25,15 @@ Produce an Architecture Handover for Architecture using the standard Nestgrid En
 Use when solution design is complete.
 
 ```text
-Produce an Architecture Pack for Engineering using the standard Nestgrid Engineering artefact template. Include context, architectural decisions, boundaries, domain model, API strategy, data strategy, operational considerations, risks and open questions.
+Produce an Architecture Pack for Engineering using the standard Nestgrid Engineering artefact template. Include context, architecture goals, architecture principles, quality attributes, architectural decisions, boundaries, domain model, API strategy, data strategy, operational considerations, risks and open questions.
+```
+
+### Architecture Recommend
+
+Use before substantial Architecture artefacts are produced.
+
+```text
+Produce an Architecture Recommendation using the standard Nestgrid Engineering artefact template. Include proposed architectural direction, key architectural decisions, principal risks and trade-offs, proposed Architecture artefacts and the approval gate before Execute.
 ```
 
 ### Engineering to Quality

@@ -20,6 +20,17 @@ Quality expectations should be written down and discussed.
 
 Terms such as fast, secure, scalable or reliable are too vague unless they are clarified in context.
 
+Common quality attributes include:
+
+- Availability
+- Recoverability
+- Survivability
+- Security
+- Maintainability
+- Portability
+- Observability
+- Performance
+
 ### Connect Attributes to Outcomes
 
 Quality attributes should support business and user outcomes.

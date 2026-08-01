@@ -31,6 +31,7 @@ Architecture owns solution design and technical direction.
 
 Typical output:
 
+- Architecture Recommendation
 - Architecture Pack
 - ADRs
 - Technical Risk Assessment

@@ -7,7 +7,7 @@ This directory is included to demonstrate the recommended product repository str
 In a real product repository, this directory would contain lifecycle outputs such as:
 
 - `01 Discovery/` - Product Briefs, Architecture Handovers and discovery outputs.
-- `02 Architecture/` - Architecture Packs and architecture outputs.
+- `02 Architecture/` - Architecture Recommendations, Architecture Packs and architecture outputs.
 - `03 Implementation/` - Implementation Plans and Implementation Reports.
 - `04 Quality/` - Test Strategies and Release Readiness Reports.
 - `05 Security/` - Security Assessments and threat models.
