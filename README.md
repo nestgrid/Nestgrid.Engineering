@@ -106,6 +106,7 @@ Standard artefact flow:
 ```text
 Product Brief
   -> Architecture Handover
+  -> Architecture Recommendation
   -> Architecture Pack
   -> Implementation Plan / Implementation Report
   -> Test Strategy

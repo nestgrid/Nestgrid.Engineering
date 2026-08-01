@@ -17,7 +17,7 @@ Teams may add specialist artefacts when needed, but should not bypass the standa
 | Stage | Owner | Primary Artefact | Main Consumer |
 | --- | --- | --- | --- |
 | Discovery | Product | Product Brief / Architecture Handover | Architecture |
-| Architecture | Architecture | Architecture Pack | Engineering |
+| Architecture | Architecture | Architecture Recommendation / Architecture Pack | Engineering |
 | Implementation | Engineering | Implementation Plan / Report | Quality, Security |
 | Quality | Quality | Test Strategy / Release Readiness Report | Release, Engineering |
 | Security | Security | Security Assessment | Release, Engineering, Platform |
@@ -68,11 +68,24 @@ Architecture should receive both artefacts:
 
 The Architecture Handover should be concise and should not repeat the full Product Brief.
 
+### Architecture Recommendation
+
+Architecture Recommendation is a lightweight checkpoint before Architecture executes substantial documentation work.
+
+It answers:
+
+> Are we comfortable with this architectural direction before Architecture produces the full artefact set?
+
+It should include proposed architectural direction, key architectural decisions, principal risks and trade-offs, proposed Architecture artefacts and approval to Execute.
+
+Once approved, Architecture should produce the Architecture Pack and related Architecture Decision Records where needed.
+
 ## Key Takeaways
 
 - Each lifecycle stage has a primary artefact.
 - The Product Brief is the Discovery approval artefact.
 - The Architecture Handover is the final Discovery handover to Architecture.
+- Architecture Recommendation provides approval before Architecture Execute.
 - Feedback artefacts make concerns explicit.
 - Templates provide consistent structure.
 - Completed artefacts belong with the product repository.

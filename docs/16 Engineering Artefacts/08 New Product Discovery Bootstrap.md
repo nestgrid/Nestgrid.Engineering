@@ -16,6 +16,8 @@ Do not fill every handbook page before the product is understood.
 
 The initial Discovery output should establish repository purpose, product intent, decision traceability and the first durable artefact.
 
+Architecture Handover is the final mandatory artefact produced by Discovery before Architecture begins.
+
 ## Bootstrap Checklist
 
 When bootstrapping Discovery for a new product repository:
@@ -92,6 +94,7 @@ Product work should not be blocked by non-critical handbook improvement feedback
 - [Repository Storage](04%20Repository%20Storage.md)
 - [Product Brief Template](../../templates/artefacts/Product%20Brief.Template.md)
 - [Architecture Handover Template](../../templates/artefacts/Architecture%20Handover.Template.md)
+- [Architecture Workflow](../05%20Architecture/10%20Architecture%20Workflow.md)
 - [Discovery](../03%20Discovery/README.md)
 
 ---

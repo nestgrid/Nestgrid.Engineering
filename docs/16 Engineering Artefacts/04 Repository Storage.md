@@ -89,6 +89,7 @@ Examples:
 
 - Product Brief
 - Architecture Handover
+- Architecture Recommendation
 - Architecture Pack
 - Implementation Plan
 - Test Strategy

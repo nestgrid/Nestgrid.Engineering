@@ -25,6 +25,24 @@ Summarise the product intent and architectural context.
 - Goal 2
 - Goal 3
 
+## Architecture Principles
+
+Capture the core architectural principles that should guide Engineering implementation.
+
+- Principle 1
+- Principle 2
+- Principle 3
+
+## Quality Attributes
+
+Document the primary quality attributes driving the architecture.
+
+Examples include availability, recoverability, survivability, security, maintainability, portability, observability and performance.
+
+| Quality Attribute | Architectural Implication | Priority |
+| --- | --- | --- |
+|  |  |  |
+
 ## Key Decisions
 
 | Decision | Rationale | Related ADR |

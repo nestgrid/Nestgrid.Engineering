@@ -26,9 +26,17 @@ Final handover artefact:
 
 Architecture is ready for Engineering when system boundaries, key decisions, risks, trade-offs and implementation guidance are documented.
 
+Architecture should normally pass through a lightweight Recommend checkpoint before Execute.
+
+The recommendation should summarise the proposed architectural direction, key architectural decisions, principal risks and trade-offs, proposed Architecture artefacts and approval to proceed.
+
 Primary artefact:
 
 - Architecture Pack
+
+Pre-execution checkpoint:
+
+- Architecture Recommendation
 
 ### Engineering Gate
 

@@ -68,7 +68,7 @@ The decision record should preserve context, rationale, alternatives and consequ
 
 **Next**
 
-- [Decisions](../06%20Decisions/README.md)
+- [10 Architecture Workflow](10%20Architecture%20Workflow.md)
 
 **Book**
 
