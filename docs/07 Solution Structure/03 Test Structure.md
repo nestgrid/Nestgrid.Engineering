@@ -38,6 +38,10 @@ Shared fixtures, builders, factories and helpers should be organised carefully.
 
 They should reduce duplication without becoming hidden frameworks that make tests hard to understand.
 
+Use a clearly named support area such as `TestSupport` for helpers that are shared within a test project.
+
+Avoid broad helper buckets when a helper belongs naturally with the behaviour being tested.
+
 ### Support Automation
 
 Test structure should make it easy for automation to run the right tests at the right time.
@@ -50,6 +54,7 @@ Slow, environment-dependent or destructive tests should be identifiable.
 - Tests should map clearly to the behaviour they validate.
 - Test types should be distinguishable.
 - Shared test support should remain understandable.
+- Test helpers should live near the behaviour they support or in clearly named support areas.
 - Structure should support automation.
 
 ## Related Reading

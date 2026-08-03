@@ -79,7 +79,7 @@ Connection strings and credentials should be managed through appropriate environ
 
 **Next**
 
-- [Testing](../09%20Testing/README.md)
+- [13 Implementation Planning](13%20Implementation%20Planning.md)
 
 **Book**
 

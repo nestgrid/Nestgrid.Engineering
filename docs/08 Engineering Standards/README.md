@@ -37,6 +37,7 @@ Upon completing this book, engineers should be able to:
 10. [10 Strong Identifiers](10%20Strong%20Identifiers.md)
 11. [11 API Contracts](11%20API%20Contracts.md)
 12. [12 Database Migrations](12%20Database%20Migrations.md)
+13. [13 Implementation Planning](13%20Implementation%20Planning.md)
 
 ## Outcome
 

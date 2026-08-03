@@ -38,6 +38,16 @@ Files should be grouped in ways that support understanding and change.
 
 The best grouping depends on the architecture, but it should avoid scattering closely related behaviour unnecessarily.
 
+### Organise Within Projects Deliberately
+
+Projects should introduce folders where they clarify responsibility.
+
+Do not copy the same folder pattern into every project when the project does not need it.
+
+Folder names should describe meaningful areas such as capabilities, responsibilities, adapters, commands, persistence or views.
+
+Avoid generic folders such as `Common`, `Shared`, `Misc` or `Utils` unless the responsibility is genuinely shared and clearly bounded.
+
 ### Avoid Premature Fragmentation
 
 Too many projects or modules can create unnecessary overhead.
@@ -50,6 +60,7 @@ Structure should introduce boundaries when they improve clarity, ownership or ma
 - Responsibilities should be clear.
 - Dependency direction should be intentional.
 - Grouping should support understanding and change.
+- Folder structure should clarify responsibility rather than mirror a generic template.
 - Fragmentation should be justified.
 
 ## Related Reading

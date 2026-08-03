@@ -6,6 +6,7 @@ Initiatives capture delivery evidence without mixing initiative-specific artefac
 
 ## Initiatives
 
+- [2026-08 Engineering Planning Refinement](2026-08-engineering-planning-refinement/README.md)
 - [2026-08 Diagnostics Lifecycle Refinement](2026-08-diagnostics-lifecycle-refinement/README.md)
 - [2026-07 Architecture Handover](2026-07-architecture-handover/README.md)
 - [2026-07 Engineering Standards Refinement](2026-07-engineering-standards-refinement/README.md)
