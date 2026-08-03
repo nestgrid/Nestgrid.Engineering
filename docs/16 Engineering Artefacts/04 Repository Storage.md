@@ -14,6 +14,8 @@ Completed artefacts for a product or solution should live with the product repos
 
 ### Recommended Product Repository Structure
 
+This is the standard target structure for a product repository.
+
 ```text
 src/
 tests/
@@ -47,6 +49,10 @@ scripts/        optional
 tools/          optional
 .github/        optional
 ```
+
+During pure Discovery and Architecture, a product repository may remain documentation-first.
+
+`src/` and `tests/` become required when Engineering begins and implementation work is planned.
 
 ### Source
 
