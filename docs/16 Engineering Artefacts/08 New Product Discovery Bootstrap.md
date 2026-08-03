@@ -18,6 +18,10 @@ The initial Discovery output should establish repository purpose, product intent
 
 Architecture Handover is the final mandatory artefact produced by Discovery before Architecture begins.
 
+The minimum Discovery bootstrap is intentionally documentation-first.
+
+It does not require empty `src/` or `tests/` folders before Engineering begins.
+
 ## Bootstrap Checklist
 
 When bootstrapping Discovery for a new product repository:
@@ -57,6 +61,8 @@ docs/
 
 Additional handbook pages should be created when they contain useful product knowledge, not merely to mirror the global Engineering Handbook.
 
+`src/` and `tests/` should be added when Engineering begins and implementation work is planned.
+
 ## Optional Handbook Seeds
 
 For a new product, the following seed pages are often useful:
@@ -82,6 +88,8 @@ Product work should not be blocked by non-critical handbook improvement feedback
 ## Key Takeaways
 
 - New product Discovery should start lean.
+- New product Discovery does not require empty `src/` or `tests/` folders.
+- `src/` and `tests/` become required when Engineering begins.
 - The Product Brief is the Discovery approval artefact.
 - The Architecture Handover is the final Discovery handover artefact.
 - Decision traceability should exist from the beginning.

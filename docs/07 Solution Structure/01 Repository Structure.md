@@ -72,6 +72,12 @@ tools/          optional
 .github/        optional
 ```
 
+This is the standard target structure for an implementation-ready product repository.
+
+During pure Discovery and Architecture, a repository may remain documentation-first and omit `src/` and `tests/`.
+
+`src/` and `tests/` become required when Engineering begins.
+
 `src/` should contain production code.
 
 `tests/` should contain automated tests.

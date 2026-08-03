@@ -12,7 +12,13 @@ Start with a lean repository structure before adding detailed content.
 
 The structure should make source code, tests, enduring knowledge, lifecycle artefacts and decision records easy to find.
 
-## Standard Structure
+During pure Discovery and Architecture, a new product repository may remain documentation-first.
+
+`src/` and `tests/` become required when Engineering begins, normally alongside the Implementation Plan.
+
+## Standard Target Structure
+
+This is the expected target structure for an implementation-ready product repository.
 
 ```text
 src/
@@ -74,18 +80,21 @@ tools/          optional
 
 ## Starting Steps
 
-1. Create `src/`, `tests/` and `docs/`.
+1. Create `docs/`.
 2. Create `docs/handbooks/`, `docs/artefacts/`, `docs/decisions/` and `docs/initiatives/`.
-3. Add a README to each major folder explaining its purpose.
+3. Add a README to each major documentation folder explaining its purpose.
 4. Add the initial handbook books needed by the project.
 5. Copy standard artefact templates when the first workflow artefacts are produced.
 6. Create the decision index under `docs/decisions/README.md`.
-7. Add optional folders only when the repository needs them.
-8. Use the new product Discovery bootstrap checklist to create the initial Discovery documentation set.
+7. Use the new product Discovery bootstrap checklist to create the initial Discovery documentation set.
+8. Create `src/` and `tests/` when Engineering begins.
+9. Add optional folders only when the repository needs them.
 
 ## Key Takeaways
 
 - Start with a lean standard structure before detailed content.
+- Discovery and Architecture may remain documentation-first.
+- `src/` and `tests/` become required when Engineering begins.
 - Keep source code and tests clearly separated.
 - Keep handbook pages, artefacts and decision records separate.
 - Decision governance belongs in the handbook.
