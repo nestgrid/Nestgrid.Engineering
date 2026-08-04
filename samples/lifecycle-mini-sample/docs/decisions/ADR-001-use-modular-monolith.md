@@ -87,4 +87,4 @@ If future requirements introduce independent scale, ownership or deployment need
 
 **Repository**
 
-- [Nestgrid.Engineering](../../../../README.md)
+- [Nestgrid Engineering Operating System](../../../../README.md)

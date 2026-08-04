@@ -81,4 +81,4 @@ Include benefits, costs, risks, limitations and follow-up work where relevant.
 
 **Repository**
 
-- [Nestgrid.Engineering](../README.md)
+- [Nestgrid Engineering Operating System](../README.md)

@@ -13,7 +13,7 @@ supersedes:
 related_decisions:
 related_work_items:
 related_repositories:
-  - Nestgrid.Engineering
+  - Nestgrid Engineering Operating System
   - Nestgrid.Diagnostics
 ```
 

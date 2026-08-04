@@ -20,7 +20,7 @@ Technical
 
 ## Context
 
-Nestgrid.Engineering defines the methodology and standards used across Nestgrid products.
+Nestgrid Engineering Operating System defines the methodology and standards used across Nestgrid products.
 
 Product teams need a default technology baseline so new products can start quickly, remain consistent and share engineering practices across repositories.
 
@@ -28,7 +28,7 @@ Without a baseline, each product would repeatedly decide core runtime, database,
 
 ## Decision
 
-Nestgrid products will use the standard technology baseline defined in [Technology Baseline](../08%20Engineering%20Standards/01%20Technology%20Baseline.md).
+Nestgrid products will use the standard technology baseline defined in [Technology Baseline](../../handbook/08%20Engineering%20Standards/01%20Technology%20Baseline.md).
 
 The baseline includes `.NET`, C#, PostgreSQL, Entity Framework Core, ASP.NET Core Minimal APIs, Nestgrid.Response, FluentValidation, xUnit, Shouldly, NSubstitute and Microsoft.Extensions.Logging.
 
@@ -72,9 +72,9 @@ The baseline should be reviewed when platform support, product needs or operatio
 
 ## Related Documentation
 
-- [Technology Baseline](../08%20Engineering%20Standards/01%20Technology%20Baseline.md)
-- [Engineering Standards](../08%20Engineering%20Standards/README.md)
-- [Testing](../09%20Testing/README.md)
+- [Technology Baseline](../../handbook/08%20Engineering%20Standards/01%20Technology%20Baseline.md)
+- [Engineering Standards](../../handbook/08%20Engineering%20Standards/README.md)
+- [Testing](../../handbook/09%20Testing/README.md)
 
 ---
 
@@ -90,4 +90,4 @@ The baseline should be reviewed when platform support, product needs or operatio
 
 **Repository**
 
-- [Nestgrid.Engineering](../../README.md)
+- [Nestgrid Engineering Operating System](../../README.md)

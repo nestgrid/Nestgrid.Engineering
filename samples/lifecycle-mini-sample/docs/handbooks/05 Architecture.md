@@ -58,7 +58,7 @@ The system should expose basic health checks, useful logs and clear configuratio
 ## Related Reading
 
 - [Decisions](06%20Decisions.md)
-- [Architecture Guidance](../../../../docs/05%20Architecture/README.md)
+- [Architecture Guidance](../../../../handbook/05%20Architecture/README.md)
 
 ---
 
@@ -82,4 +82,4 @@ The system should expose basic health checks, useful logs and clear configuratio
 
 **Repository**
 
-- [Nestgrid.Engineering](../../../../README.md)
+- [Nestgrid Engineering Operating System](../../../../README.md)

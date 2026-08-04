@@ -13,8 +13,8 @@ supersedes:
 related_decisions:
 related_work_items:
 related_repositories:
-  - Nestgrid.Engineering
-  - Nestgrid.EngineeringAgents
+  - Nestgrid Engineering Operating System
+  - Nestgrid Engineering Operating System Agents
 related_artefacts:
   - Sentinel Review
 ```

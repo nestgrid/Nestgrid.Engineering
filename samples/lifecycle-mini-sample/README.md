@@ -71,7 +71,7 @@ Readers should treat it as a learning reference, not as a template that must be 
 
 **Samples Guidance**
 
-- [Samples](../../docs/14%20Samples/README.md)
+- [Samples](../../handbook/14%20Samples/README.md)
 
 **Engineering Lifecycle**
 
@@ -79,4 +79,4 @@ Readers should treat it as a learning reference, not as a template that must be 
 
 **Repository**
 
-- [Nestgrid.Engineering](../../README.md)
+- [Nestgrid Engineering Operating System](../../README.md)

@@ -20,8 +20,8 @@ Example:
 
 **Engineering Artefacts**
 
-- [Engineering Artefacts](../../../../docs/16%20Engineering%20Artefacts/README.md)
+- [Engineering Artefacts](../../../../handbook/16%20Engineering%20Artefacts/README.md)
 
 **Repository**
 
-- [Nestgrid.Engineering](../../../../README.md)
+- [Nestgrid Engineering Operating System](../../../../README.md)

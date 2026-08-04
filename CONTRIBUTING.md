@@ -1,6 +1,6 @@
 # Contributing
 
-Thank you for contributing to Nestgrid.Engineering.
+Thank you for contributing to Nestgrid Engineering Operating System.
 
 This repository defines the engineering methodology, standards and practices used across the Nestgrid ecosystem. Contributions should preserve clarity, consistency and long-term maintainability.
 

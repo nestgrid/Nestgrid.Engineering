@@ -39,7 +39,7 @@ The word `Task` is preferred over `Ticket`, `Issue` or `Work Item` because the p
 ## Related Reading
 
 - [Discovery](03%20Discovery.md)
-- [Language Guidance](../../../../docs/02%20Language/README.md)
+- [Language Guidance](../../../../handbook/02%20Language/README.md)
 
 ---
 
@@ -63,4 +63,4 @@ The word `Task` is preferred over `Ticket`, `Issue` or `Work Item` because the p
 
 **Repository**
 
-- [Nestgrid.Engineering](../../../../README.md)
+- [Nestgrid Engineering Operating System](../../../../README.md)

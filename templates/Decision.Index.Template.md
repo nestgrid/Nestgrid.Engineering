@@ -49,4 +49,4 @@ Decision records should be concise, specific and honest about trade-offs.
 
 **Repository**
 
-- [Nestgrid.Engineering](../README.md)
+- [Nestgrid Engineering Operating System](../README.md)

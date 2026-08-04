@@ -1,6 +1,6 @@
 # Code of Conduct
 
-Nestgrid.Engineering is intended to support clear, respectful and professional engineering collaboration.
+Nestgrid Engineering Operating System is intended to support clear, respectful and professional engineering collaboration.
 
 ## Expected Behaviour
 

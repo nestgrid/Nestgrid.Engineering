@@ -27,7 +27,7 @@ Use the appropriate decision prefix:
 
 ## Context
 
-Nestgrid.Engineering defines a standard project repository structure for product teams.
+Nestgrid Engineering Operating System defines a standard project repository structure for product teams.
 
 After applying the first iteration of the Engineering Handbook to Nestgrid.Finance, the lifecycle artefact directories were found to be clearer when ordered by lifecycle stage rather than by plain, unnumbered names.
 
@@ -111,9 +111,9 @@ The lifecycle stages and artefact meanings are unchanged.
 
 ## Related Documentation
 
-- [Repository Structure](../07%20Solution%20Structure/01%20Repository%20Structure.md)
-- [Repository Storage](../16%20Engineering%20Artefacts/04%20Repository%20Storage.md)
-- [Starting a Project Repository](../16%20Engineering%20Artefacts/06%20Starting%20a%20Project%20Repository.md)
+- [Repository Structure](../../handbook/07%20Solution%20Structure/01%20Repository%20Structure.md)
+- [Repository Storage](../../handbook/16%20Engineering%20Artefacts/04%20Repository%20Storage.md)
+- [Starting a Project Repository](../../handbook/16%20Engineering%20Artefacts/06%20Starting%20a%20Project%20Repository.md)
 
 ---
 
@@ -129,4 +129,4 @@ The lifecycle stages and artefact meanings are unchanged.
 
 **Repository**
 
-- [Nestgrid.Engineering](../../README.md)
+- [Nestgrid Engineering Operating System](../../README.md)
