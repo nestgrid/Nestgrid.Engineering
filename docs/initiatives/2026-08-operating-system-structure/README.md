@@ -10,11 +10,11 @@ Before this initiative, the handbook books lived directly under `docs/` and the 
 
 ## Objective
 
-Move Engineering Agents into the repository, move canonical handbook books into `handbook/`, and leave `docs/` for operating-system decisions and initiatives.
+Move execution guidance into the repository, separate canonical roles from named profiles, move canonical handbook books into `books/`, and leave `docs/` for operating-system decisions and initiatives.
 
 ## Scope
 
-- Move Engineering Agent documents into `agents/`.
+- Move execution guidance into `roles/` and `profiles/`.
 - Move handbook books into `handbook/`.
 - Preserve product repository guidance that product handbooks live under `docs/handbooks/`.
 - Update links and navigation.

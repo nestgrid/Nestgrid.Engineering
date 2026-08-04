@@ -4,7 +4,7 @@ This directory is reserved for independent review artefacts such as Sentinel Rev
 
 The Lifecycle Mini Sample does not include a full Sentinel Review.
 
-In a real product repository, reviews in this folder become part of the engineering history and should be read by downstream Engineering Agents where relevant.
+In a real product repository, reviews in this folder become part of the engineering history and should be read by downstream roles where relevant.
 
 Example:
 

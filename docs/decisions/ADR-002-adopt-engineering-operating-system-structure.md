@@ -31,8 +31,10 @@ The repository needs a structure that reflects the full operating system while p
 The Nestgrid Engineering Operating System repository will use the following top-level structure:
 
 ```text
-agents/
-handbook/
+roles/
+profiles/
+books/
+workflows/
 docs/
   decisions/
   initiatives/
@@ -41,9 +43,9 @@ samples/
 scripts/
 ```
 
-Engineering agent documents will live under `agents/`.
+Role documents will live under `roles/`, and named profile documents will live under `profiles/`.
 
-The canonical global handbook will live under `handbook/`.
+The canonical global handbook books will live under `books/`.
 
 The `docs/` directory will contain durable records about the operating system itself, including `docs/decisions/` and `docs/initiatives/`.
 
@@ -53,9 +55,9 @@ Product repositories will continue to use `docs/handbooks/` for product-specific
 
 This structure makes the operating system explicit.
 
-Agents are no longer separate prompt documents outside the repository. They are part of the same operating model as the handbook, templates, samples and lifecycle records.
+Roles and profiles are part of the same operating model as the handbook, workflows, templates, samples and lifecycle records.
 
-Moving the global handbook to `handbook/` separates canonical methodology from operating-system decisions and initiatives.
+Moving the global handbook books to `books/` separates canonical methodology from operating-system decisions and initiatives.
 
 Keeping product repositories on `docs/handbooks/` preserves the established product convention and avoids confusing product documentation with the global operating-system handbook.
 
@@ -91,7 +93,7 @@ Documentation validation remains important because structural changes affect man
 ## Related Documentation
 
 - [Engineering Handbook](../../books/README.md)
-- [Engineering Agents](../../agents/README.md)
+- [Profiles](../../profiles/README.md)
 - [Repository Structure](../../books/07%20Solution%20Structure/01%20Repository%20Structure.md)
 - [Engineering Artefacts](../../books/16%20Engineering%20Artefacts/README.md)
 

@@ -20,7 +20,7 @@ Architecture
 
 ## Context
 
-The Nestgrid Engineering Operating System now contains handbook books, workflows, templates and agent role profiles.
+The Nestgrid Engineering Operating System now contains handbook books, workflows, templates, roles and profiles.
 
 Early workflow documentation referred directly to named agents such as Evelyn, Gideon, Mason, Harper, Morgan, Rowan and Sentinel. That was useful while establishing the operating model, but it coupled the methodology to the current agent roster.
 
@@ -30,7 +30,7 @@ The methodology should be usable by humans, agents, automation or mixed teams.
 
 The Engineering Operating System methodology will use role names in handbook books, templates and workflows.
 
-Named agents are implementations of those roles, not the methodology itself.
+Named profiles are implementations of those roles, not the methodology itself.
 
 Standard roles are:
 
@@ -52,7 +52,7 @@ Role-based language keeps the methodology durable, professional and independent 
 It allows the same workflow to be followed by:
 
 - human specialists;
-- named Engineering Agents;
+- named profiles;
 - automation;
 - or mixed human and agent teams.
 
@@ -66,13 +66,13 @@ This was rejected because it makes the handbook appear dependent on the current 
 
 ### Remove Agent Names Entirely
 
-This was rejected because agent profiles are useful execution guidance. Agent names should remain in `agents/`, prompt samples and historical records where they provide operational context.
+This was rejected because profiles are useful execution guidance. Profile names should remain in `profiles/`, prompt samples and historical records where they provide operational context.
 
 ## Consequences
 
 Handbook books, templates and workflows should refer to roles rather than named agents.
 
-The `agents/` directory becomes the mapping layer between role-based methodology and agent-based execution.
+The profiles catalogue becomes the mapping layer between canonical role responsibility and named execution guidance.
 
 Review artefacts should use `Independent Review` as the standard artefact name. Sentinel remains the current Independent Reviewer agent profile.
 
@@ -85,7 +85,8 @@ Historical decision records and initiative artefacts may retain agent names when
 ## Related Documentation
 
 - [Roles and Responsibilities](../../books/15%20Engineering%20Workflow/02%20Roles%20and%20Responsibilities.md)
-- [Engineering Role Profiles](../../agents/README.md)
+- [Roles](../../roles/README.md)
+- [Profiles](../../profiles/README.md)
 - [Workflows](../../workflows/README.md)
 - [Independent Review Template](../../templates/artefacts/Independent%20Review.Template.md)
 

@@ -10,7 +10,7 @@ That made the operating system easy to understand during early development, but 
 
 ## Objective
 
-Update the live handbook, templates and workflows so they use role names. Keep named agents in the `agents/` catalogue as role-profile implementations.
+Update the live handbook, templates and workflows so they use role names. Keep named profiles in the profiles catalogue as role-profile implementations.
 
 ## Scope
 

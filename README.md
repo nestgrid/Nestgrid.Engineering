@@ -31,7 +31,7 @@ See [Engineering Lifecycle](ENGINEERING-LIFECYCLE.md) for an overview.
 
 ## Repository Structure
 
-The operating system is organised into three conceptual areas.
+The operating system is organised into four conceptual areas.
 
 ### Knowledge
 
@@ -57,9 +57,13 @@ Reference samples demonstrating the methodology in practice.
 
 Practice defines how engineering work is performed, reviewed and repeated.
 
-`/agents`
+`/roles`
 
-Engineering role profiles that can be performed by people, agents or automation.
+Canonical engineering disciplines, responsibilities, inputs, outputs and handover expectations.
+
+`/profiles`
+
+Named implementations of roles for agent-based execution.
 
 `/workflows`
 

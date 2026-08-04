@@ -27,6 +27,7 @@ Decision records preserve context, rationale, alternatives and consequences so f
 | [ADR-002](ADR-002-adopt-engineering-operating-system-structure.md) | Adopt Engineering Operating System Structure | Architecture | Superseded | 2026-08-04 |
 | [ADR-003](ADR-003-adopt-books-and-workflows-structure.md) | Adopt Books and Workflows Structure | Architecture | Accepted | 2026-08-04 |
 | [ADR-004](ADR-004-adopt-role-based-methodology.md) | Adopt Role-Based Methodology | Architecture | Accepted | 2026-08-04 |
+| [ADR-005](ADR-005-adopt-roles-and-profiles-separation.md) | Adopt Roles and Profiles Separation | Architecture | Accepted | 2026-08-04 |
 | [TDR-001](TDR-001-number-lifecycle-artefact-directories.md) | Number Lifecycle Artefact Directories | Technical | Accepted | 2026-07-22 |
 | [TDR-002](TDR-002-establish-technology-baseline.md) | Establish Technology Baseline | Technical | Accepted | 2026-07-24 |
 

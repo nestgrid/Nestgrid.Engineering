@@ -49,24 +49,27 @@ A documentation repository, product repository, library repository and tooling r
 The Nestgrid Engineering Operating System repository uses lowercase top-level folders.
 
 ```text
-agents/
 books/
 docs/
   decisions/
   initiatives/
+roles/
+profiles/
 templates/
 samples/
 scripts/
 workflows/
 ```
 
-`agents/` contains role profiles and prompt samples for agent-based execution.
-
 `books/` contains the books that compose the Engineering Handbook.
 
 `docs/decisions/` contains decision records for the operating system.
 
 `docs/initiatives/` contains lifecycle initiatives used to evolve the operating system.
+
+`roles/` contains canonical engineering disciplines and responsibilities.
+
+`profiles/` contains named implementations of roles for agent-based execution.
 
 `templates/` contains reusable templates.
 

@@ -37,7 +37,7 @@ Summarise the documentation changes that make the Engineering Operating System m
 
 The Engineering Handbook and workflows now define the methodology using roles.
 
-The `agents/` directory now acts as the mapping layer between role-based methodology and named agent profiles.
+The profiles catalogue acts as the mapping layer between role-based methodology and named execution profiles.
 
 Sentinel remains the current Independent Reviewer agent profile, but the standard artefact is now Independent Review.
 

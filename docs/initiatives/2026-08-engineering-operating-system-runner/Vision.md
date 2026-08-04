@@ -6,11 +6,11 @@
 
 ## The Vision
 
-Imagine a workflow where, after I've finished Architecture with Gideon—or even before I become involved—the Engineering Agents continue working independently.
+Imagine a workflow where, after I've finished Architecture with Gideon—or even before I become involved—the profiles continue working independently.
 
 Sentinel continuously reviews their work.
 
-The Engineering Agent refines the solution.
+The profile refines the solution.
 
 Sentinel reviews again.
 
@@ -20,7 +20,7 @@ Only then does the work arrive for my final approval.
 
 The objective is simple:
 
-> Agents collaborate with one another without requiring my involvement until the work is genuinely ready for executive review.
+> Roles and profiles collaborate with one another without requiring my involvement until the work is genuinely ready for executive review.
 >
 
 ---
@@ -30,13 +30,13 @@ The objective is simple:
 ## Today
 
 ```
-Commander
+Project Sponsor
     │
     ▼
-Engineering Agent
+profile
     │
     ▼
-Commander
+Project Sponsor
 ```
 
 The human orchestrates every interaction.
@@ -46,43 +46,43 @@ The human orchestrates every interaction.
 ## First Evolution
 
 ```
-Commander
+Project Sponsor
     ▲
     │
 Sentinel
     ▲
     │
-Engineering Agent
+profile
 ```
 
-The Engineering Agent performs the work.
+The assigned role performs the work.
 
 Sentinel performs an independent engineering review.
 
-Commander only becomes involved after peer review has completed.
+Project Sponsor only becomes involved after peer review has completed.
 
 ---
 
 ## Second Evolution
 
 ```
-Commander
+Project Sponsor
     ▲
     │
 Sentinel
     ▲
     │
-Engineering Agent
+profile
     ▲
     │
 Codex
 ```
 
-The Engineering Agent instructs Codex.
+The selected profile instructs Codex.
 
 Sentinel reviews both the implementation and the engineering decisions.
 
-The Engineering Agent responds to the review.
+The responsible role responds to the review.
 
 The cycle repeats until Sentinel concludes:
 
@@ -142,9 +142,9 @@ ADR updated.
 
 ↓
 
-## Commander
+## Project Sponsor
 
-At this point the Commander is no longer reviewing:
+At this point the Project Sponsor is no longer reviewing:
 
 - naming
 - logging
@@ -154,7 +154,7 @@ At this point the Commander is no longer reviewing:
 
 Those responsibilities have already been discharged.
 
-Instead the Commander reviews:
+Instead the Project Sponsor reviews:
 
 - engineering direction
 - product vision
@@ -167,7 +167,7 @@ Exactly where executive review should occur.
 
 # The Engineering Lifecycle
 
-Every Engineering Agent gains an independent reviewer.
+Every role can receive independent review.
 
 ```
 Evelyn
@@ -206,7 +206,7 @@ Sentinel
 
 ↓
 
-Commander
+Project Sponsor
 ```
 
 Each lifecycle stage becomes an internal peer review.
@@ -245,7 +245,7 @@ Sentinel therefore improves:
 
 - products
 - engineering practices
-- Engineering Agents
+- profiles
 - the Engineering Handbook
 - the organisation itself
 
@@ -266,7 +266,7 @@ Instead, we create an engineering organisation with:
 - governance
 - continuous improvement
 
-The Commander no longer spends time checking commas and folder names.
+The Project Sponsor no longer spends time checking commas and folder names.
 
 The organisation has already completed that work.
 
@@ -306,7 +306,7 @@ These are fundamentally different concepts.
 
 The design is missing one component.
 
-Not another Engineering Agent.
+Not another profile.
 
 An **Orchestrator**.
 
@@ -421,7 +421,7 @@ NOT READY
 
 The Runner only understands workflow states.
 
-Engineering intelligence remains within the AI.
+Engineering intelligence remains within the responsible role or profile.
 
 Workflow remains deterministic.
 
@@ -451,7 +451,7 @@ Nobody manually coordinates the review cycle.
 
 # Machine-Readable Contracts
 
-Every Engineering Agent returns structured output.
+Every profile returns structured output.
 
 Example:
 
@@ -503,7 +503,7 @@ The Agents become the musicians.
 
 Sentinel is the critic.
 
-The Commander listens only to the final performance.
+The Project Sponsor listens only to the final performance.
 
 ---
 
@@ -535,7 +535,7 @@ The first version is surprisingly small.
 
 Features:
 
-- Register Engineering Agents
+- Register roles and profiles
 - Define workflows
 - Assign repositories
 - Execute agents
@@ -591,7 +591,7 @@ Without intending to, we have already defined much of the domain.
 
 Core concepts include:
 
-- Engineering Agent
+- profile
 - Lifecycle Stage
 - Assignment
 - Review

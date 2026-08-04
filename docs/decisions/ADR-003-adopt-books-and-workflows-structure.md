@@ -39,15 +39,16 @@ A new top-level `workflows/` directory will define repeatable operating paths.
 The top-level structure is:
 
 ```text
-agents/
+roles/
+profiles/
 books/
+workflows/
 docs/
   decisions/
   initiatives/
 templates/
 samples/
 scripts/
-workflows/
 ```
 
 Reviews are recognised as first-class engineering artefacts, but they are not introduced as a root operating-system folder yet. Product-level reviews belong in product repositories under `docs/reviews/`. Initiative-specific reviews belong in the relevant initiative's `reviews/` folder.
@@ -84,7 +85,7 @@ This was rejected for now. Those categories are useful for documentation, but ph
 
 Links to canonical handbook books must use `books/`.
 
-Reusable prompts should point Engineering Agents to `/engineering/books` when identifying the Engineering Handbook.
+Reusable prompts should point profiles to `/engineering/books` when identifying the Engineering Handbook.
 
 Workflows can now evolve as durable operating-system artefacts and later become inputs to a Runner.
 
@@ -98,7 +99,7 @@ Product repository guidance remains unchanged: product-specific handbook knowled
 ## Related Documentation
 
 - [Engineering Handbook](../../books/README.md)
-- [Engineering Agents](../../agents/README.md)
+- [Profiles](../../profiles/README.md)
 - [Workflows](../../workflows/README.md)
 - [Repository Structure](../../books/07%20Solution%20Structure/01%20Repository%20Structure.md)
 

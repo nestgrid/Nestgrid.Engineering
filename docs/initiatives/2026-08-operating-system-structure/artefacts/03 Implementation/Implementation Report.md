@@ -25,8 +25,8 @@ Summarise the repository restructure that formalises Nestgrid Engineering Operat
 
 ## Scope
 
-- Moved Engineering Agent documents into `agents/`.
-- Moved canonical handbook books into `handbook/`.
+- Moved execution guidance into `roles/` and `profiles/`.
+- Moved canonical handbook books into `books/`.
 - Left `docs/` for operating-system decisions and initiatives.
 - Updated repository navigation and links.
 - Added a structural architecture decision record.
@@ -35,8 +35,9 @@ Summarise the repository restructure that formalises Nestgrid Engineering Operat
 
 The repository now separates operating-system components clearly:
 
-- `agents/` contains Engineering Agent role documents and reusable prompts.
-- `handbook/` contains the canonical Engineering Handbook books.
+- `roles/` contains canonical engineering responsibilities.
+- `profiles/` contains named execution profiles and reusable prompt samples.
+- `books/` contains the canonical Engineering Handbook books.
 - `docs/decisions/` contains operating-system decision records.
 - `docs/initiatives/` contains operating-system lifecycle initiatives.
 - `templates/` contains reusable artefact templates.

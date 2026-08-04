@@ -22,7 +22,7 @@ They provide a standard path for common situations while allowing the Project Sp
 ## Principles
 
 - Workflows coordinate roles; they do not own engineering decisions.
-- Role profiles define responsibility.
+- Roles define responsibility; profiles define execution style.
 - The Engineering Handbook defines standards.
 - Templates define artefact shape.
 - Independent Reviews provide assurance where useful.
@@ -38,9 +38,13 @@ A future Runner should be able to execute these workflow definitions by assignin
 
 ## Navigation
 
-**Role Profiles**
+**Roles**
 
-- [Engineering Role Profiles](../agents/README.md)
+- [Roles](../roles/README.md)
+
+**Profiles**
+
+- [Profiles](../profiles/README.md)
 
 **Books**
 
