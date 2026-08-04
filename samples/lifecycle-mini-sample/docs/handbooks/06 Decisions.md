@@ -35,7 +35,7 @@ This demonstrates that architecture decisions should preserve reasoning, alterna
 ## Related Reading
 
 - [Decision Index](../decisions/README.md)
-- [Decisions Guidance](../../../../docs/06%20Decisions/README.md)
+- [Decisions Guidance](../../../../handbook/06%20Decisions/README.md)
 
 ---
 
@@ -59,4 +59,4 @@ This demonstrates that architecture decisions should preserve reasoning, alterna
 
 **Repository**
 
-- [Nestgrid.Engineering](../../../../README.md)
+- [Nestgrid Engineering Operating System](../../../../README.md)

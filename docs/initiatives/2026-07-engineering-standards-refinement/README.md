@@ -1,6 +1,6 @@
 # 2026-07 Engineering Standards Refinement
 
-This initiative captures handbook refinements discovered while applying Nestgrid.Engineering to the first real product, Nestgrid.Finance.
+This initiative captures handbook refinements discovered while applying Nestgrid Engineering Operating System to the first real product, Nestgrid.Finance.
 
 The goal is to promote repeated implementation review findings into shared engineering standards rather than persona-specific instructions.
 
@@ -34,8 +34,8 @@ No decision record was required for this initiative. The changes refine existing
 
 **Initiative Guidance**
 
-- [Initiative Artefacts](../../16%20Engineering%20Artefacts/07%20Initiative%20Artefacts.md)
+- [Initiative Artefacts](../../../handbook/16%20Engineering%20Artefacts/07%20Initiative%20Artefacts.md)
 
 **Repository**
 
-- [Nestgrid.Engineering](../../../README.md)
+- [Nestgrid Engineering Operating System](../../../README.md)

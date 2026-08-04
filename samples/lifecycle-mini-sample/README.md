@@ -26,6 +26,10 @@ Decision records that preserve important choices made during the sample.
 
 Reserved for workflow artefacts such as Product Briefs, Architecture Handovers, Architecture Recommendations, Architecture Packs and Release Reports.
 
+`/docs/reviews`
+
+Reserved for independent review artefacts such as Sentinel Reviews.
+
 `/docs/initiatives`
 
 Scoped lifecycle runs for significant features, enhancements or other engineering initiatives.
@@ -47,6 +51,10 @@ Scoped lifecycle runs for significant features, enhancements or other engineerin
 
 - [Artefact Notes](docs/artefacts/README.md)
 
+## Reviews
+
+- [Review Notes](docs/reviews/README.md)
+
 ## Initiatives
 
 - [Multi-Currency Initiative](docs/initiatives/2026-08-multi-currency/README.md)
@@ -63,7 +71,7 @@ Readers should treat it as a learning reference, not as a template that must be 
 
 **Samples Guidance**
 
-- [Samples](../../docs/14%20Samples/README.md)
+- [Samples](../../handbook/14%20Samples/README.md)
 
 **Engineering Lifecycle**
 
@@ -71,4 +79,4 @@ Readers should treat it as a learning reference, not as a template that must be 
 
 **Repository**
 
-- [Nestgrid.Engineering](../../README.md)
+- [Nestgrid Engineering Operating System](../../README.md)

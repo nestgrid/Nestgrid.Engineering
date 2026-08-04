@@ -71,7 +71,7 @@ It protects rules about title, assignee, status and completion.
 ## Related Reading
 
 - [Architecture](05%20Architecture.md)
-- [Domain Modelling Guidance](../../../../docs/04%20Domain%20Modelling/README.md)
+- [Domain Modelling Guidance](../../../../handbook/04%20Domain%20Modelling/README.md)
 
 ---
 
@@ -95,4 +95,4 @@ It protects rules about title, assignee, status and completion.
 
 **Repository**
 
-- [Nestgrid.Engineering](../../../../README.md)
+- [Nestgrid Engineering Operating System](../../../../README.md)

@@ -17,6 +17,7 @@ This folder contains reusable templates for the standard Nestgrid Engineering wo
 - [Release Readiness Report](Release%20Readiness%20Report.Template.md)
 - [Release Report](Release%20Report.Template.md)
 - [Feedback](Feedback.Template.md)
+- [Sentinel Review](Sentinel%20Review.Template.md)
 
 ## Usage
 
@@ -48,4 +49,6 @@ docs/initiatives/<yyyy-mm>-<initiative-name>/artefacts/
   07 Release/
 ```
 
-See [Engineering Artefacts](../../docs/16%20Engineering%20Artefacts/README.md) for guidance.
+Sentinel reviews should live in `docs/reviews/` for product-level reviews or inside the relevant initiative's `reviews/` folder for initiative-specific reviews.
+
+See [Engineering Artefacts](../../handbook/16%20Engineering%20Artefacts/README.md) for guidance.
