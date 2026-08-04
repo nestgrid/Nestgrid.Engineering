@@ -2,13 +2,13 @@
 
 Workflows define repeatable operating paths through the Nestgrid Engineering Operating System.
 
-They do not replace the Engineering Agents or the Engineering Handbook. They describe which agents participate, in what order, what artefacts are expected, and where review gates occur.
+They do not replace engineering roles or the Engineering Handbook. They describe which roles participate, in what order, what artefacts are expected, and where review gates occur.
 
 ## Purpose
 
 Workflows make engineering work easier to start and easier to repeat.
 
-They provide a standard path for common situations while allowing the Commander and responsible Engineering Agents to adjust scope where needed.
+They provide a standard path for common situations while allowing the Project Sponsor and responsible roles to adjust scope where needed.
 
 ## Standard Workflows
 
@@ -21,26 +21,26 @@ They provide a standard path for common situations while allowing the Commander 
 
 ## Principles
 
-- Workflows coordinate agents; they do not own engineering decisions.
-- Agent documents define role responsibility.
+- Workflows coordinate roles; they do not own engineering decisions.
+- Role profiles define responsibility.
 - The Engineering Handbook defines standards.
 - Templates define artefact shape.
-- Sentinel reviews provide independent assurance where useful.
-- The Commander remains the final approval authority.
+- Independent Reviews provide assurance where useful.
+- The Project Sponsor remains the final approval authority.
 
 ## Future Automation
 
 Workflows are the bridge toward the future Runner.
 
-A future Runner should be able to execute these workflow definitions by assigning agents, collecting artefacts, invoking Sentinel review and pausing for approval gates.
+A future Runner should be able to execute these workflow definitions by assigning roles, collecting artefacts, invoking independent review and pausing for approval gates.
 
 ---
 
 ## Navigation
 
-**Agents**
+**Role Profiles**
 
-- [Engineering Agents](../agents/README.md)
+- [Engineering Role Profiles](../agents/README.md)
 
 **Books**
 

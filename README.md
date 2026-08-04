@@ -1,6 +1,6 @@
 # Nestgrid Engineering Operating System
 
-Nestgrid Engineering Operating System defines the engineering methodology, standards, agents, templates and lifecycle practices used to design, build and maintain software within the Nestgrid ecosystem.
+Nestgrid Engineering Operating System defines the engineering methodology, standards, roles, templates and lifecycle practices used to design, build and maintain software within the Nestgrid ecosystem.
 
 It captures the complete engineering lifecycle, from understanding a business problem through to designing, implementing, testing, reviewing, deploying and operating production software.
 
@@ -59,11 +59,11 @@ Practice defines how engineering work is performed, reviewed and repeated.
 
 `/agents`
 
-Engineering agents that define lifecycle roles, responsibilities, working practices and handovers.
+Engineering role profiles that can be performed by people, agents or automation.
 
 `/workflows`
 
-Repeatable operating paths that describe which agents participate, in what order, and which artefacts or review gates are expected.
+Repeatable operating paths that describe which roles participate, in what order, and which artefacts or review gates are expected.
 
 Reviews are first-class engineering artefacts, but they remain outputs rather than a top-level operating-system folder. Product-level reviews should live in product repositories under `docs/reviews/`. Initiative-specific reviews should live inside the relevant initiative's `reviews/` folder.
 
@@ -140,7 +140,7 @@ During pure Discovery and Architecture, a repository may remain documentation-fi
 
 `docs/decisions/` contains decision records.
 
-`docs/reviews/` contains independent review artefacts, including Sentinel reviews.
+`docs/reviews/` contains independent review artefacts.
 
 `docs/initiatives/` contains lifecycle artefacts and decisions for scoped engineering initiatives such as major features, enhancements, migrations and platform work.
 

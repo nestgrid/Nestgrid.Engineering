@@ -116,7 +116,7 @@ The records themselves should remain in `docs/decisions/`.
 
 Independent review artefacts should live under `docs/reviews/`.
 
-Sentinel reviews are recognised engineering artefacts, but they are not mandatory lifecycle stage outputs.
+Independent Reviews are recognised engineering artefacts, but they are not mandatory lifecycle stage outputs.
 
 They provide independent evidence about lifecycle readiness, repository quality, unresolved findings and opportunities to improve the Engineering Handbook.
 
@@ -125,12 +125,12 @@ Use a stable date-prefixed name:
 ```text
 docs/
   reviews/
-    2026-08-03 Sentinel Review.md
+    2026-08-03 Independent Review.md
 ```
 
-Downstream Engineering Agents should review relevant Sentinel reviews before continuing work.
+Downstream roles should review relevant Independent Reviews before continuing work.
 
-Findings should be resolved, accepted or explicitly deferred by the responsible Engineering Agent.
+Findings should be resolved, accepted or explicitly deferred by the responsible role.
 
 ### Initiatives
 

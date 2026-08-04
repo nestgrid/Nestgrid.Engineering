@@ -6,8 +6,8 @@ version:
 status:
 owner:
 contributors:
-produced_by: Release
-consumed_by: Stakeholders, Operations, Engineering
+produced_by: Project Sponsor
+consumed_by: Stakeholders, Operations, Software Engineer
 date:
 supersedes:
 related_decisions:

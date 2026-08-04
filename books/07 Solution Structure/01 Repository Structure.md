@@ -60,7 +60,7 @@ scripts/
 workflows/
 ```
 
-`agents/` contains Engineering Agent role definitions and prompt samples.
+`agents/` contains role profiles and prompt samples for agent-based execution.
 
 `books/` contains the books that compose the Engineering Handbook.
 
@@ -123,7 +123,7 @@ Lifecycle artefact folders should be numbered by workflow order rather than sort
 
 `docs/decisions/` should contain decision records. The product handbook may explain how decisions are governed, but the decision records themselves should live in `docs/decisions/`.
 
-`docs/reviews/` should contain independent review artefacts, including Sentinel reviews.
+`docs/reviews/` should contain independent review artefacts.
 
 `docs/initiatives/` should contain scoped lifecycle runs for major features, enhancements, migrations, platform work and other engineering initiatives.
 

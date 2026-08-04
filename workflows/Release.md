@@ -6,11 +6,11 @@ Define the standard workflow for preparing a product or initiative for release.
 
 ## Participants
 
-1. Harper
-2. Morgan
-3. Rowan
-4. Sentinel
-5. Commander
+1. Quality Engineer
+2. Security Engineer
+3. Platform Engineer
+4. Independent Reviewer
+5. Project Sponsor
 
 ## Flow
 
@@ -19,7 +19,7 @@ Quality Review
   -> Security Review
   -> Platform Review
   -> Release Readiness Review
-  -> Commander Approval
+  -> Project Sponsor Approval
 ```
 
 ## Required Inputs
@@ -36,11 +36,11 @@ Quality Review
 - Release Report.
 - Accepted or deferred risks.
 - Operational readiness evidence.
-- Final Sentinel Review where required.
+- Final Independent Review where required.
 
 ## Approval Gates
 
-- Release approval remains with the Commander.
+- Release approval remains with the Project Sponsor.
 
 ## Notes
 

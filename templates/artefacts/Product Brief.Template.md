@@ -6,8 +6,8 @@ version:
 status:
 owner:
 contributors:
-produced_by: Product
-consumed_by: Architecture
+produced_by: Product Owner
+consumed_by: Solution Architect
 date:
 supersedes:
 related_decisions:

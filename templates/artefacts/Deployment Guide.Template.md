@@ -6,8 +6,8 @@ version:
 status:
 owner:
 contributors:
-produced_by: Platform
-consumed_by: Operations, Release
+produced_by: Platform Engineer
+consumed_by: Operations, Project Sponsor
 date:
 supersedes:
 related_decisions:

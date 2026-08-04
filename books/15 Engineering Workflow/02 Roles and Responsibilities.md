@@ -14,9 +14,20 @@ The workflow may be followed by human specialists, AI assistants or a combinatio
 
 The role matters more than who performs it.
 
-### Product
+### Project Sponsor
 
-Product owns discovery and product intent.
+The Project Sponsor owns approval authority, business direction and final arbitration.
+
+Typical responsibilities:
+
+- Approve stage transitions
+- Accept or reject material risk
+- Clarify priorities where roles disagree
+- Confirm release readiness
+
+### Product Owner
+
+The Product Owner owns discovery and product intent.
 
 Typical output:
 
@@ -25,9 +36,9 @@ Typical output:
 - Business Requirements
 - Acceptance Criteria
 
-### Architecture
+### Solution Architect
 
-Architecture owns solution design and technical direction.
+The Solution Architect owns solution design and technical direction.
 
 Typical output:
 
@@ -36,9 +47,9 @@ Typical output:
 - ADRs
 - Technical Risk Assessment
 
-### Engineering
+### Software Engineer
 
-Engineering owns implementation.
+The Software Engineer owns implementation.
 
 Typical output:
 
@@ -46,9 +57,9 @@ Typical output:
 - Implementation Report
 - Engineering Feedback
 
-### Quality
+### Quality Engineer
 
-Quality owns confidence that the solution behaves correctly and satisfies requirements.
+The Quality Engineer owns confidence that the solution behaves correctly and satisfies requirements.
 
 Typical output:
 
@@ -56,9 +67,9 @@ Typical output:
 - Test Plan
 - Release Readiness Report
 
-### Security
+### Security Engineer
 
-Security owns assessment of how the solution can be compromised and how risk should be reduced.
+The Security Engineer owns assessment of how the solution can be compromised and how risk should be reduced.
 
 Typical output:
 
@@ -66,9 +77,9 @@ Typical output:
 - Threat Model
 - Vulnerability Report
 
-### Platform
+### Platform Engineer
 
-Platform owns deployability, observability, reliability and operational sustainability.
+The Platform Engineer owns deployability, observability, reliability and operational sustainability.
 
 Typical output:
 
@@ -76,11 +87,22 @@ Typical output:
 - Operational Readiness Review
 - Operations Runbook
 
+### Independent Reviewer
+
+The Independent Reviewer owns independent assurance across lifecycle stages.
+
+Typical output:
+
+- Independent Review
+- Review Findings
+- Lifecycle Feedback
+- Handbook Feedback
+
 ## Key Takeaways
 
 - Each role has a distinct responsibility.
 - Roles communicate through artefacts.
-- Artefacts may be produced by people or assistants.
+- Artefacts may be produced by people, agents or automation.
 - Role boundaries reduce overlap and confusion.
 
 ## Related Reading

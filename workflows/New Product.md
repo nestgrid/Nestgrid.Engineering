@@ -6,17 +6,17 @@ Define the standard workflow for taking a new product from initial discovery thr
 
 ## Participants
 
-1. Evelyn
-2. Sentinel
-3. Gideon
-4. Sentinel
-5. Mason
-6. Sentinel
-7. Harper
-8. Morgan
-9. Rowan
-10. Sentinel
-11. Commander
+1. Product Owner
+2. Independent Reviewer
+3. Solution Architect
+4. Independent Reviewer
+5. Software Engineer
+6. Independent Reviewer
+7. Quality Engineer
+8. Security Engineer
+9. Platform Engineer
+10. Independent Reviewer
+11. Project Sponsor
 
 ## Flow
 
@@ -31,7 +31,7 @@ Discovery
   -> Security
   -> Platform
   -> Release Readiness Review
-  -> Commander Approval
+  -> Project Sponsor Approval
 ```
 
 ## Required Inputs
@@ -53,14 +53,14 @@ Discovery
 - Security Assessment.
 - Deployment Guide or Operational Readiness Review.
 - Release Report.
-- Sentinel Reviews where review evidence is required.
+- Independent Reviews where review evidence is required.
 
 ## Approval Gates
 
 - Discovery approval before Architecture.
 - Architecture recommendation approval before Architecture execution.
 - Engineering recommendation approval before implementation.
-- Final release approval by the Commander.
+- Final release approval by the Project Sponsor.
 
 ## Notes
 

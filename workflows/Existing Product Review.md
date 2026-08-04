@@ -6,19 +6,19 @@ Define the standard workflow for assessing an existing product against the Nestg
 
 ## Participants
 
-1. Sentinel
-2. Relevant Engineering Agent
-3. Sentinel
-4. Commander
+1. Independent Reviewer
+2. Relevant lifecycle role
+3. Independent Reviewer
+4. Project Sponsor
 
 ## Flow
 
 ```text
 Repository Review
   -> Findings
-  -> Responsible Agent Response
+  -> Responsible Role Response
   -> Follow-up Review
-  -> Commander Decision
+  -> Project Sponsor Decision
 ```
 
 ## Required Inputs
@@ -26,19 +26,19 @@ Repository Review
 - Product repository.
 - Current product artefacts.
 - Current decision records.
-- Existing Sentinel reviews where present.
+- Existing Independent Reviews where present.
 
 ## Expected Outputs
 
-- Sentinel Review.
+- Independent Review.
 - Product feedback.
 - Engineering Handbook feedback where relevant.
 - Lifecycle feedback where relevant.
-- Follow-up actions assigned to responsible agents.
+- Follow-up actions assigned to responsible roles.
 
 ## Approval Gates
 
-- Commander decides whether findings should be fixed, accepted, deferred or converted into an initiative.
+- Project Sponsor decides whether findings should be fixed, accepted, deferred or converted into an initiative.
 
 ## Notes
 

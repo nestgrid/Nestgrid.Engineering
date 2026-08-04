@@ -6,7 +6,7 @@
 
 New product Discovery bootstrap defines the minimum documentation set needed when starting a product repository with no existing product handbook or lifecycle artefacts.
 
-It gives Discovery agents and engineers a consistent starting sequence without requiring them to assemble the process from several handbook pages.
+It gives Product Owners and engineers a consistent starting sequence without requiring them to assemble the process from several handbook pages.
 
 ## Guidance
 

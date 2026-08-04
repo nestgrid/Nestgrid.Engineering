@@ -6,11 +6,11 @@ Define the standard workflow for urgent corrective work.
 
 ## Participants
 
-1. Mason
-2. Harper
-3. Morgan or Rowan where relevant
-4. Sentinel where time permits
-5. Commander
+1. Software Engineer
+2. Quality Engineer
+3. Security Engineer or Platform Engineer where relevant
+4. Independent Reviewer where time permits
+5. Project Sponsor
 
 ## Flow
 
@@ -40,7 +40,7 @@ Problem Confirmation
 
 ## Approval Gates
 
-- Commander approval is required when the hotfix affects production behaviour, data integrity, security, availability or customer-facing workflows.
+- Project Sponsor approval is required when the hotfix affects production behaviour, data integrity, security, availability or customer-facing workflows.
 
 ## Notes
 

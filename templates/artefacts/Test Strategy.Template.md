@@ -6,8 +6,8 @@ version:
 status:
 owner:
 contributors:
-produced_by: Quality
-consumed_by: Engineering, Security, Release
+produced_by: Quality Engineer
+consumed_by: Software Engineer, Security Engineer, Project Sponsor
 date:
 supersedes:
 related_decisions:

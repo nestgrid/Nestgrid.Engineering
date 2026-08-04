@@ -6,8 +6,8 @@ version:
 status:
 owner:
 contributors:
-produced_by: Architecture
-consumed_by: Product, Engineering
+produced_by: Solution Architect
+consumed_by: Project Sponsor, Software Engineer
 date:
 supersedes:
 related_decisions:

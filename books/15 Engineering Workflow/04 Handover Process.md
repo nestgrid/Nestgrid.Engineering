@@ -46,11 +46,11 @@ Feedback should explain the concern, impact and recommended next action.
 
 ### Include Review History
 
-Where Sentinel reviews exist, they should be treated as part of the handover context.
+Where Independent Reviews exist, they should be treated as part of the handover context.
 
-The next Engineering Agent should not need review comments copied from a chat.
+The next responsible role should not need review comments copied from a chat.
 
-Relevant Sentinel reviews should live in `docs/reviews/` or in the relevant initiative's `reviews/` folder.
+Relevant Independent Reviews should live in `docs/reviews/` or in the relevant initiative's `reviews/` folder.
 
 Open findings should be resolved, accepted or explicitly deferred before a downstream handover depends on them.
 
@@ -60,7 +60,7 @@ Open findings should be resolved, accepted or explicitly deferred before a downs
 - Approved artefacts are the primary handover input.
 - Approval artefacts and handover artefacts may be separate.
 - Metadata supports traceability.
-- Sentinel reviews should be included in handover context where they exist.
+- Independent Reviews should be included in handover context where they exist.
 - Feedback artefacts make blockers visible.
 
 ## Related Reading

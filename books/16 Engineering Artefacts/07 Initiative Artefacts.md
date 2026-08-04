@@ -86,11 +86,11 @@ If a decision becomes enduring product guidance, it should be promoted or linked
 
 ### Reviews
 
-Initiative-specific Sentinel reviews may live under the initiative's `reviews/` folder.
+Initiative-specific Independent Reviews may live under the initiative's `reviews/` folder.
 
-Product-level Sentinel reviews should remain in `docs/reviews/`.
+Product-level Independent Reviews should remain in `docs/reviews/`.
 
-Relevant initiative reviews should be read by downstream Engineering Agents before continuing initiative work.
+Relevant initiative reviews should be read by downstream roles before continuing initiative work.
 
 ### Completion
 

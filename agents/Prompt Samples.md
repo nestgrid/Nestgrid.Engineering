@@ -23,7 +23,7 @@ Understand the problem domain, identify stakeholders, establish the product visi
 
 Read all relevant documentation before responding.
 
-Read relevant Sentinel reviews from `docs/reviews/` and initiative `reviews/` folders where they exist.
+Read relevant Independent Reviews from `docs/reviews/` and initiative `reviews/` folders where they exist.
 
 Treat approved documentation as authoritative.
 
@@ -61,7 +61,7 @@ Assess the completeness, clarity and consistency of the existing Discovery artef
 
 Read all relevant documentation before responding.
 
-Read relevant Sentinel reviews from `docs/reviews/` and initiative `reviews/` folders where they exist.
+Read relevant Independent Reviews from `docs/reviews/` and initiative `reviews/` folders where they exist.
 
 Treat approved documentation as authoritative.
 
@@ -137,7 +137,7 @@ Assess the completeness, clarity and consistency of the existing Architecture ar
 
 Read all relevant documentation before responding.
 
-Read relevant Sentinel reviews from `docs/reviews/` and initiative `reviews/` folders where they exist.
+Read relevant Independent Reviews from `docs/reviews/` and initiative `reviews/` folders where they exist.
 
 Treat approved documentation as authoritative.
 
@@ -175,7 +175,7 @@ Prepare the engineering implementation strategy, ensure the approved Architectur
 
 Read all relevant documentation before responding.
 
-Read relevant Sentinel reviews from `docs/reviews/` and initiative `reviews/` folders where they exist.
+Read relevant Independent Reviews from `docs/reviews/` and initiative `reviews/` folders where they exist.
 
 Treat approved documentation as authoritative.
 
@@ -217,7 +217,7 @@ Assess the completeness, clarity and consistency of the engineering implementati
 
 Read all relevant documentation before responding.
 
-Read relevant Sentinel reviews from `docs/reviews/` and initiative `reviews/` folders where they exist.
+Read relevant Independent Reviews from `docs/reviews/` and initiative `reviews/` folders where they exist.
 
 Treat approved documentation as authoritative.
 
@@ -257,7 +257,7 @@ Validate that the implemented solution satisfies the approved requirements, arch
 
 Read all relevant documentation before responding.
 
-Read relevant Sentinel reviews from `docs/reviews/` and initiative `reviews/` folders where they exist.
+Read relevant Independent Reviews from `docs/reviews/` and initiative `reviews/` folders where they exist.
 
 Treat approved documentation as authoritative.
 
@@ -295,7 +295,7 @@ Assess the completeness of the quality validation, identify gaps in testing or c
 
 Read all relevant documentation before responding.
 
-Read relevant Sentinel reviews from `docs/reviews/` and initiative `reviews/` folders where they exist.
+Read relevant Independent Reviews from `docs/reviews/` and initiative `reviews/` folders where they exist.
 
 Treat approved documentation as authoritative.
 
@@ -333,7 +333,7 @@ Assess the solution's security posture, validate compliance with security princi
 
 Read all relevant documentation before responding.
 
-Read relevant Sentinel reviews from `docs/reviews/` and initiative `reviews/` folders where they exist.
+Read relevant Independent Reviews from `docs/reviews/` and initiative `reviews/` folders where they exist.
 
 Treat approved documentation as authoritative.
 
@@ -371,7 +371,7 @@ Assess the completeness of the security assessment, identify security gaps or ri
 
 Read all relevant documentation before responding.
 
-Read relevant Sentinel reviews from `docs/reviews/` and initiative `reviews/` folders where they exist.
+Read relevant Independent Reviews from `docs/reviews/` and initiative `reviews/` folders where they exist.
 
 Treat approved documentation as authoritative.
 
@@ -409,7 +409,7 @@ Prepare the solution for reliable operation, deployment and support, validate op
 
 Read all relevant documentation before responding.
 
-Read relevant Sentinel reviews from `docs/reviews/` and initiative `reviews/` folders where they exist.
+Read relevant Independent Reviews from `docs/reviews/` and initiative `reviews/` folders where they exist.
 
 Treat approved documentation as authoritative.
 
@@ -447,7 +447,7 @@ Assess the completeness of the platform readiness, identify operational gaps or 
 
 Read all relevant documentation before responding.
 
-Read relevant Sentinel reviews from `docs/reviews/` and initiative `reviews/` folders where they exist.
+Read relevant Independent Reviews from `docs/reviews/` and initiative `reviews/` folders where they exist.
 
 Treat approved documentation as authoritative.
 
@@ -489,13 +489,13 @@ Assess the repository against the Engineering Handbook, approved lifecycle artef
 
 Identify strengths, risks, missing artefacts, lifecycle drift and opportunities for improvement.
 
-Produce a formal Sentinel Review using the standard Engineering Handbook artefact template.
+Produce a formal Independent Review using the standard Engineering Handbook artefact template.
 
 If the review is product-level, place it under `docs/reviews/`.
 
 If the review is initiative-specific, place it under the initiative's `reviews/` folder.
 
-Prioritise findings and provide enough context for the responsible Engineering Agent to resolve, accept or explicitly defer each finding without needing chat history.
+Prioritise findings and provide enough context for the responsible role to resolve, accept or explicitly defer each finding without needing chat history.
 
 Clearly distinguish:
 

@@ -67,7 +67,7 @@ tools/          optional
 
 `docs/decisions/` contains decision records.
 
-`docs/reviews/` contains independent review artefacts, including Sentinel reviews.
+`docs/reviews/` contains independent review artefacts.
 
 `docs/initiatives/` contains scoped lifecycle runs for major features, enhancements, migrations, platform work and other engineering initiatives.
 
@@ -102,7 +102,7 @@ tools/          optional
 - Keep handbook pages, artefacts and decision records separate.
 - Decision governance belongs in the handbook.
 - Decision records belong in `docs/decisions/`.
-- Sentinel reviews belong in `docs/reviews/`.
+- Independent Reviews belong in `docs/reviews/`.
 - Initiative artefacts belong with the initiative under `docs/initiatives/`.
 - Optional folders should be added only when they have a clear purpose.
 

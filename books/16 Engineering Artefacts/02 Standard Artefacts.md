@@ -14,15 +14,15 @@ Teams may add specialist artefacts when needed, but should not bypass the standa
 
 ## Artefact Set
 
-| Stage | Owner | Primary Artefact | Main Consumer |
+| Stage | Owner Role | Primary Artefact | Main Consumer Role |
 | --- | --- | --- | --- |
-| Discovery | Product | Product Brief / Architecture Handover | Architecture |
-| Architecture | Architecture | Architecture Recommendation / Architecture Pack | Engineering |
-| Implementation | Engineering | Implementation Plan / Report | Quality, Security |
-| Quality | Quality | Test Strategy / Release Readiness Report | Release, Engineering |
-| Security | Security | Security Assessment | Release, Engineering, Platform |
-| Platform | Platform | Deployment Guide / Operational Readiness Review | Operations, Release |
-| Release | Delivery | Release Report | Stakeholders, Operations |
+| Discovery | Product Owner | Product Brief / Architecture Handover | Solution Architect |
+| Architecture | Solution Architect | Architecture Recommendation / Architecture Pack | Software Engineer |
+| Implementation | Software Engineer | Implementation Plan / Report | Quality Engineer, Security Engineer |
+| Quality | Quality Engineer | Test Strategy / Release Readiness Report | Project Sponsor, Software Engineer |
+| Security | Security Engineer | Security Assessment | Project Sponsor, Software Engineer, Platform Engineer |
+| Platform | Platform Engineer | Deployment Guide / Operational Readiness Review | Project Sponsor, Operations |
+| Release | Project Sponsor | Release Report | Stakeholders, Operations |
 
 ### Feedback Artefacts
 
@@ -41,15 +41,15 @@ Common examples:
 
 Review artefacts should be used when independent review adds useful lifecycle evidence.
 
-Sentinel Review is the standard artefact for independent Sentinel reviews.
+Independent Review is the standard artefact for independent reviews.
 
-Sentinel reviews are recognised but not mandatory.
+Independent Reviews are recognised but not mandatory.
 
 They may review a lifecycle stage, repository, product, decision, implementation, release readiness or handbook compliance.
 
-Relevant Sentinel reviews should be read by downstream Engineering Agents during their Review step.
+Relevant Independent Reviews should be read by downstream roles during their Review step.
 
-Findings should be resolved, accepted or explicitly deferred by the responsible Engineering Agent.
+Findings should be resolved, accepted or explicitly deferred by the responsible role.
 
 ### Template Location
 
@@ -69,13 +69,13 @@ It answers:
 
 > What have we discovered?
 
-Once the Product Brief is approved, Product should produce an Architecture Handover as the final act of Discovery.
+Once the Product Brief is approved, the Product Owner should produce an Architecture Handover as the final act of Discovery.
 
 The Architecture Handover answers:
 
 > What should Architecture do next?
 
-Architecture should receive both artefacts:
+The Solution Architect should receive both artefacts:
 
 - Product Brief
 - Architecture Handover
@@ -101,7 +101,7 @@ Once approved, Architecture should produce the Architecture Pack and related Arc
 - The Architecture Handover is the final Discovery handover to Architecture.
 - Architecture Recommendation provides approval before Architecture Execute.
 - Feedback artefacts make concerns explicit.
-- Sentinel reviews provide independent review history where used.
+- Independent Reviews provide independent review history where used.
 - Templates provide consistent structure.
 - Completed artefacts belong with the product repository.
 

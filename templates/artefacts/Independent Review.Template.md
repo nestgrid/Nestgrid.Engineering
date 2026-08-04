@@ -1,13 +1,13 @@
-# Sentinel Review
+# Independent Review
 
 ```yaml
 title:
 version:
 status:
-owner: Sentinel
+owner: Independent Reviewer
 contributors:
 produced_by: Review
-consumed_by: Product, Architecture, Engineering, Quality, Security, Platform
+consumed_by: Product Owner, Solution Architect, Software Engineer, Quality Engineer, Security Engineer, Platform Engineer, Project Sponsor
 date:
 supersedes:
 related_decisions:
@@ -44,7 +44,7 @@ Prioritise findings by severity or urgency.
 
 | ID | Severity | Finding | Impact | Recommendation | Owner | Status |
 | --- | --- | --- | --- | --- | --- | --- |
-| SR-001 |  |  |  |  |  |  |
+| IR-001 |  |  |  |  |  |  |
 
 ## Lifecycle Feedback
 
@@ -64,7 +64,7 @@ List risks that have been accepted or deferred.
 
 ## Follow-up Actions
 
-List actions that should be picked up by the responsible Engineering Agent.
+List actions that should be picked up by the responsible role.
 
 | Action | Owner | Target Stage | Status |
 | --- | --- | --- | --- |
@@ -83,4 +83,4 @@ Examples:
 
 ## Next Review
 
-Recommend whether another Sentinel review is needed and when.
+Recommend whether another Independent Review is needed and when.

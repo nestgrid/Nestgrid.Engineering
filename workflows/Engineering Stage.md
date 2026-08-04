@@ -6,12 +6,12 @@ Define the standard workflow for moving approved Architecture into implementatio
 
 ## Participants
 
-1. Mason
-2. Sentinel
-3. Harper
-4. Morgan
-5. Rowan
-6. Commander
+1. Software Engineer
+2. Independent Reviewer
+3. Quality Engineer
+4. Security Engineer
+5. Platform Engineer
+6. Project Sponsor
 
 ## Flow
 
@@ -23,14 +23,14 @@ Implementation Recommendation
   -> Quality
   -> Security
   -> Platform
-  -> Commander Decision
+  -> Project Sponsor Decision
 ```
 
 ## Required Inputs
 
 - Approved Architecture Pack.
 - Relevant decision records.
-- Existing Sentinel reviews.
+- Existing Independent Reviews.
 - Engineering Handbook.
 - Product repository.
 
@@ -41,12 +41,12 @@ Implementation Recommendation
 - Production code.
 - Automated tests.
 - Implementation Report.
-- Sentinel Review where review evidence is required.
+- Independent Review where review evidence is required.
 
 ## Approval Gates
 
-- Mason should wait for approval before moving beyond Recommend.
-- Material Sentinel findings should be resolved, accepted or deferred before Quality handover.
+- The Software Engineer should wait for approval before moving beyond Recommend.
+- Material independent review findings should be resolved, accepted or deferred before Quality handover.
 
 ## Notes
 

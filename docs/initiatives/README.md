@@ -7,6 +7,7 @@ Initiatives capture delivery evidence without mixing initiative-specific artefac
 ## Initiatives
 
 - [2026-08 Books and Workflows Structure](2026-08-books-and-workflows-structure/README.md)
+- [2026-08 Role-Based Methodology](2026-08-role-based-methodology/README.md)
 - [2026-08 Engineering Operating System Runner](2026-08-engineering-operating-system-runner/README.md)
 - [2026-08 Operating System Structure](2026-08-operating-system-structure/README.md)
 - [2026-08 Sentinel Review Artefacts](2026-08-sentinel-review-artefacts/README.md)

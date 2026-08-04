@@ -10,7 +10,7 @@ Review gates define the points where work should be checked before moving to the
 
 Review gates should improve clarity and confidence without becoming unnecessary bureaucracy.
 
-Where Sentinel reviews exist, review gates should consider unresolved Sentinel findings.
+Where Independent Reviews exist, review gates should consider unresolved independent review findings.
 
 Findings do not automatically block progress, but they should be resolved, accepted or explicitly deferred.
 
@@ -80,7 +80,7 @@ Primary artefact:
 - Each gate should have a clear primary artefact.
 - Gates should scale with risk and complexity.
 - Review should produce clear approval, feedback or deferral.
-- Sentinel findings should have clear disposition where they affect stage readiness.
+- Independent review findings should have clear disposition where they affect stage readiness.
 
 ## Related Reading
 
