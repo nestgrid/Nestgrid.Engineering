@@ -71,7 +71,7 @@ Readers should treat it as a learning reference, not as a template that must be 
 
 **Samples Guidance**
 
-- [Samples](../../handbook/14%20Samples/README.md)
+- [Samples](../../books/14%20Samples/README.md)
 
 **Engineering Lifecycle**
 

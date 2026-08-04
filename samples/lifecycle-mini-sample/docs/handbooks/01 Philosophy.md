@@ -36,7 +36,7 @@ Advanced automation, custom workflows and deep integrations are intentionally de
 ## Related Reading
 
 - [Language](02%20Language.md)
-- [Philosophy Guidance](../../../../handbook/01%20Philosophy/README.md)
+- [Philosophy Guidance](../../../../books/01%20Philosophy/README.md)
 
 ---
 

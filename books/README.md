@@ -1,8 +1,8 @@
-# Engineering Handbook
+# Books
 
-The Engineering Handbook is the canonical standards and methodology component of the Nestgrid Engineering Operating System.
+The books in this directory form the Engineering Handbook.
 
-It defines how Nestgrid engineering work is discovered, designed, structured, implemented, tested, deployed, operated, documented and handed over.
+The Engineering Handbook is the canonical standards and methodology component of the Nestgrid Engineering Operating System. It defines how Nestgrid engineering work is discovered, designed, structured, implemented, tested, deployed, operated, documented and handed over.
 
 ## Books
 

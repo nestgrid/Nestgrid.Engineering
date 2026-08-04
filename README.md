@@ -10,42 +10,36 @@ Although developed for Nestgrid products, the methodology is technology-agnostic
 
 The methodology follows a structured engineering lifecycle.
 
-1. [Philosophy](handbook/01%20Philosophy/README.md)
-2. [Language](handbook/02%20Language/README.md)
-3. [Discovery](handbook/03%20Discovery/README.md)
-4. [Domain Modelling](handbook/04%20Domain%20Modelling/README.md)
-5. [Architecture](handbook/05%20Architecture/README.md)
-6. [Decisions](handbook/06%20Decisions/README.md)
-7. [Solution Structure](handbook/07%20Solution%20Structure/README.md)
-8. [Engineering Standards](handbook/08%20Engineering%20Standards/README.md)
-9. [Testing](handbook/09%20Testing/README.md)
-10. [Deployment](handbook/10%20Deployment/README.md)
-11. [Operations](handbook/11%20Operations/README.md)
-12. [Documentation](handbook/12%20Documentation/README.md)
-13. [Templates](handbook/13%20Templates/README.md)
-14. [Samples](handbook/14%20Samples/README.md)
-15. [Engineering Workflow](handbook/15%20Engineering%20Workflow/README.md)
-16. [Engineering Artefacts](handbook/16%20Engineering%20Artefacts/README.md)
+1. [Philosophy](books/01%20Philosophy/README.md)
+2. [Language](books/02%20Language/README.md)
+3. [Discovery](books/03%20Discovery/README.md)
+4. [Domain Modelling](books/04%20Domain%20Modelling/README.md)
+5. [Architecture](books/05%20Architecture/README.md)
+6. [Decisions](books/06%20Decisions/README.md)
+7. [Solution Structure](books/07%20Solution%20Structure/README.md)
+8. [Engineering Standards](books/08%20Engineering%20Standards/README.md)
+9. [Testing](books/09%20Testing/README.md)
+10. [Deployment](books/10%20Deployment/README.md)
+11. [Operations](books/11%20Operations/README.md)
+12. [Documentation](books/12%20Documentation/README.md)
+13. [Templates](books/13%20Templates/README.md)
+14. [Samples](books/14%20Samples/README.md)
+15. [Engineering Workflow](books/15%20Engineering%20Workflow/README.md)
+16. [Engineering Artefacts](books/16%20Engineering%20Artefacts/README.md)
 
 See [Engineering Lifecycle](ENGINEERING-LIFECYCLE.md) for an overview.
 
 ## Repository Structure
 
-`/agents`
+The operating system is organised into three conceptual areas.
 
-Engineering agents that define lifecycle roles, responsibilities, working practices and handovers.
+### Knowledge
 
-`/handbook`
+Knowledge defines the standards, reusable artefacts and reference examples used by the operating system.
 
-Canonical handbook guidance for each stage of the engineering lifecycle.
+`/books`
 
-`/docs/decisions`
-
-Decision records for the Nestgrid Engineering Operating System.
-
-`/docs/initiatives`
-
-Lifecycle initiatives used to evolve the Nestgrid Engineering Operating System.
+The Engineering Handbook. The handbook is the concept; the numbered directories under `books/` are the individual handbook books.
 
 `/templates`
 
@@ -58,6 +52,38 @@ Reusable templates for standard engineering workflow artefacts.
 `/samples`
 
 Reference samples demonstrating the methodology in practice.
+
+### Practice
+
+Practice defines how engineering work is performed, reviewed and repeated.
+
+`/agents`
+
+Engineering agents that define lifecycle roles, responsibilities, working practices and handovers.
+
+`/workflows`
+
+Repeatable operating paths that describe which agents participate, in what order, and which artefacts or review gates are expected.
+
+Reviews are first-class engineering artefacts, but they remain outputs rather than a top-level operating-system folder. Product-level reviews should live in product repositories under `docs/reviews/`. Initiative-specific reviews should live inside the relevant initiative's `reviews/` folder.
+
+### Records
+
+`/docs/decisions`
+
+Decision records for the Nestgrid Engineering Operating System.
+
+`/docs/initiatives`
+
+Lifecycle initiatives used to evolve the Nestgrid Engineering Operating System.
+
+### Automation
+
+Automation contains scripts and, in future, executable orchestration capabilities.
+
+`/scripts`
+
+Repository automation and validation scripts.
 
 ## Product Repository Convention
 

@@ -10,7 +10,7 @@ Engineering Operating System:
 /engineering
 
 Engineering Handbook:
-/engineering/handbook
+/engineering/books
 
 Engineering Agent:
 /engineering/agents/Evelyn.md
@@ -48,7 +48,7 @@ Engineering Operating System:
 /engineering
 
 Engineering Handbook:
-/engineering/handbook
+/engineering/books
 
 Engineering Agent:
 /engineering/agents/Evelyn.md
@@ -86,7 +86,7 @@ Engineering Operating System:
 /engineering
 
 Engineering Handbook:
-/engineering/handbook
+/engineering/books
 
 Engineering Agent:
 /engineering/agents/Gideon.md
@@ -124,7 +124,7 @@ Engineering Operating System:
 /engineering
 
 Engineering Handbook:
-/engineering/handbook
+/engineering/books
 
 Engineering Agent:
 /engineering/agents/Gideon.md
@@ -162,7 +162,7 @@ Engineering Operating System:
 /engineering
 
 Engineering Handbook:
-/engineering/handbook
+/engineering/books
 
 Engineering Agent:
 /engineering/agents/Mason.md
@@ -204,7 +204,7 @@ Engineering Operating System:
 /engineering
 
 Engineering Handbook:
-/engineering/handbook
+/engineering/books
 
 Engineering Agent:
 /engineering/agents/Mason.md
@@ -244,7 +244,7 @@ Engineering Operating System:
 /engineering
 
 Engineering Handbook:
-/engineering/handbook
+/engineering/books
 
 Engineering Agent:
 /engineering/agents/Harper.md
@@ -282,7 +282,7 @@ Engineering Operating System:
 /engineering
 
 Engineering Handbook:
-/engineering/handbook
+/engineering/books
 
 Engineering Agent:
 /engineering/agents/Harper.md
@@ -320,7 +320,7 @@ Engineering Operating System:
 /engineering
 
 Engineering Handbook:
-/engineering/handbook
+/engineering/books
 
 Engineering Agent:
 /engineering/agents/Morgan.md
@@ -358,7 +358,7 @@ Engineering Operating System:
 /engineering
 
 Engineering Handbook:
-/engineering/handbook
+/engineering/books
 
 Engineering Agent:
 /engineering/agents/Morgan.md
@@ -396,7 +396,7 @@ Engineering Operating System:
 /engineering
 
 Engineering Handbook:
-/engineering/handbook
+/engineering/books
 
 Engineering Agent:
 /engineering/agents/Rowan.md
@@ -434,7 +434,7 @@ Engineering Operating System:
 /engineering
 
 Engineering Handbook:
-/engineering/handbook
+/engineering/books
 
 Engineering Agent:
 /engineering/agents/Rowan.md
@@ -470,7 +470,7 @@ Engineering Operating System:
 /engineering
 
 Engineering Handbook:
-/engineering/handbook
+/engineering/books
 
 Reviewer:
 /engineering/agents/Sentinel.md

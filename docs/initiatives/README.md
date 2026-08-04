@@ -6,6 +6,7 @@ Initiatives capture delivery evidence without mixing initiative-specific artefac
 
 ## Initiatives
 
+- [2026-08 Books and Workflows Structure](2026-08-books-and-workflows-structure/README.md)
 - [2026-08 Engineering Operating System Runner](2026-08-engineering-operating-system-runner/README.md)
 - [2026-08 Operating System Structure](2026-08-operating-system-structure/README.md)
 - [2026-08 Sentinel Review Artefacts](2026-08-sentinel-review-artefacts/README.md)
@@ -19,7 +20,7 @@ Initiatives capture delivery evidence without mixing initiative-specific artefac
 
 **Initiative Guidance**
 
-- [Initiative Artefacts](../../handbook/16%20Engineering%20Artefacts/07%20Initiative%20Artefacts.md)
+- [Initiative Artefacts](../../books/16%20Engineering%20Artefacts/07%20Initiative%20Artefacts.md)
 
 **Repository**
 

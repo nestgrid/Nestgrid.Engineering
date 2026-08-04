@@ -16,4 +16,4 @@ Each initiative may contain its own artefacts and decisions without mixing them 
 
 **Initiative Artefacts**
 
-- [Initiative Artefacts](../../../../handbook/16%20Engineering%20Artefacts/07%20Initiative%20Artefacts.md)
+- [Initiative Artefacts](../../../../books/16%20Engineering%20Artefacts/07%20Initiative%20Artefacts.md)

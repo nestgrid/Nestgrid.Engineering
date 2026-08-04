@@ -71,7 +71,7 @@ It protects rules about title, assignee, status and completion.
 ## Related Reading
 
 - [Architecture](05%20Architecture.md)
-- [Domain Modelling Guidance](../../../../handbook/04%20Domain%20Modelling/README.md)
+- [Domain Modelling Guidance](../../../../books/04%20Domain%20Modelling/README.md)
 
 ---
 

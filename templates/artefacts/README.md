@@ -51,4 +51,4 @@ docs/initiatives/<yyyy-mm>-<initiative-name>/artefacts/
 
 Sentinel reviews should live in `docs/reviews/` for product-level reviews or inside the relevant initiative's `reviews/` folder for initiative-specific reviews.
 
-See [Engineering Artefacts](../../handbook/16%20Engineering%20Artefacts/README.md) for guidance.
+See [Engineering Artefacts](../../books/16%20Engineering%20Artefacts/README.md) for guidance.

@@ -44,6 +44,38 @@ The exact structure should reflect the repository's purpose.
 
 A documentation repository, product repository, library repository and tooling repository may need different root folders.
 
+### Nestgrid Engineering Operating System Structure
+
+The Nestgrid Engineering Operating System repository uses lowercase top-level folders.
+
+```text
+agents/
+books/
+docs/
+  decisions/
+  initiatives/
+templates/
+samples/
+scripts/
+workflows/
+```
+
+`agents/` contains Engineering Agent role definitions and prompt samples.
+
+`books/` contains the books that compose the Engineering Handbook.
+
+`docs/decisions/` contains decision records for the operating system.
+
+`docs/initiatives/` contains lifecycle initiatives used to evolve the operating system.
+
+`templates/` contains reusable templates.
+
+`samples/` contains examples of the operating system in use.
+
+`scripts/` contains repository automation.
+
+`workflows/` contains repeatable operating paths through the system.
+
 ### Separate Handbook and Artefacts
 
 Product repositories should separate long-lived product knowledge from lifecycle artefacts.
@@ -105,6 +137,7 @@ Optional folders such as `samples/`, `assets/`, `scripts/`, `tools/` and `.githu
 - Independent reviews should be durable repository artefacts.
 - Root clutter should be avoided.
 - Structure should match repository purpose.
+- Operating-system folders should remain lowercase.
 - Handbook content and lifecycle artefacts should be separated in product repositories.
 
 ## Related Reading

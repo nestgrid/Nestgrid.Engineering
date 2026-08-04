@@ -62,7 +62,7 @@ Excluded:
 ## Related Reading
 
 - [Domain Modelling](04%20Domain%20Modelling.md)
-- [Discovery Guidance](../../../../handbook/03%20Discovery/README.md)
+- [Discovery Guidance](../../../../books/03%20Discovery/README.md)
 
 ---
 

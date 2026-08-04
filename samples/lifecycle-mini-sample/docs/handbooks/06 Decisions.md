@@ -35,7 +35,7 @@ This demonstrates that architecture decisions should preserve reasoning, alterna
 ## Related Reading
 
 - [Decision Index](../decisions/README.md)
-- [Decisions Guidance](../../../../handbook/06%20Decisions/README.md)
+- [Decisions Guidance](../../../../books/06%20Decisions/README.md)
 
 ---
 

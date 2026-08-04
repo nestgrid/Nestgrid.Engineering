@@ -34,7 +34,7 @@ No decision record was required for this initiative. The changes refine existing
 
 **Initiative Guidance**
 
-- [Initiative Artefacts](../../../handbook/16%20Engineering%20Artefacts/07%20Initiative%20Artefacts.md)
+- [Initiative Artefacts](../../../books/16%20Engineering%20Artefacts/07%20Initiative%20Artefacts.md)
 
 **Repository**
 

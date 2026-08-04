@@ -147,3 +147,19 @@ New Engineering Agents may be introduced as the organisation evolves, but they w
 Technology changes.
 Tools evolve.
 Engineering endures.
+
+---
+
+## Navigation
+
+**Workflows**
+
+- [Workflows](../workflows/README.md)
+
+**Books**
+
+- [Engineering Handbook](../books/README.md)
+
+**Repository**
+
+- [Nestgrid Engineering Operating System](../README.md)

@@ -20,7 +20,7 @@ Example:
 
 **Engineering Artefacts**
 
-- [Engineering Artefacts](../../../../handbook/16%20Engineering%20Artefacts/README.md)
+- [Engineering Artefacts](../../../../books/16%20Engineering%20Artefacts/README.md)
 
 **Repository**
 

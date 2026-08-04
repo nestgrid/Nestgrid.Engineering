@@ -43,9 +43,9 @@ Updated the Engineering Handbook to capture implementation standards discovered 
 
 ## Changed Components
 
-- `handbook/07 Solution Structure/`
-- `handbook/08 Engineering Standards/`
-- `handbook/09 Testing/`
+- `books/07 Solution Structure/`
+- `books/08 Engineering Standards/`
+- `books/09 Testing/`
 
 ## Tests Written
 

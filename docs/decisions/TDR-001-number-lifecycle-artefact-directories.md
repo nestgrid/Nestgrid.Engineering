@@ -111,9 +111,9 @@ The lifecycle stages and artefact meanings are unchanged.
 
 ## Related Documentation
 
-- [Repository Structure](../../handbook/07%20Solution%20Structure/01%20Repository%20Structure.md)
-- [Repository Storage](../../handbook/16%20Engineering%20Artefacts/04%20Repository%20Storage.md)
-- [Starting a Project Repository](../../handbook/16%20Engineering%20Artefacts/06%20Starting%20a%20Project%20Repository.md)
+- [Repository Structure](../../books/07%20Solution%20Structure/01%20Repository%20Structure.md)
+- [Repository Storage](../../books/16%20Engineering%20Artefacts/04%20Repository%20Storage.md)
+- [Starting a Project Repository](../../books/16%20Engineering%20Artefacts/06%20Starting%20a%20Project%20Repository.md)
 
 ---
 

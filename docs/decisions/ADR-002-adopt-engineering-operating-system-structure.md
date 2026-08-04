@@ -4,7 +4,7 @@
 
 ## Status
 
-Accepted
+Superseded by [ADR-003: Adopt Books and Workflows Structure](ADR-003-adopt-books-and-workflows-structure.md)
 
 ## Type
 
@@ -86,13 +86,14 @@ Documentation validation remains important because structural changes affect man
 ## Related Decisions
 
 - [ADR-001: Use Markdown-First Documentation](ADR-001-use-markdown-first-documentation.md)
+- [ADR-003: Adopt Books and Workflows Structure](ADR-003-adopt-books-and-workflows-structure.md)
 
 ## Related Documentation
 
-- [Engineering Handbook](../../handbook/README.md)
+- [Engineering Handbook](../../books/README.md)
 - [Engineering Agents](../../agents/README.md)
-- [Repository Structure](../../handbook/07%20Solution%20Structure/01%20Repository%20Structure.md)
-- [Engineering Artefacts](../../handbook/16%20Engineering%20Artefacts/README.md)
+- [Repository Structure](../../books/07%20Solution%20Structure/01%20Repository%20Structure.md)
+- [Engineering Artefacts](../../books/16%20Engineering%20Artefacts/README.md)
 
 ---
 

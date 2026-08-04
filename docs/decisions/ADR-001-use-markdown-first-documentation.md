@@ -30,7 +30,7 @@ The team considered whether to use a documentation framework immediately or keep
 
 Nestgrid Engineering Operating System will use Markdown-first documentation with GitHub as the source of truth.
 
-Documentation will be organised as plain Markdown files. The canonical handbook lives under `handbook/`, operating-system decisions and initiatives live under `docs/`, reusable templates live under `templates/`, and examples live under `samples/`.
+Documentation will be organised as plain Markdown files. The canonical handbook lives under `books/`, operating-system decisions and initiatives live under `docs/`, reusable templates live under `templates/`, and examples live under `samples/`.
 
 A generated website or documentation portal may be added later as a presentation layer, but Markdown remains the source content.
 
@@ -73,9 +73,9 @@ If a website is needed later, it should be generated from the existing Markdown 
 ## Related Documentation
 
 - [Engineering Lifecycle](../../ENGINEERING-LIFECYCLE.md)
-- [Documentation](../../handbook/12%20Documentation/README.md)
-- [Templates](../../handbook/13%20Templates/README.md)
-- [Samples](../../handbook/14%20Samples/README.md)
+- [Documentation](../../books/12%20Documentation/README.md)
+- [Templates](../../books/13%20Templates/README.md)
+- [Samples](../../books/14%20Samples/README.md)
 
 ---
 

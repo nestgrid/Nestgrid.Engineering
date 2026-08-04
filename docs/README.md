@@ -2,7 +2,7 @@
 
 This directory contains durable records for the Nestgrid Engineering Operating System.
 
-The canonical handbook lives in `/handbook`.
+The canonical Engineering Handbook is composed of the books in `/books`.
 
 ## Contents
 
@@ -20,7 +20,11 @@ Scoped lifecycle runs used to improve the operating system.
 
 **Handbook**
 
-- [Engineering Handbook](../handbook/README.md)
+- [Engineering Handbook](../books/README.md)
+
+**Workflows**
+
+- [Workflows](../workflows/README.md)
 
 **Repository**
 
