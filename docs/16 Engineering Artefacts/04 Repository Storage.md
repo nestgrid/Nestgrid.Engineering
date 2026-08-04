@@ -42,6 +42,7 @@ docs/
     06 Platform/
     07 Release/
   decisions/
+  reviews/
   initiatives/
 samples/        optional
 assets/         optional
@@ -111,6 +112,26 @@ The product handbook may include `docs/handbooks/06 Decisions/` to explain decis
 
 The records themselves should remain in `docs/decisions/`.
 
+### Reviews
+
+Independent review artefacts should live under `docs/reviews/`.
+
+Sentinel reviews are recognised engineering artefacts, but they are not mandatory lifecycle stage outputs.
+
+They provide independent evidence about lifecycle readiness, repository quality, unresolved findings and opportunities to improve the Engineering Handbook.
+
+Use a stable date-prefixed name:
+
+```text
+docs/
+  reviews/
+    2026-08-03 Sentinel Review.md
+```
+
+Downstream Engineering Agents should review relevant Sentinel reviews before continuing work.
+
+Findings should be resolved, accepted or explicitly deferred by the responsible Engineering Agent.
+
 ### Initiatives
 
 `docs/initiatives/` contains scoped lifecycle runs for major features, enhancements, migrations, platform work and other engineering initiatives.
@@ -133,6 +154,7 @@ docs/
         06 Platform/
         07 Release/
       decisions/
+      reviews/
 ```
 
 When an initiative completes, enduring product knowledge should be promoted into `docs/handbooks/`, enduring product decisions should be promoted or linked from `docs/decisions/`, and initiative artefacts should remain as historical evidence.
@@ -157,6 +179,7 @@ When an initiative completes, enduring product knowledge should be promoted into
 - `docs/handbooks/` contains enduring knowledge.
 - `docs/artefacts/` contains lifecycle outputs.
 - `docs/decisions/` contains decision records.
+- `docs/reviews/` contains independent review artefacts.
 - `docs/initiatives/` contains scoped lifecycle runs.
 - Structure should make handover documents easy to find.
 

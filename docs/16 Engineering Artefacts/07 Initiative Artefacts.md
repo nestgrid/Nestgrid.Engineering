@@ -63,6 +63,7 @@ docs/
         06 Platform/
         07 Release/
       decisions/
+      reviews/
 ```
 
 Not every initiative requires every artefact directory to contain documents.
@@ -83,6 +84,14 @@ Initiative decisions may start under the initiative's `decisions/` folder.
 
 If a decision becomes enduring product guidance, it should be promoted or linked from `docs/decisions/`.
 
+### Reviews
+
+Initiative-specific Sentinel reviews may live under the initiative's `reviews/` folder.
+
+Product-level Sentinel reviews should remain in `docs/reviews/`.
+
+Relevant initiative reviews should be read by downstream Engineering Agents before continuing initiative work.
+
 ### Completion
 
 When an initiative completes:
@@ -90,6 +99,7 @@ When an initiative completes:
 - Update the product handbook where enduring knowledge has changed.
 - Promote or link enduring product decisions.
 - Leave initiative artefacts as historical delivery evidence.
+- Leave initiative reviews as historical review evidence.
 - Record release evidence where appropriate.
 
 ## Key Takeaways
@@ -98,6 +108,7 @@ When an initiative completes:
 - Artefact depth should be proportionate to significance and risk.
 - Initiative artefacts belong under `docs/initiatives/`.
 - Product-level artefacts remain under `docs/artefacts/`.
+- Initiative reviews belong with the initiative when they are initiative-specific.
 - Completed initiative artefacts provide historical evidence.
 
 ## Related Reading

@@ -46,6 +46,7 @@ docs/
     06 Platform/
     07 Release/
   decisions/
+  reviews/
   initiatives/
 samples/        optional
 assets/         optional
@@ -66,6 +67,8 @@ tools/          optional
 
 `docs/decisions/` contains decision records.
 
+`docs/reviews/` contains independent review artefacts, including Sentinel reviews.
+
 `docs/initiatives/` contains scoped lifecycle runs for major features, enhancements, migrations, platform work and other engineering initiatives.
 
 `samples/` contains reference examples, sample applications, sample data or demo usage.
@@ -81,7 +84,7 @@ tools/          optional
 ## Starting Steps
 
 1. Create `docs/`.
-2. Create `docs/handbooks/`, `docs/artefacts/`, `docs/decisions/` and `docs/initiatives/`.
+2. Create `docs/handbooks/`, `docs/artefacts/`, `docs/decisions/`, `docs/reviews/` and `docs/initiatives/`.
 3. Add a README to each major documentation folder explaining its purpose.
 4. Add the initial handbook books needed by the project.
 5. Copy standard artefact templates when the first workflow artefacts are produced.
@@ -99,6 +102,7 @@ tools/          optional
 - Keep handbook pages, artefacts and decision records separate.
 - Decision governance belongs in the handbook.
 - Decision records belong in `docs/decisions/`.
+- Sentinel reviews belong in `docs/reviews/`.
 - Initiative artefacts belong with the initiative under `docs/initiatives/`.
 - Optional folders should be added only when they have a clear purpose.
 

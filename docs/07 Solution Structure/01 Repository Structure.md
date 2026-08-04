@@ -64,6 +64,7 @@ docs/
     06 Platform/
     07 Release/
   decisions/
+  reviews/
   initiatives/
 samples/        optional
 assets/         optional
@@ -90,6 +91,8 @@ Lifecycle artefact folders should be numbered by workflow order rather than sort
 
 `docs/decisions/` should contain decision records. The product handbook may explain how decisions are governed, but the decision records themselves should live in `docs/decisions/`.
 
+`docs/reviews/` should contain independent review artefacts, including Sentinel reviews.
+
 `docs/initiatives/` should contain scoped lifecycle runs for major features, enhancements, migrations, platform work and other engineering initiatives.
 
 Optional folders such as `samples/`, `assets/`, `scripts/`, `tools/` and `.github/` should be added when the repository needs examples, supporting assets, automation, internal tooling or GitHub-specific workflows.
@@ -99,6 +102,7 @@ Optional folders such as `samples/`, `assets/`, `scripts/`, `tools/` and `.githu
 - The repository root should communicate purpose quickly.
 - Major artefact types should have clear locations.
 - Documentation should be discoverable.
+- Independent reviews should be durable repository artefacts.
 - Root clutter should be avoided.
 - Structure should match repository purpose.
 - Handbook content and lifecycle artefacts should be separated in product repositories.

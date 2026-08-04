@@ -37,6 +37,20 @@ Common examples:
 - Security Feedback
 - Operational Feedback
 
+### Review Artefacts
+
+Review artefacts should be used when independent review adds useful lifecycle evidence.
+
+Sentinel Review is the standard artefact for independent Sentinel reviews.
+
+Sentinel reviews are recognised but not mandatory.
+
+They may review a lifecycle stage, repository, product, decision, implementation, release readiness or handbook compliance.
+
+Relevant Sentinel reviews should be read by downstream Engineering Agents during their Review step.
+
+Findings should be resolved, accepted or explicitly deferred by the responsible Engineering Agent.
+
 ### Template Location
 
 Reusable templates live in:
@@ -87,6 +101,7 @@ Once approved, Architecture should produce the Architecture Pack and related Arc
 - The Architecture Handover is the final Discovery handover to Architecture.
 - Architecture Recommendation provides approval before Architecture Execute.
 - Feedback artefacts make concerns explicit.
+- Sentinel reviews provide independent review history where used.
 - Templates provide consistent structure.
 - Completed artefacts belong with the product repository.
 

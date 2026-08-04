@@ -55,6 +55,8 @@ docs/
       Architecture Handover.md
   decisions/
     README.md
+  reviews/
+    README.md
   initiatives/
     README.md
 ```

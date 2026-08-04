@@ -79,6 +79,7 @@ docs/
     06 Platform/
     07 Release/
   decisions/
+  reviews/
   initiatives/
 samples/        optional
 assets/         optional
@@ -100,6 +101,8 @@ During pure Discovery and Architecture, a repository may remain documentation-fi
 `docs/artefacts/` contains lifecycle outputs produced during engineering work.
 
 `docs/decisions/` contains decision records.
+
+`docs/reviews/` contains independent review artefacts, including Sentinel reviews.
 
 `docs/initiatives/` contains lifecycle artefacts and decisions for scoped engineering initiatives such as major features, enhancements, migrations and platform work.
 

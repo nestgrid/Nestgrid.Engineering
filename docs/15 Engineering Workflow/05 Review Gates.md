@@ -10,6 +10,10 @@ Review gates define the points where work should be checked before moving to the
 
 Review gates should improve clarity and confidence without becoming unnecessary bureaucracy.
 
+Where Sentinel reviews exist, review gates should consider unresolved Sentinel findings.
+
+Findings do not automatically block progress, but they should be resolved, accepted or explicitly deferred.
+
 ### Discovery Gate
 
 Discovery is ready for Architecture when product intent, goals, scope, requirements, constraints and open questions are documented.
@@ -76,6 +80,7 @@ Primary artefact:
 - Each gate should have a clear primary artefact.
 - Gates should scale with risk and complexity.
 - Review should produce clear approval, feedback or deferral.
+- Sentinel findings should have clear disposition where they affect stage readiness.
 
 ## Related Reading
 

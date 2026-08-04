@@ -26,6 +26,10 @@ Decision records that preserve important choices made during the sample.
 
 Reserved for workflow artefacts such as Product Briefs, Architecture Handovers, Architecture Recommendations, Architecture Packs and Release Reports.
 
+`/docs/reviews`
+
+Reserved for independent review artefacts such as Sentinel Reviews.
+
 `/docs/initiatives`
 
 Scoped lifecycle runs for significant features, enhancements or other engineering initiatives.
@@ -46,6 +50,10 @@ Scoped lifecycle runs for significant features, enhancements or other engineerin
 ## Artefacts
 
 - [Artefact Notes](docs/artefacts/README.md)
+
+## Reviews
+
+- [Review Notes](docs/reviews/README.md)
 
 ## Initiatives
 
