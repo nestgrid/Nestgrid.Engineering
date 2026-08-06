@@ -1,20 +1,25 @@
 # Discovery
 
-The Discovery stage establishes a clear understanding of the problem, people, outcomes, requirements, constraints and priorities before solution design begins.
+The Discovery stage establishes whether a worthwhile engineering opportunity exists and, when it does, develops a clear understanding of the problem, people, outcomes, requirements, constraints and priorities before solution design begins.
 
 Discovery helps engineering teams avoid building the wrong solution well. It ensures that technical work is grounded in business context, stakeholder needs and measurable outcomes.
 
 Discovery is not a one-time meeting. It is an intentional learning process that turns uncertainty into shared understanding.
 
+Discovery begins with conversation rather than documentation.
+
+An early idea may become a product, library, feature, research task, deferred opportunity, existing-solution recommendation or no-build decision.
+
 ## Purpose
 
-To understand the business problem, desired outcomes, stakeholder needs, requirements, constraints, risks and priorities before moving into domain modelling and architecture.
+To determine whether an opportunity deserves engineering work and, where it does, understand the business problem, desired outcomes, stakeholder needs, requirements, constraints, risks and priorities before moving into domain modelling and architecture.
 
 ## Objectives
 
 Upon completing this book, engineers should be able to:
 
 - Understand the problem before proposing solutions.
+- Decide whether an idea deserves product, library or feature work.
 - Identify relevant stakeholders and their concerns.
 - Define goals and outcomes clearly.
 - Capture requirements at the right level of detail.
@@ -32,10 +37,13 @@ Upon completing this book, engineers should be able to:
 
 ## Outcome
 
-Upon completing this book, engineers should have enough shared understanding to model the domain responsibly, make informed decisions and avoid premature technical design.
+Upon completing this book, engineers should have enough shared understanding to recommend whether to proceed, reuse, defer, reframe or stop.
+
+Where the opportunity proceeds, teams should have enough product definition to model the domain responsibly, make informed decisions and avoid premature technical design.
 
 ## Related Guidance
 
+- [Opportunity Exploration Workflow](../../workflows/Opportunity%20Exploration.md)
 - [New Product Discovery Bootstrap](../16%20Engineering%20Artefacts/08%20New%20Product%20Discovery%20Bootstrap.md)
 
 ## Related Books

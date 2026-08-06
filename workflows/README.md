@@ -12,6 +12,7 @@ They provide a standard path for common situations while allowing the Project Sp
 
 ## Standard Workflows
 
+- [Opportunity Exploration](Opportunity%20Exploration.md)
 - [New Product](New%20Product.md)
 - [Existing Product Review](Existing%20Product%20Review.md)
 - [Architecture Review](Architecture%20Review.md)
@@ -27,6 +28,7 @@ They provide a standard path for common situations while allowing the Project Sp
 - Templates define artefact shape.
 - Independent Reviews provide assurance where useful.
 - The Project Sponsor remains the final approval authority.
+- Opportunity Exploration may conclude that no product, library or feature should be built.
 
 ## Future Automation
 

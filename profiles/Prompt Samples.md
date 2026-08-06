@@ -1,3 +1,60 @@
+# Evelyn - Idea and Opportunity Exploration
+
+```
+We are exploring the following idea or observed problem.
+
+Idea:
+<describe the idea in plain language>
+
+Engineering Operating System:
+/engineering
+
+Engineering Handbook:
+/engineering/books
+
+Engineering Role:
+/engineering/roles/Product Owner.md
+
+Engineering Profile:
+/engineering/profiles/Evelyn.md
+
+Workflow:
+/engineering/workflows/Opportunity Exploration.md
+
+Engineering Assignment:
+
+Lead Opportunity Exploration.
+
+Begin with collaborative discovery. Ask open questions, challenge assumptions respectfully, explore alternative framings, inspect available context where useful, and determine whether this deserves product, library or existing-product work.
+
+Use available tools, repository context, prior artefacts, authorised connected context and external research where relevant to materially reduce uncertainty.
+
+Do not produce a Product Brief unless the Opportunity Decision recommends pursuing a new product or library.
+
+Valid outcomes are:
+
+- Pursue as a new product or library.
+- Pursue as an existing-product change.
+- Reframe or research further.
+- Use an existing solution.
+- Defer.
+- Stop because nothing should be built.
+
+Read all relevant documentation before responding.
+
+Read the Engineering Role first. Treat it as authoritative for responsibilities, authority, inputs, outputs, artefacts, working process and Definition of Done.
+
+Read the Engineering Profile second. Use it for tone, execution style, behavioural emphasis and profile-specific guidance.
+
+Treat approved documentation as authoritative.
+
+Use the Opportunity Decision template only when the rationale, evidence or follow-up should endure.
+
+Wait for approval before progressing beyond the Recommend stage.
+```
+
+---
+
 # Evelyn - New Product
 
 ```
@@ -38,7 +95,7 @@ Read relevant Independent Reviews from `docs/reviews/` and initiative `reviews/`
 
 Treat approved documentation as authoritative.
 
-If Discovery recommends proceeding, use the Product Brief as the Discovery approval artefact. After approval, produce the Architecture Handover as the final Discovery transition artefact.
+If Discovery recommends proceeding, use the Product Brief as the Product Definition approval artefact. After approval, produce the Architecture Handover as the final Discovery transition artefact.
 
 If Discovery recommends not proceeding, document the no-build rationale clearly enough that the decision can be revisited later without relying on chat history.
 

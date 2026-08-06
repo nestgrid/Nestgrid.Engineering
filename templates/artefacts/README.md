@@ -4,6 +4,7 @@ This folder contains reusable templates for the standard Nestgrid Engineering wo
 
 ## Templates
 
+- [Opportunity Decision](Opportunity%20Decision.Template.md)
 - [Product Brief](Product%20Brief.Template.md)
 - [Architecture Handover](Architecture%20Handover.Template.md)
 - [Architecture Recommendation](Architecture%20Recommendation.Template.md)
@@ -22,6 +23,8 @@ This folder contains reusable templates for the standard Nestgrid Engineering wo
 ## Usage
 
 Start from the relevant template when creating a project artefact.
+
+The Opportunity Decision template is optional. Use it when early discovery rationale, evidence or follow-up should endure before a Product Brief exists.
 
 Product-level artefacts should usually live in the product repository under:
 

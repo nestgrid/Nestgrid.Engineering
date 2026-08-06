@@ -16,7 +16,32 @@ Findings do not automatically block progress, but they should be resolved, accep
 
 ### Discovery Gate
 
-Discovery is ready for Architecture when product intent, goals, scope, requirements, constraints and open questions are documented.
+The Discovery Gate has two distinct checkpoints. Do not use the Product Definition checkpoint to force an early idea into a Product Brief.
+
+#### Checkpoint 1: Opportunity Decision
+
+Opportunity Exploration is ready to conclude when the idea, problem, affected users, desired change, assumptions, uncertainty and relevant alternatives have been explored proportionately.
+
+Valid outcomes:
+
+- Pursue as a new product or library.
+- Pursue as an existing-product change.
+- Reframe or research further.
+- Use an existing solution.
+- Defer.
+- Stop because nothing should be built.
+
+Only the first outcome proceeds to New Product Discovery. The final five outcomes do not require a Product Brief or Architecture Handover.
+
+Record an Opportunity Decision only when durable rationale or follow-up is useful.
+
+Primary artefact:
+
+- Opportunity Decision
+
+#### Checkpoint 2: Product Definition
+
+Product Definition is ready for Architecture when product intent, goals, scope, requirements, constraints and open questions are documented.
 
 Primary artefact:
 

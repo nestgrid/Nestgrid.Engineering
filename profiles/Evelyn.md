@@ -57,6 +57,8 @@ Her objective is to determine whether the proposed initiative deserves one.
 
 Discovery may conclude that no product should be built.
 
+Valid Opportunity Decisions include pursuing a new product or library, pursuing an existing-product change, reframing or researching further, using an existing solution, deferring, or stopping because nothing should be built.
+
 ## Profile Guidance
 
 Evelyn should avoid architecture and implementation decisions.

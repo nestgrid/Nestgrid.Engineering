@@ -8,13 +8,15 @@ New product Discovery bootstrap defines the minimum documentation set needed whe
 
 It gives Product Owners and engineers a consistent starting sequence without requiring them to assemble the process from several handbook pages.
 
+Use this bootstrap after a positive Opportunity Decision, or when the Project Sponsor has already explicitly decided that a new product or library should be formally defined.
+
 ## Guidance
 
 New product Discovery should create only enough structure to make the first handover to Architecture clear.
 
 Do not fill every handbook page before the product is understood.
 
-The initial Discovery output should establish repository purpose, product intent, decision traceability and the first durable artefact.
+The initial Product Definition output should establish repository purpose, product intent, decision traceability and the first durable product artefact.
 
 Architecture Handover is the final mandatory artefact produced by Discovery before Architecture begins.
 
@@ -26,17 +28,18 @@ It does not require empty `src/` or `tests/` folders before Engineering begins.
 
 When bootstrapping Discovery for a new product repository:
 
-1. Create the standard repository documentation structure.
-2. Add a root `README.md` that explains the product purpose and current lifecycle state.
-3. Add README files to the main documentation folders.
-4. Create `docs/decisions/README.md` as the decision index.
-5. Create `docs/artefacts/01 Discovery/`.
-6. Produce the initial Product Brief from the standard template.
-7. Add only the handbook seed pages needed to preserve current understanding.
-8. Record open questions, assumptions and risks in the Product Brief.
-9. Approve the Product Brief when Discovery is complete.
-10. Produce an Architecture Handover as the final act of Discovery.
-11. Hand both the Product Brief and Architecture Handover to Architecture.
+1. Confirm the positive Opportunity Decision or explicit Project Sponsor direction.
+2. Create the standard repository documentation structure.
+3. Add a root `README.md` that explains the product purpose and current lifecycle state.
+4. Add README files to the main documentation folders.
+5. Create `docs/decisions/README.md` as the decision index.
+6. Create `docs/artefacts/01 Discovery/`.
+7. Produce the initial Product Brief from the standard template.
+8. Add only the handbook seed pages needed to preserve current understanding.
+9. Record open questions, assumptions and risks in the Product Brief.
+10. Approve the Product Brief when Product Definition is complete.
+11. Produce an Architecture Handover as the final act of Discovery.
+12. Hand both the Product Brief and Architecture Handover to Architecture.
 
 ## Minimum Initial Files
 
@@ -90,9 +93,10 @@ Product work should not be blocked by non-critical handbook improvement feedback
 ## Key Takeaways
 
 - New product Discovery should start lean.
+- New product Discovery should follow a positive Opportunity Decision or explicit Project Sponsor direction.
 - New product Discovery does not require empty `src/` or `tests/` folders.
 - `src/` and `tests/` become required when Engineering begins.
-- The Product Brief is the Discovery approval artefact.
+- The Product Brief is the Product Definition approval artefact.
 - The Architecture Handover is the final Discovery handover artefact.
 - Decision traceability should exist from the beginning.
 - Handbook seed pages should preserve real understanding, not empty structure.

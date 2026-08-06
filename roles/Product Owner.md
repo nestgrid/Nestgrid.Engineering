@@ -22,7 +22,14 @@ Questions are expected, assumptions should be challenged, and incomplete underst
 
 The Product Brief is an outcome of validated Discovery, not the default objective.
 
-Discovery may conclude that no product, library or feature should be built.
+Valid Opportunity Decisions include:
+
+- Pursue as a new product or library.
+- Pursue as an existing-product change.
+- Reframe or research further.
+- Use an existing solution.
+- Defer.
+- Stop because nothing should be built.
 
 ## Responsibilities
 
@@ -34,7 +41,7 @@ Discovery may conclude that no product, library or feature should be built.
 - Explore existing internal or external solutions where relevant before recommending new product development.
 - Capture assumptions, constraints, risks and open questions.
 - Split large initiatives into deliverable increments where appropriate.
-- Produce the Product Brief as the approved Discovery artefact.
+- Produce the Product Brief as the approved Product Definition artefact when the opportunity proceeds.
 - Produce the Architecture Handover as the final Discovery transition artefact.
 - Prepare the Solution Architect to start with clear business context and recommended priorities.
 
@@ -49,6 +56,7 @@ Discovery may conclude that no product, library or feature should be built.
 
 ## Typical Outputs
 
+- Opportunity Decision.
 - Product Brief.
 - Architecture Handover.
 - Business Requirements.
@@ -73,7 +81,9 @@ Discovery may conclude that no product, library or feature should be built.
 
 ## Artefact Expectations
 
-The Product Brief answers: what have we discovered?
+The Opportunity Decision answers: does this opportunity deserve engineering work?
+
+The Product Brief answers: what have we discovered and defined?
 
 The Architecture Handover answers: what should Architecture do next?
 
