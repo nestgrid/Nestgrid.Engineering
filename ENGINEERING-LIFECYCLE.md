@@ -47,7 +47,9 @@ Read [Language](books/02%20Language/README.md).
 
 ## Discovery
 
-Captures the business problem, objectives, constraints, requirements and expected outcomes.
+Determines whether a worthwhile engineering opportunity exists and, when it does, captures the business problem, objectives, constraints, requirements and expected outcomes.
+
+Early Discovery may conclude with an Opportunity Decision to build, reuse, defer, research further or stop.
 
 Read [Discovery](books/03%20Discovery/README.md).
 

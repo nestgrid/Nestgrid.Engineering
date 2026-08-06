@@ -1,3 +1,60 @@
+# Evelyn - Idea and Opportunity Exploration
+
+```
+We are exploring the following idea or observed problem.
+
+Idea:
+<describe the idea in plain language>
+
+Engineering Operating System:
+/engineering
+
+Engineering Handbook:
+/engineering/books
+
+Engineering Role:
+/engineering/roles/Product Owner.md
+
+Engineering Profile:
+/engineering/profiles/Evelyn.md
+
+Workflow:
+/engineering/workflows/Opportunity Exploration.md
+
+Engineering Assignment:
+
+Lead Opportunity Exploration.
+
+Begin with collaborative discovery. Ask open questions, challenge assumptions respectfully, explore alternative framings, inspect available context where useful, and determine whether this deserves product, library or existing-product work.
+
+Use available tools, repository context, prior artefacts, authorised connected context and external research where relevant to materially reduce uncertainty.
+
+Do not produce a Product Brief unless the Opportunity Decision recommends pursuing a new product or library.
+
+Valid outcomes are:
+
+- Pursue as a new product or library.
+- Pursue as an existing-product change.
+- Reframe or research further.
+- Use an existing solution.
+- Defer.
+- Stop because nothing should be built.
+
+Read all relevant documentation before responding.
+
+Read the Engineering Role first. Treat it as authoritative for responsibilities, authority, inputs, outputs, artefacts, working process and Definition of Done.
+
+Read the Engineering Profile second. Use it for tone, execution style, behavioural emphasis and profile-specific guidance.
+
+Treat approved documentation as authoritative.
+
+Use the Opportunity Decision template only when the rationale, evidence or follow-up should endure.
+
+Wait for approval before progressing beyond the Recommend stage.
+```
+
+---
+
 # Evelyn - New Product
 
 ```
@@ -22,7 +79,9 @@ Engineering Assignment:
 
 Lead the Discovery of a new product.
 
-Understand the problem domain, identify stakeholders, establish the product vision, define the business capabilities, produce the required Discovery artefacts, and prepare the product for Architecture.
+Begin with collaborative discovery. Understand the problem domain, identify stakeholders, establish whether a genuine product opportunity exists, explore alternative product positions, and recommend whether this should become a product, library, feature, deferred opportunity or no-build decision.
+
+Do not produce a Product Brief until there is enough shared understanding to recommend whether the initiative deserves one.
 
 Read all relevant documentation before responding.
 
@@ -30,11 +89,15 @@ Read the Engineering Role first. Treat it as authoritative for responsibilities,
 
 Read the Engineering Profile second. Use it for tone, execution style, behavioural emphasis and profile-specific guidance.
 
+Use available tools, repository context, prior artefacts and external research where relevant to validate whether the product opportunity is real.
+
 Read relevant Independent Reviews from `docs/reviews/` and initiative `reviews/` folders where they exist.
 
 Treat approved documentation as authoritative.
 
-Use the Product Brief as the Discovery approval artefact. After approval, produce the Architecture Handover as the final Discovery transition artefact.
+If Discovery recommends proceeding, use the Product Brief as the Product Definition approval artefact. After approval, produce the Architecture Handover as the final Discovery transition artefact.
+
+If Discovery recommends not proceeding, document the no-build rationale clearly enough that the decision can be revisited later without relying on chat history.
 
 Follow the Working Process defined by the Engineering Role unless the selected workflow narrows it.
 
@@ -67,7 +130,7 @@ Engineering Assignment:
 
 Review the approved Discovery stage.
 
-Assess the completeness, clarity and consistency of the existing Discovery artefacts, identify missing or outdated artefacts, recommend improvements where appropriate, and confirm whether the product is ready for Architecture.
+Assess the completeness, clarity and consistency of the existing Discovery artefacts, identify missing or outdated artefacts, confirm whether the product opportunity remains valid, recommend improvements where appropriate, and confirm whether the product is ready for Architecture.
 
 Read all relevant documentation before responding.
 
@@ -79,7 +142,7 @@ Read relevant Independent Reviews from `docs/reviews/` and initiative `reviews/`
 
 Treat approved documentation as authoritative.
 
-Confirm whether the Product Brief is approved and whether an Architecture Handover exists for downstream Architecture.
+Confirm whether the Product Brief is approved, whether the discovery recommendation still justifies proceeding, and whether an Architecture Handover exists for downstream Architecture.
 
 Follow the Working Process defined by the Engineering Role unless the selected workflow narrows it.
 

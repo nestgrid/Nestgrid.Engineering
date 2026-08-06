@@ -4,6 +4,8 @@
 
 Define the standard workflow for taking a new product from initial discovery through release readiness.
 
+New Product begins after a positive Opportunity Decision or an explicit Project Sponsor decision that the opportunity should be formally defined as a product or library.
+
 ## Participants
 
 1. Product Owner
@@ -21,7 +23,8 @@ Define the standard workflow for taking a new product from initial discovery thr
 ## Flow
 
 ```text
-Discovery
+Opportunity Decision
+  -> Discovery
   -> Discovery Review
   -> Architecture
   -> Architecture Review
@@ -36,7 +39,7 @@ Discovery
 
 ## Required Inputs
 
-- Product idea or business problem.
+- Positive Opportunity Decision, or explicit Project Sponsor direction to define a new product or library.
 - Engineering Operating System.
 - Relevant existing organisational constraints.
 
@@ -57,7 +60,7 @@ Discovery
 
 ## Approval Gates
 
-- Discovery approval before Architecture.
+- Product Definition approval before Architecture.
 - Architecture recommendation approval before Architecture execution.
 - Engineering recommendation approval before implementation.
 - Final release approval by the Project Sponsor.

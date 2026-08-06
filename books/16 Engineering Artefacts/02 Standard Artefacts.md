@@ -16,6 +16,7 @@ Teams may add specialist artefacts when needed, but should not bypass the standa
 
 | Stage | Owner Role | Primary Artefact | Main Consumer Role |
 | --- | --- | --- | --- |
+| Opportunity Exploration | Product Owner | Opportunity Decision | Project Sponsor |
 | Discovery | Product Owner | Product Brief / Architecture Handover | Solution Architect |
 | Architecture | Solution Architect | Architecture Recommendation / Architecture Pack | Software Engineer |
 | Implementation | Software Engineer | Implementation Plan / Report | Quality Engineer, Security Engineer |
@@ -63,7 +64,15 @@ Completed project artefacts should live in the relevant product repository, not 
 
 ### Discovery Approval and Handover
 
-The Product Brief is the Discovery approval artefact.
+Opportunity Exploration may produce an Opportunity Decision before a Product Brief exists.
+
+The Opportunity Decision answers:
+
+> Does this opportunity deserve engineering work?
+
+It is optional for informal brainstorming and should be created when the evidence, rationale or follow-up should endure.
+
+The Product Brief is the Product Definition approval artefact.
 
 It answers:
 
@@ -97,7 +106,8 @@ Once approved, Architecture should produce the Architecture Pack and related Arc
 ## Key Takeaways
 
 - Each lifecycle stage has a primary artefact.
-- The Product Brief is the Discovery approval artefact.
+- Opportunity Decision is optional but recognised before Product Definition.
+- The Product Brief is the Product Definition approval artefact.
 - The Architecture Handover is the final Discovery handover to Architecture.
 - Architecture Recommendation provides approval before Architecture Execute.
 - Feedback artefacts make concerns explicit.

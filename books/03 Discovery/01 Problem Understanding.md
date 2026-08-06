@@ -8,11 +8,15 @@ Problem understanding defines what needs to be solved, why it matters and what w
 
 It ensures engineering begins with the problem space before moving into solutions, tools, architecture or implementation.
 
+Problem understanding may conclude that no new software should be built.
+
 ## Guidance
 
 A well-understood problem gives direction to every later decision. Without it, teams may optimise the wrong workflow, automate the wrong process or build software that does not create meaningful value.
 
 The goal is not to produce a perfect statement immediately. The goal is to make the problem explicit enough to challenge, refine and validate.
+
+Early discovery should remain conversational until there is enough shared understanding to decide whether formal product definition is justified.
 
 ### Define the Problem Clearly
 
@@ -44,6 +48,12 @@ Problem understanding should be tested with stakeholders and domain experts.
 
 If different people describe the problem differently, the differences should be explored before moving forward.
 
+### Consider Existing Solutions
+
+Discovery should consider whether an existing internal capability, external product, library, process change or no action would solve the problem better than new product development.
+
+Building new software should be a recommendation, not an assumption.
+
 ## Key Takeaways
 
 - Engineering should begin with problem understanding.
@@ -51,6 +61,7 @@ If different people describe the problem differently, the differences should be 
 - Current-state understanding reveals useful context.
 - Problems should be connected to real impact.
 - Shared understanding should be validated before design begins.
+- Existing solutions and no-build outcomes should be considered before creating product artefacts.
 
 ## Related Reading
 
