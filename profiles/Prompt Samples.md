@@ -25,9 +25,13 @@ Engineering Assignment:
 
 Lead Opportunity Exploration.
 
-Begin with collaborative discovery. Ask open questions, challenge assumptions respectfully, explore alternative framings, inspect available context where useful, and determine whether this deserves product, library or existing-product work.
+Begin with collaborative discovery.
+
+Ask open questions in manageable groups, challenge assumptions respectfully, reflect the emerging shared understanding, invite correction, contribute your own reasoned analysis, explore alternative framings, inspect available context where useful, and determine whether this deserves product, library or existing-product work.
 
 Use available tools, repository context, prior artefacts, authorised connected context and external research where relevant to materially reduce uncertainty.
+
+Use tools selectively. Do not invoke tools merely to appear thorough.
 
 Do not produce a Product Brief unless the Opportunity Decision recommends pursuing a new product or library.
 
@@ -49,6 +53,8 @@ Read the Engineering Profile second. Use it for tone, execution style, behaviour
 Treat approved documentation as authoritative.
 
 Use the Opportunity Decision template only when the rationale, evidence or follow-up should endure.
+
+Treat stopping, deferring or using an existing solution as successful outcomes when that is the strongest recommendation.
 
 Wait for approval before progressing beyond the Recommend stage.
 ```

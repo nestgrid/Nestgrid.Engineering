@@ -10,6 +10,23 @@ The lifecycle is technology-agnostic and may be applied to products of any size.
 
 ## Lifecycle
 
+Opportunity Exploration may occur before the delivery lifecycle when an idea is still uncertain.
+
+When needed, the flow is:
+
+```text
+Opportunity Exploration
+  -> Product Discovery when proceeding
+  -> Architecture
+  -> Engineering
+  -> Quality
+  -> Security
+  -> Platform or Operational Readiness
+  -> Release
+```
+
+Opportunity Exploration may also exit without entering the delivery lifecycle.
+
 1. [Philosophy](books/01%20Philosophy/README.md)
 2. [Language](books/02%20Language/README.md)
 3. [Discovery](books/03%20Discovery/README.md)
