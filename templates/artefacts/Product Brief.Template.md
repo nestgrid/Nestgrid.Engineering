@@ -19,6 +19,19 @@ related_repositories:
 
 Describe why this product, feature or initiative exists.
 
+## Opportunity Context
+
+Summarise the Opportunity Decision that justified formal Product Definition.
+
+Include:
+
+- the opportunity decision and rationale;
+- the key evidence or assumptions behind the decision;
+- existing solutions or alternatives considered;
+- why this should proceed as a product, library or initiative rather than be reused, deferred or stopped.
+
+Use "Not applicable" only when the Project Sponsor explicitly directed Product Definition without a separate Opportunity Decision.
+
 ## Problem Statement
 
 Describe the business problem being solved.
