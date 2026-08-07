@@ -65,6 +65,20 @@ Describe any solution file, workspace, build or IDE organisation changes needed 
 
 Do not distort the filesystem only to satisfy an IDE view.
 
+## Operationalisation Plan
+
+Describe how Engineering will implement the approved operational model.
+
+Cover where relevant:
+
+- package, publish or build outputs;
+- installation, deployment or consumption workflow;
+- configuration files, defaults and environment-specific settings;
+- service registration, host integration or runtime setup;
+- upgrade, rollback, uninstall and recovery support;
+- operational documentation to produce or update;
+- validation commands, smoke tests or package-consumption checks.
+
 ## Implementation Decisions
 
 List implementation decisions captured in this plan or in separate decision records.

@@ -81,6 +81,20 @@ Describe security-sensitive design decisions and expected controls.
 
 Describe deployment, observability, scaling, resilience and support considerations.
 
+## Operational Model
+
+Describe how the product, library, service or application will be delivered and made usable in its target environment.
+
+Cover where relevant:
+
+- packaging, publication or distribution model;
+- installation, deployment or consumption model;
+- runtime, hosting or service model;
+- configuration and secrets model;
+- upgrade, rollback, uninstall and recovery approach;
+- operational documentation and validation expectations;
+- support and ownership implications.
+
 ## Trade-offs
 
 | Trade-off | Decision | Consequence |

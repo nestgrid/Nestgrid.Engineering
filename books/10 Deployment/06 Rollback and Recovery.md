@@ -55,6 +55,7 @@ Follow-up work may include better tests, validation, monitoring, automation or d
 ## Related Reading
 
 - [05 Deployment Validation](05%20Deployment%20Validation.md)
+- [07 Operationalisation](07%20Operationalisation.md)
 - [Operations](../11%20Operations/README.md)
 
 ---
@@ -67,7 +68,7 @@ Follow-up work may include better tests, validation, monitoring, automation or d
 
 **Next**
 
-- [Operations](../11%20Operations/README.md)
+- [07 Operationalisation](07%20Operationalisation.md)
 
 **Book**
 

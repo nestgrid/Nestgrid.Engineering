@@ -53,6 +53,12 @@ Describe regression coverage.
 
 Describe exploratory testing focus areas.
 
+### Operational Scenario Testing
+
+Describe how operationalisation will be validated.
+
+Cover relevant scenarios such as package consumption, clean install, deployment, configuration change, service registration, upgrade, rollback, uninstall, smoke tests and recovery.
+
 ## Edge Cases
 
 - Edge case 1

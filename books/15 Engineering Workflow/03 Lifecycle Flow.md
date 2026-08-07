@@ -15,11 +15,12 @@ The scale and quantity of artefacts should be proportionate to the significance 
 The workflow should be adapted to the size and risk of the work, but the default flow is:
 
 1. Product discovers what should be built and why.
-2. Architecture defines how the solution should be designed.
-3. Engineering implements the approved design.
-4. Quality validates behaviour and release confidence.
-5. Security assesses risk and mitigation.
-6. Platform prepares deployment and operational readiness.
+2. Product captures functional, quality and operational requirements.
+3. Architecture defines how the solution should be designed and operationalised.
+4. Engineering implements the approved design and operational model.
+5. Quality validates behaviour, release confidence and operational scenarios.
+6. Security assesses risk, mitigation and operational security.
+7. Platform realises the operational package and readiness model.
 
 ### Standard Flow
 
@@ -45,6 +46,25 @@ Examples:
 - Quality sends Quality Feedback to Engineering when test gaps or defects are found.
 - Security sends Security Feedback to Architecture or Engineering when risk requires design or code changes.
 - Platform sends Operational Feedback when deployment or support concerns are discovered.
+
+### Operationalisation Flow
+
+Operationalisation is the process of making the engineered product deliverable and usable in its intended environment.
+
+It applies to every product type, including libraries, services, APIs, web applications, workers, command-line tools and mobile applications.
+
+The concern flows through the lifecycle:
+
+```text
+Product captures operational requirements
+  -> Architecture designs the operational model
+  -> Engineering implements the packageable, deployable or consumable shape
+  -> Quality validates operational scenarios
+  -> Security reviews operational security
+  -> Platform realises publication, installation, deployment and readiness
+```
+
+Platform owns final operationalisation, but should not be discovering the operational strategy for the first time at the end of the lifecycle.
 
 ### Architecture Internal Flow
 
@@ -84,6 +104,7 @@ Initiative-level artefacts describe a scoped body of work and should be stored w
 ## Key Takeaways
 
 - The default flow moves from product intent to production readiness.
+- Operationalisation is a cross-cutting concern from Discovery to Platform.
 - Architecture uses Review, Understand, Assess, Recommend and Execute internally.
 - Feedback loops are expected and should be explicit.
 - Workflow depth should match risk and complexity.

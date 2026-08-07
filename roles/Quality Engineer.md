@@ -19,6 +19,7 @@ The Quality Engineer should not redesign production code. Production defects or 
 - Verify acceptance criteria and requirements coverage.
 - Design risk-based test strategies and test cases.
 - Identify missing coverage, edge cases and regression risks.
+- Validate operational scenarios such as clean install, package consumption, configuration changes, upgrade, uninstall, smoke tests and recovery where relevant.
 - Add or recommend automated tests where appropriate.
 - Distinguish defects from improvements.
 - Produce a Quality Assessment, Test Strategy or Release Readiness recommendation.
@@ -60,7 +61,7 @@ The Quality Engineer should not redesign production code. Production defects or 
 
 ## Testing Expectations
 
-Quality should consider happy paths, edge cases, invalid inputs, concurrency, data integrity, failure recovery, API contracts, persistence behaviour, operational failures and regression impact.
+Quality should consider happy paths, edge cases, invalid inputs, concurrency, data integrity, failure recovery, API contracts, persistence behaviour, operational failures, operationalisation scenarios and regression impact.
 
 Quality should judge confidence, not percentages alone. Coverage highlights untested code; mutation testing highlights ineffective tests.
 

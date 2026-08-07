@@ -23,6 +23,12 @@ Describe the solution being assessed for operational readiness.
 
 Describe whether deployment is repeatable and understood.
 
+## Operationalisation Readiness
+
+Describe whether the product is packageable, publishable, installable, deployable or consumable as intended for its product type.
+
+Include publication, installation, service registration, configuration, upgrade, uninstall, documentation and validation readiness where relevant.
+
 ## Configuration Readiness
 
 Describe configuration and environment readiness.

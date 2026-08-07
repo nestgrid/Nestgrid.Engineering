@@ -2,7 +2,7 @@
 
 Software engineering is more than writing code. Successful software begins by understanding the problem before designing the solution.
 
-The Nestgrid Engineering Lifecycle defines the stages used to transform an idea into a maintainable, production-ready software product. Each stage builds upon the previous one, ensuring that business understanding drives technical implementation.
+The Nestgrid Engineering Lifecycle defines the stages used to transform an idea into a maintainable, production-ready software product. Each stage builds upon the previous one, ensuring that business understanding drives technical implementation and operational readiness.
 
 The lifecycle is technology-agnostic and may be applied to products of any size.
 
@@ -21,7 +21,7 @@ Opportunity Exploration
   -> Engineering
   -> Quality
   -> Security
-  -> Platform or Operational Readiness
+  -> Platform or Operationalisation
   -> Release
 ```
 
@@ -64,7 +64,7 @@ Read [Language](books/02%20Language/README.md).
 
 ## Discovery
 
-Determines whether a worthwhile engineering opportunity exists and, when it does, captures the business problem, objectives, constraints, requirements and expected outcomes.
+Determines whether a worthwhile engineering opportunity exists and, when it does, captures the business problem, objectives, constraints, functional requirements, quality expectations, operational requirements and expected outcomes.
 
 Early Discovery may conclude with an Opportunity Decision to build, reuse, defer, research further or stop.
 
@@ -82,7 +82,7 @@ Read [Domain Modelling](books/04%20Domain%20Modelling/README.md).
 
 ## Architecture
 
-Designs the technical solution that fulfils the domain requirements while considering scalability, maintainability, security and operational concerns.
+Designs the technical solution and operational model that fulfil the domain, quality and operational requirements.
 
 Read [Architecture](books/05%20Architecture/README.md).
 
@@ -122,7 +122,7 @@ Read [Testing](books/09%20Testing/README.md).
 
 ## Deployment
 
-Describes how software is packaged, released and delivered safely to production.
+Describes how software is packaged, released, delivered and operationalised safely for its target use.
 
 Read [Deployment](books/10%20Deployment/README.md).
 
@@ -182,6 +182,7 @@ The lifecycle is guided by several core principles.
 
 - Understand the business before designing the solution.
 - Model the domain before implementing the software.
+- Treat operational requirements as product requirements.
 - Record important decisions and their rationale.
 - Optimise for clarity, maintainability and consistency.
 - Standardise where possible and customise only where necessary.

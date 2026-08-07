@@ -103,6 +103,19 @@ It should include proposed architectural direction, key architectural decisions,
 
 Once approved, Architecture should produce the Architecture Pack and related Architecture Decision Records where needed.
 
+### Operationalisation Artefacts
+
+Operationalisation is a cross-cutting concern rather than a separate lifecycle stage.
+
+Its evidence appears across standard artefacts:
+
+- Product Brief captures Operational Requirements.
+- Architecture Pack defines the Operational Model.
+- Implementation Plan explains how Engineering will implement the operational model.
+- Test Strategy validates operational scenarios.
+- Security Assessment reviews operational security.
+- Deployment Guide and Operational Readiness Review realise and assess the final operational package.
+
 ## Key Takeaways
 
 - Each lifecycle stage has a primary artefact.
@@ -110,6 +123,7 @@ Once approved, Architecture should produce the Architecture Pack and related Arc
 - The Product Brief is the Product Definition approval artefact.
 - The Architecture Handover is the final Discovery handover to Architecture.
 - Architecture Recommendation provides approval before Architecture Execute.
+- Operationalisation is evidenced across multiple artefacts rather than isolated in one document.
 - Feedback artefacts make concerns explicit.
 - Independent Reviews provide independent review history where used.
 - Templates provide consistent structure.
