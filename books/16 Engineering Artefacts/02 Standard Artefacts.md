@@ -103,6 +103,16 @@ It should include proposed architectural direction, key architectural decisions,
 
 Once approved, Architecture should produce the Architecture Pack and related Architecture Decision Records where needed.
 
+### Release Approval
+
+Release recommendations do not equal release approval.
+
+Quality, Security and Platform provide evidence and recommendations from their respective perspectives.
+
+The Project Sponsor owns the final release decision.
+
+The Release Report records the decision, evidence, known issues, accepted risks, version and outcome.
+
 ### Operationalisation Artefacts
 
 Operationalisation is a cross-cutting concern rather than a separate lifecycle stage.
@@ -124,6 +134,7 @@ Its evidence appears across standard artefacts:
 - The Architecture Handover is the final Discovery handover to Architecture.
 - Architecture Recommendation provides approval before Architecture Execute.
 - Operationalisation is evidenced across multiple artefacts rather than isolated in one document.
+- The Release Report records release approval; it is not owned by Platform.
 - Feedback artefacts make concerns explicit.
 - Independent Reviews provide independent review history where used.
 - Templates provide consistent structure.

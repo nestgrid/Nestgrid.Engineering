@@ -63,4 +63,6 @@ Describe backup strategy, recovery time objective and recovery point objective.
 
 ## Recommendation
 
-State whether the solution is ready for production operation.
+State whether the solution is operationally ready for release consideration.
+
+Do not approve release in this artefact. Release approval belongs to the Project Sponsor and is recorded in the Release Report.

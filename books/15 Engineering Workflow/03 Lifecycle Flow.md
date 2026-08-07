@@ -21,6 +21,7 @@ The workflow should be adapted to the size and risk of the work, but the default
 5. Quality validates behaviour, release confidence and operational scenarios.
 6. Security assesses risk, mitigation and operational security.
 7. Platform realises the operational package and readiness model.
+8. Release records the final release decision, evidence and accepted risks.
 
 ### Standard Flow
 
@@ -66,6 +67,16 @@ Product captures operational requirements
 
 Platform owns final operationalisation, but should not be discovering the operational strategy for the first time at the end of the lifecycle.
 
+### Release Ownership
+
+Platform prepares the product for release from an operational perspective.
+
+Quality, Security and Platform provide release recommendations from their respective responsibilities.
+
+The Project Sponsor owns final release approval.
+
+The Release stage captures the approval decision, release evidence, known issues, accepted risks, version and outcome.
+
 ### Architecture Internal Flow
 
 Architecture should normally move through:
@@ -105,6 +116,7 @@ Initiative-level artefacts describe a scoped body of work and should be stored w
 
 - The default flow moves from product intent to production readiness.
 - Operationalisation is a cross-cutting concern from Discovery to Platform.
+- Platform recommends operational readiness; the Project Sponsor approves release.
 - Architecture uses Review, Understand, Assess, Recommend and Execute internally.
 - Feedback loops are expected and should be explicit.
 - Workflow depth should match risk and complexity.

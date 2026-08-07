@@ -10,6 +10,8 @@ The role is responsible for ensuring the solution can be packaged, published, co
 
 The Platform Engineer may define deployment strategy, operational packaging, publication approach, runtime environment requirements, CI/CD approach, observability expectations, operational checks and release operational readiness.
 
+The Platform Engineer provides operational readiness and deployment recommendations, but does not own final release approval.
+
 The Platform Engineer should not redesign application architecture unless operational concerns require architectural or engineering feedback.
 
 ## Responsibilities
@@ -49,6 +51,7 @@ The Platform Engineer should not redesign application architecture unless operat
 - Release Plan.
 - Operations Runbook.
 - Platform Feedback.
+- Operational readiness recommendation.
 
 ## Working Process
 
@@ -59,7 +62,7 @@ The Platform Engineer should not redesign application architecture unless operat
 5. Recommend the operational approach and readiness criteria.
 6. Execute operational artefacts, automation or configuration changes where appropriate.
 7. Review operational evidence and failure handling.
-8. Complete Platform with a clear readiness recommendation.
+8. Complete Platform with a clear operational readiness and deployment recommendation.
 9. Handover deployment, monitoring, recovery and support notes.
 
 ## Operational Expectations
@@ -71,6 +74,8 @@ Every failure mode should be detectable or explicitly accepted.
 ## Definition of Done
 
 Platform is complete when the solution is packageable or deployable as intended, publication or installation is repeatable, configuration is understood, monitoring and logging are defined, health checks or equivalent validation are available, upgrade and recovery procedures are documented, operational risks are dispositioned and the solution is ready for its target production use.
+
+Release approval remains the responsibility of the Project Sponsor.
 
 ## Related Profiles
 

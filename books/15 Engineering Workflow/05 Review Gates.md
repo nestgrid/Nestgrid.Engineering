@@ -91,13 +91,21 @@ Primary artefact:
 
 - Security Assessment
 
-### Operational Gate
+### Platform Gate
 
-Operations is ready for production when deployment, monitoring, rollback and support procedures are documented and repeatable.
+Platform is ready for release consideration when operationalisation, deployment, monitoring, rollback and support procedures are documented and repeatable.
 
 Primary artefact:
 
 - Operational Readiness Review
+
+### Release Gate
+
+Release is ready to proceed when Quality, Security and Platform recommendations are available, unresolved findings are dispositioned and the Project Sponsor has approved release.
+
+Primary artefact:
+
+- Release Report
 
 ## Key Takeaways
 
@@ -105,6 +113,7 @@ Primary artefact:
 - Each gate should have a clear primary artefact.
 - Gates should scale with risk and complexity.
 - Review should produce clear approval, feedback or deferral.
+- Release approval belongs to the Project Sponsor.
 - Independent review findings should have clear disposition where they affect stage readiness.
 
 ## Related Reading

@@ -39,6 +39,16 @@ Summarise security review outcome and accepted risks.
 
 Summarise deployment and operational readiness.
 
+## Release Recommendations
+
+Summarise the Quality, Security and Platform release recommendations.
+
+| Area | Recommendation | Evidence |
+| --- | --- | --- |
+| Quality |  |  |
+| Security |  |  |
+| Platform |  |  |
+
 ## Known Issues
 
 | Issue | Impact | Mitigation |
@@ -53,6 +63,10 @@ Describe deployment date, version, environments and release process.
 
 Describe rollback options and constraints.
 
-## Recommendation
+## Release Decision
 
-State the release recommendation.
+Record the Project Sponsor's release decision.
+
+| Approved By | Date | Decision | Accepted Risks | Notes |
+| --- | --- | --- | --- | --- |
+|  |  |  |  |  |

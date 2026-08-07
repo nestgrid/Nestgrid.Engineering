@@ -38,6 +38,16 @@ Approval should match the risk of the release.
 
 Low-risk changes should not be slowed by unnecessary process, while high-risk changes should receive appropriate review.
 
+### Separate Readiness from Approval
+
+Release readiness and release approval are related but different responsibilities.
+
+Quality, Security and Platform should provide release recommendations from their respective perspectives.
+
+The Platform Engineer owns deployment mechanics, operationalisation and operational readiness evidence.
+
+The Project Sponsor owns final release approval, including accepted risks and business timing.
+
 ### Communicate Meaningful Changes
 
 Stakeholders should understand changes that affect users, operations, support or business processes.
@@ -50,6 +60,7 @@ Communication should be proportional to impact.
 - Deployment and release can be separate.
 - Release risks should be identified early.
 - Approval expectations should match risk.
+- Readiness recommendations inform release approval but do not replace it.
 - Meaningful changes should be communicated.
 
 ## Related Reading
