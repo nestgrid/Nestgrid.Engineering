@@ -7,6 +7,7 @@ Initiatives capture delivery evidence without mixing initiative-specific artefac
 ## Initiatives
 
 - [2026-08 Books and Workflows Structure](2026-08-books-and-workflows-structure/README.md)
+- [2026-08 Commandable Engineering Operating System](2026-08-commandable-engineering-operating-system/README.md)
 - [2026-08 Opportunity Exploration](2026-08-opportunity-exploration/README.md)
 - [2026-08 Operationalisation](2026-08-operationalisation/README.md)
 - [2026-08 Role-Based Methodology](2026-08-role-based-methodology/README.md)

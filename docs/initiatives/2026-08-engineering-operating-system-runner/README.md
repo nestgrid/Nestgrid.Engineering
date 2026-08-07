@@ -21,7 +21,7 @@ Capture the future direction for autonomous role and profile orchestration witho
 
 ## Artefacts
 
-- [Vision](Vision.md)
+- [Runner Vision](Runner%20Vision.md)
 
 ## Status
 
