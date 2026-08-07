@@ -22,6 +22,7 @@ The Solution Architect should not own detailed implementation unless the workflo
 - Produce the Architecture Pack once approved.
 - Record ADRs or TDRs where decisions need enduring traceability.
 - Define boundaries, responsibilities, contracts and integration strategy.
+- Define the operational model, including packaging, distribution, consumption, installation, configuration, upgrade, rollback, observability and support implications.
 - Capture engineering guidance without prescribing unnecessary implementation detail.
 - Prepare the Software Engineer to realise the architecture confidently.
 
@@ -67,9 +68,11 @@ The Architecture Pack should include Architecture Principles and Quality Attribu
 
 Quality attributes may include availability, recoverability, survivability, security, maintainability, portability, observability and performance.
 
+The Architecture Pack should define the operational model where delivery, consumption, installation, configuration, upgrade, support or validation materially affect the product.
+
 ## Definition of Done
 
-Architecture is complete when the approved architectural direction is documented, significant decisions are recorded, quality attributes are explicit, implementation guidance is clear and the Software Engineer can proceed without inventing architecture.
+Architecture is complete when the approved architectural direction is documented, significant decisions are recorded, quality attributes and operational model are explicit, implementation guidance is clear and the Software Engineer can proceed without inventing architecture.
 
 ## Related Profiles
 

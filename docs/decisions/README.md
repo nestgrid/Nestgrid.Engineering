@@ -29,6 +29,7 @@ Decision records preserve context, rationale, alternatives and consequences so f
 | [ADR-004](ADR-004-adopt-role-based-methodology.md) | Adopt Role-Based Methodology | Architecture | Accepted | 2026-08-04 |
 | [ADR-005](ADR-005-adopt-roles-and-profiles-separation.md) | Adopt Roles and Profiles Separation | Architecture | Accepted | 2026-08-04 |
 | [ADR-006](ADR-006-adopt-opportunity-exploration-workflow.md) | Adopt Opportunity Exploration Workflow | Architecture | Accepted | 2026-08-05 |
+| [ADR-007](ADR-007-adopt-operationalisation-as-cross-cutting-concern.md) | Adopt Operationalisation as Cross-Cutting Concern | Architecture | Accepted | 2026-08-06 |
 | [TDR-001](TDR-001-number-lifecycle-artefact-directories.md) | Number Lifecycle Artefact Directories | Technical | Accepted | 2026-07-22 |
 | [TDR-002](TDR-002-establish-technology-baseline.md) | Establish Technology Baseline | Technical | Accepted | 2026-07-24 |
 

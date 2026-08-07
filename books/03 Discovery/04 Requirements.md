@@ -26,6 +26,23 @@ Quality requirements describe how well the solution must operate.
 
 These may include reliability, performance, security, accessibility, usability, maintainability, auditability, availability and operability.
 
+### Capture Operational Requirements
+
+Operational requirements describe what must be true for the product to be delivered, consumed, installed, configured, upgraded, supported and validated in its target environment.
+
+They are product requirements, not late deployment details.
+
+Operational requirements should be proportionate to the product type.
+
+Examples:
+
+- A NuGet library may need package publication, semantic versioning, consumer guidance and package-consumption validation.
+- A service may need installation, service registration, configuration, upgrade, uninstall and smoke-test expectations.
+- A web or API application may need hosting, deployment, configuration, health checks, observability and rollback expectations.
+- A mobile application may need signing, app-store distribution, platform compatibility, update and support expectations.
+
+Capture operational requirements early so Architecture can design the operational model and Platform does not inherit surprises at the end of the lifecycle.
+
 ### Identify Business Rules
 
 Business rules define required behaviour within the domain.
@@ -49,6 +66,7 @@ They should avoid prescribing technical implementation unless the technology its
 - Requirements bridge discovery and delivery.
 - Functional needs should be connected to stakeholder and domain understanding.
 - Quality expectations should be captured early.
+- Operational requirements should be captured early and treated as product requirements.
 - Business rules should be explicit.
 - Requirements should be testable.
 - Requirements should avoid unnecessary implementation detail.

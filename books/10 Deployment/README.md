@@ -1,6 +1,6 @@
 # Deployment
 
-The Deployment stage defines how software is packaged, released and delivered safely to production or other target environments.
+The Deployment stage defines how software is packaged, released, delivered and operationalised safely for production or other target environments.
 
 Deployment connects tested software to real users and operational responsibility. It should be repeatable, observable and reversible where practical.
 
@@ -19,6 +19,7 @@ Upon completing this book, engineers should be able to:
 - Manage environments and configuration responsibly.
 - Validate deployments before and after release.
 - Plan rollback and recovery approaches.
+- Realise operationalisation in a product-appropriate way.
 
 ## Chapters
 
@@ -28,10 +29,11 @@ Upon completing this book, engineers should be able to:
 4. [04 Configuration and Secrets](04%20Configuration%20and%20Secrets.md)
 5. [05 Deployment Validation](05%20Deployment%20Validation.md)
 6. [06 Rollback and Recovery](06%20Rollback%20and%20Recovery.md)
+7. [07 Operationalisation](07%20Operationalisation.md)
 
 ## Outcome
 
-Upon completing this book, engineers should be able to deploy software in a controlled way that reduces risk and supports production confidence.
+Upon completing this book, engineers should be able to deploy or deliver software in a controlled way that reduces risk and supports production confidence.
 
 ## Related Books
 

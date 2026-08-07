@@ -47,6 +47,10 @@ Describe validation, encoding and injection risks.
 
 Describe secret handling and configuration risks.
 
+## Operational Security
+
+Describe security risks in packaging, publication, distribution, installation, service identity, runtime permissions, signing, upgrade, uninstall and operational documentation.
+
 ## Dependency Review
 
 Describe dependency, package and supply chain risks.

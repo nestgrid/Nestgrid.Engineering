@@ -4,15 +4,21 @@
 
 ## Purpose
 
-Operational architecture defines how the solution will be deployed, observed, supported, recovered and maintained in production.
+Operational architecture defines how the solution will be delivered, consumed, deployed, observed, supported, recovered and maintained in production or its target runtime environment.
 
-It ensures that production concerns influence design before the system is built.
+It ensures that operational requirements influence design before the system is built.
 
 ## Guidance
 
-Software must be operable as well as functional. A system that cannot be monitored, supported or recovered reliably is not production-ready.
+Software must be operationally usable as well as functional. A system, library, service or application that cannot be delivered, consumed, configured, supported or recovered reliably is not production-ready.
 
 Operational architecture connects engineering design with real-world ownership and support.
+
+### Define the Operational Model
+
+Teams should define how the product will be packaged, published, installed, deployed, consumed, configured, upgraded, supported and validated.
+
+The model should be appropriate to the product type. Libraries, services, APIs, web applications, command-line tools, workers and mobile applications have different operational needs.
 
 ### Design for Observability
 
@@ -24,7 +30,7 @@ Logs, metrics, traces, health checks and audits should help diagnose issues and 
 
 Architecture should support safe deployment and release practices.
 
-Teams should consider configuration, environments, versioning, rollback, feature flags and compatibility.
+Teams should consider packaging, publication, installation, consumption, configuration, environments, versioning, upgrade, rollback, uninstall, feature flags and compatibility.
 
 ### Define Support Responsibilities
 
@@ -46,7 +52,8 @@ Architecture should avoid unnecessary runtime complexity unless it delivers clea
 
 ## Key Takeaways
 
-- Production concerns should influence architecture early.
+- Operational requirements should influence architecture early.
+- Architecture should define the operational model.
 - Observability is required for effective support.
 - Deployment and release needs should shape design.
 - Operational ownership should be clear.

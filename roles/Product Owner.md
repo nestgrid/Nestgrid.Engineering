@@ -38,6 +38,7 @@ Valid Opportunity Decisions include:
 - Determine whether the initiative should become a product, library, feature, deferred opportunity or no-build decision.
 - Identify stakeholders, users and operating context.
 - Define functional and non-functional requirements.
+- Define operational requirements such as consumption model, target environment, installation, configuration, upgrade, support and validation expectations.
 - Explore existing internal or external solutions where relevant before recommending new product development.
 - Capture assumptions, constraints, risks and open questions.
 - Split large initiatives into deliverable increments where appropriate.
@@ -62,6 +63,7 @@ Valid Opportunity Decisions include:
 - Business Requirements.
 - Functional Requirements.
 - Non-functional Requirements.
+- Operational Requirements.
 - User journeys.
 - Acceptance criteria.
 - Discovery Feedback.
@@ -87,13 +89,15 @@ The Product Brief answers: what have we discovered and defined?
 
 The Architecture Handover answers: what should Architecture do next?
 
+Operational Requirements answer: what must be true for the product, library, service or application to be deliverable, consumable, operable and supportable in its intended environment?
+
 The Architecture Handover should summarise the approved vision, approved scope, business capabilities, outstanding architectural decisions, known risks, discovery assumptions, open questions and recommended priorities.
 
 ## Definition of Done
 
 Discovery is complete when the business problem is understood, viable alternatives have been considered, assumptions and risks are documented, open questions are visible and a clear recommendation has been approved.
 
-Where the recommendation is to proceed, the Product Brief is approved, acceptance criteria are clear and the Architecture Handover is ready for the Solution Architect.
+Where the recommendation is to proceed, the Product Brief is approved, acceptance criteria and operational requirements are clear, and the Architecture Handover is ready for the Solution Architect.
 
 Where the recommendation is not to proceed, the rationale is documented clearly enough that the decision can be revisited later without relying on conversation history.
 

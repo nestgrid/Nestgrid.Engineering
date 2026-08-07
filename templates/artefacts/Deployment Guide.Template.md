@@ -29,6 +29,14 @@ Describe what this guide deploys.
 
 - Prerequisite 1
 
+## Packaging and Publication
+
+Describe how the product, library, service or application is packaged, published or distributed.
+
+## Installation or Consumption
+
+Describe how the package, application, service or library is installed, deployed or consumed.
+
 ## Configuration
 
 Describe required configuration.
@@ -42,6 +50,14 @@ Describe required secrets and where they are managed.
 1. Step one
 2. Step two
 3. Step three
+
+## Service Registration or Runtime Setup
+
+Describe service registration, hosting, scheduled task setup, app-store publication, package feed setup or equivalent runtime setup where relevant.
+
+## Upgrade and Uninstall
+
+Describe upgrade, downgrade, uninstall and cleanup expectations.
 
 ## Database Changes
 
@@ -62,6 +78,10 @@ Describe rollback process and constraints.
 ## Verification
 
 Describe post-deployment validation.
+
+## Operational Documentation
+
+Describe runbooks, installation notes, consumer guidance or support documentation required.
 
 ## Operational Risks
 

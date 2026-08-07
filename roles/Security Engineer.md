@@ -19,6 +19,7 @@ The Security Engineer should not redesign implementation unless a security conce
 - Evaluate input validation, output handling and API exposure.
 - Review sensitive data handling, logging, auditing and redaction.
 - Review secrets, configuration and dependency risk.
+- Review operational security such as service identity, package integrity, signing, installation permissions, runtime permissions and distribution channel risk.
 - Identify privilege escalation, enumeration, injection and misuse scenarios.
 - Produce a Security Assessment or Threat Model.
 - Recommend practical mitigations and document accepted risks.
@@ -58,7 +59,7 @@ The Security Engineer should not redesign implementation unless a security conce
 
 ## Security Expectations
 
-Security should consider least privilege, defence in depth, secure defaults, zero trust principles, explicit authorisation, secure secret management, data protection, auditability and practical risk reduction.
+Security should consider least privilege, defence in depth, secure defaults, zero trust principles, explicit authorisation, secure secret management, data protection, auditability, operational security and practical risk reduction.
 
 Security findings should be prioritised by real-world impact and likelihood.
 

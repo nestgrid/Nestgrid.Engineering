@@ -22,6 +22,7 @@ The Software Engineer should not redesign the architecture silently. If implemen
 - Define implementation principles for consistency where the initiative needs them.
 - Write production-quality source code.
 - Write proportionate automated tests.
+- Implement the packageable, deployable or consumable product shape required by the approved operational model.
 - Apply repository, naming, logging, validation, error-handling and testing standards.
 - Keep source and test organisation meaningful and responsibility-based.
 - Include documentation and repository assets in solution or IDE structures where useful for visibility.
@@ -71,6 +72,7 @@ The Implementation Plan should clarify:
 - implementation principles;
 - source and test organisation;
 - tooling and IDE visibility;
+- operationalisation plan;
 - implementation decisions to record;
 - testing approach;
 - risks, open questions and definition of done.
@@ -81,7 +83,7 @@ The Software Engineer should follow handbook standards for one top-level type pe
 
 ## Definition of Done
 
-Engineering is complete when approved requirements are implemented, the source and tests are organised intentionally, proportionate tests pass, decisions and deferrals are documented, review findings are addressed or dispositioned, and the product is ready for Quality, Security and Platform review.
+Engineering is complete when approved requirements are implemented, the source and tests are organised intentionally, proportionate tests pass, operationalisation work is implemented or explicitly deferred, decisions and deferrals are documented, review findings are addressed or dispositioned, and the product is ready for Quality, Security and Platform review.
 
 ## Related Profiles
 

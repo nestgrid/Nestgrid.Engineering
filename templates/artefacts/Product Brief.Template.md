@@ -77,6 +77,24 @@ Describe what is excluded.
 | --- | --- | --- |
 | NFR-001 |  |  |
 
+## Operational Requirements
+
+Describe what must be true for the product, library, service or application to be delivered, consumed, installed, configured, upgraded, supported and validated in its intended environment.
+
+| ID | Requirement | Priority |
+| --- | --- | --- |
+| OR-001 |  |  |
+
+Consider:
+
+- target runtime, consumption or distribution model;
+- target environments and platform constraints;
+- installation, deployment or package consumption expectations;
+- configuration, secrets and environment setup;
+- service registration, hosting or publication needs;
+- upgrade, rollback, uninstall and recovery expectations;
+- operational documentation and validation requirements.
+
 ## Acceptance Criteria
 
 - Criterion 1

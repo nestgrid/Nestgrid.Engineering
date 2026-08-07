@@ -35,6 +35,7 @@ Typical output:
 - Architecture Handover
 - Business Requirements
 - Acceptance Criteria
+- Operational Requirements
 
 ### Solution Architect
 
@@ -44,6 +45,7 @@ Typical output:
 
 - Architecture Recommendation
 - Architecture Pack
+- Operational Model
 - ADRs
 - Technical Risk Assessment
 
@@ -55,6 +57,7 @@ Typical output:
 
 - Implementation Plan
 - Implementation Report
+- Operationalisation implementation
 - Engineering Feedback
 
 ### Quality Engineer
@@ -65,6 +68,7 @@ Typical output:
 
 - Test Strategy
 - Test Plan
+- Operational scenario validation
 - Release Readiness Report
 
 ### Security Engineer
@@ -75,15 +79,17 @@ Typical output:
 
 - Security Assessment
 - Threat Model
+- Operational security review
 - Vulnerability Report
 
 ### Platform Engineer
 
-The Platform Engineer owns deployability, observability, reliability and operational sustainability.
+The Platform Engineer owns operationalisation, deployability, observability, reliability and operational sustainability.
 
 Typical output:
 
 - Deployment Guide
+- Operationalisation Plan
 - Operational Readiness Review
 - Operations Runbook
 
