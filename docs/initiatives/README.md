@@ -4,8 +4,27 @@ This directory contains scoped lifecycle runs for significant Nestgrid Engineeri
 
 Initiatives capture delivery evidence without mixing initiative-specific artefacts into product-level handbook or artefact folders.
 
+## Naming and Ordering
+
+New initiatives should use:
+
+```text
+<yyyy-mm-dd>-<sequence>-<initiative-name>
+```
+
+Example:
+
+```text
+2026-08-08-001-eos-extensibility-roles-and-capabilities
+```
+
+The sequence is three digits and ordered within the date.
+
+Older initiatives may retain the previous `<yyyy-mm>-<initiative-name>` format until a deliberate migration is approved.
+
 ## Initiatives
 
+- [2026-08-08-001 EOS Extensibility: Roles and Capabilities](2026-08-08-001-eos-extensibility-roles-and-capabilities/README.md)
 - [2026-08 Books and Workflows Structure](2026-08-books-and-workflows-structure/README.md)
 - [2026-08 Commandable Engineering Operating System](2026-08-commandable-engineering-operating-system/README.md)
 - [2026-08 Opportunity Exploration](2026-08-opportunity-exploration/README.md)

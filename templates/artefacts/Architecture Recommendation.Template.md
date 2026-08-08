@@ -24,6 +24,18 @@ Summarise the recommended architectural direction before substantial Architectur
 
 This artefact supports approval to Execute Architecture.
 
+Before completing this artefact, clarify material uncertainty with the Project Sponsor where the approved Discovery artefacts leave architectural gaps that can reasonably be resolved.
+
+Record unresolved questions explicitly rather than turning them into hidden assumptions.
+
+## Clarification Summary
+
+Summarise material questions clarified before this recommendation was produced.
+
+| Question | Clarification | Source |
+| --- | --- | --- |
+|  |  |  |
+
 ## Proposed Architectural Direction
 
 Describe the recommended architectural direction.
@@ -43,6 +55,12 @@ List the principal risks, trade-offs and accepted constraints.
 | Risk or Trade-off | Impact | Proposed Response |
 | --- | --- | --- |
 |  |  |  |
+
+## Open Questions
+
+List unresolved questions that remain after clarification.
+
+- Question 1
 
 ## Proposed Architecture Artefacts
 

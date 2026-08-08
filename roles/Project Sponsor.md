@@ -15,13 +15,14 @@ The Project Sponsor may:
 - accept, defer or reject documented risks;
 - request additional analysis before a lifecycle stage proceeds;
 - arbitrate unresolved trade-offs between roles;
-- and approve release readiness when required by the workflow.
+- and approve release when required by the workflow.
 
 ## Responsibilities
 
 - Provide business and organisational context.
 - Confirm that the initiative is worth pursuing.
 - Approve Product Briefs, Architecture Recommendations and other lifecycle gates where required.
+- Approve or reject release based on quality, security, platform and operational readiness evidence.
 - Ensure roles have sufficient context to proceed without guessing intent.
 - Make explicit decisions when trade-offs require sponsorship authority.
 - Keep approvals traceable through artefacts, decisions or review records.
@@ -34,6 +35,7 @@ The Project Sponsor may:
 - Independent Reviews.
 - Role feedback and open questions.
 - Risk, cost, scope and delivery implications.
+- Quality, Security and Platform release recommendations.
 
 ## Typical Outputs
 
@@ -41,6 +43,7 @@ The Project Sponsor may:
 - Scope clarification.
 - Priority direction.
 - Accepted or deferred risks.
+- Release approval or rejection.
 - Decision requests for downstream roles.
 
 ## Working Expectations

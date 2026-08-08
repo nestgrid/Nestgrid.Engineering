@@ -57,6 +57,14 @@ The Security Engineer should not redesign implementation unless a security conce
 8. Complete Security with a clear recommendation.
 9. Handover findings, accepted risks and required follow-up.
 
+## Security Clarification
+
+Security should clarify material ambiguity before assessing or recommending risk disposition.
+
+Clarification should focus on assets, data sensitivity, identities, trust boundaries, authorisation expectations, accepted risk, operational security and exposure assumptions.
+
+Do not invent security policy where Product, Architecture or the Project Sponsor has not defined one. Raise Security Feedback where uncertainty affects risk assessment or release recommendation.
+
 ## Security Expectations
 
 Security should consider least privilege, defence in depth, secure defaults, zero trust principles, explicit authorisation, secure secret management, data protection, auditability, operational security and practical risk reduction.

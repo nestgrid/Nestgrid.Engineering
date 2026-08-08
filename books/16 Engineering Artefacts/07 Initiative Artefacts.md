@@ -31,7 +31,27 @@ Small features and bug fixes may not need a full artefact set.
 
 Initiative artefacts should live under `docs/initiatives/`.
 
-Use a stable, readable folder name:
+Use a stable, readable folder name.
+
+For new initiatives, prefer an ordered name:
+
+```text
+docs/
+  initiatives/
+    <yyyy-mm-dd>-<sequence>-<initiative-name>/
+```
+
+Example:
+
+```text
+docs/
+  initiatives/
+    2026-08-08-001-eos-extensibility-roles-and-capabilities/
+```
+
+The sequence should be three digits and scoped to the date.
+
+Legacy initiatives may retain the earlier month-based format:
 
 ```text
 docs/
@@ -47,12 +67,14 @@ docs/
     2026-08-multi-currency/
 ```
 
+Do not rename historical initiative folders only to satisfy the newer ordering convention unless a broader repository migration is approved.
+
 ### Standard Initiative Structure
 
 ```text
 docs/
   initiatives/
-    <yyyy-mm>-<initiative-name>/
+    <yyyy-mm-dd>-<sequence>-<initiative-name>/
       README.md
       artefacts/
         01 Discovery/
