@@ -59,6 +59,14 @@ The Quality Engineer should not redesign production code. Production defects or 
 8. Complete Quality with a clear recommendation.
 9. Handover unresolved defects, risks and test evidence.
 
+## Quality Clarification
+
+Quality should clarify material ambiguity before validation.
+
+Clarification should focus on expected behaviour, acceptance criteria, risk tolerance, release confidence criteria, test evidence and operational scenarios.
+
+Do not silently turn unclear behaviour into new requirements. Raise Quality Feedback where approved requirements or implementation evidence are insufficient to validate confidently.
+
 ## Testing Expectations
 
 Quality should consider happy paths, edge cases, invalid inputs, concurrency, data integrity, failure recovery, API contracts, persistence behaviour, operational failures, operationalisation scenarios and regression impact.

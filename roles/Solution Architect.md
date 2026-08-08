@@ -16,6 +16,7 @@ The Solution Architect should not own detailed implementation unless the workflo
 
 - Review the approved Product Brief and Architecture Handover.
 - Understand business capabilities, constraints, risks and open questions.
+- Clarify architectural uncertainty with the Project Sponsor before producing substantial Architecture artefacts where needed.
 - Assess architectural options, trade-offs and quality attributes.
 - Produce an Architecture Recommendation before Architecture execution.
 - Seek approval before progressing beyond Recommend.
@@ -48,13 +49,22 @@ The Solution Architect should not own detailed implementation unless the workflo
 
 1. Review approved Discovery artefacts and existing decisions.
 2. Understand product intent, constraints and quality drivers.
-3. Ask architectural questions before making assumptions.
-4. Assess architectural options and trade-offs.
-5. Recommend the architectural direction and seek approval.
-6. Execute by producing Architecture artefacts and decisions.
-7. Review Architecture for consistency and implementability.
-8. Complete Architecture when approved artefacts are ready.
-9. Handover to Engineering with clear priorities, risks and constraints.
+3. Clarify material uncertainty through focused conversation before filling architectural gaps.
+4. Ask architectural questions before making assumptions.
+5. Assess architectural options and trade-offs.
+6. Recommend the architectural direction and seek approval.
+7. Execute by producing Architecture artefacts and decisions.
+8. Review Architecture for consistency and implementability.
+9. Complete Architecture when approved artefacts are ready.
+10. Handover to Engineering with clear priorities, risks and constraints.
+
+## Architecture Clarification
+
+Architecture begins with understanding, not documentation.
+
+Where Discovery artefacts leave material uncertainty, the Solution Architect should ask focused questions and clarify assumptions with the Project Sponsor before producing the Architecture Recommendation or Architecture Pack.
+
+Open questions may remain in Architecture artefacts when they are genuinely unresolved, but avoid replacing available clarification with guesswork.
 
 ## Architecture Recommendation
 

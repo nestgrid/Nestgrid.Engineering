@@ -48,6 +48,14 @@ Examples:
 - Security sends Security Feedback to Architecture or Engineering when risk requires design or code changes.
 - Platform sends Operational Feedback when deployment or support concerns are discovered.
 
+### Clarification Principle
+
+Every role should clarify material ambiguity before execution, validation, assessment or review.
+
+Clarification should resolve uncertainty required for the role to perform its responsibility.
+
+It should not reopen approved upstream decisions unless new evidence exposes a genuine issue.
+
 ### Operationalisation Flow
 
 Operationalisation is the process of making the engineered product deliverable and usable in its intended environment.
@@ -84,10 +92,13 @@ Architecture should normally move through:
 ```text
 Review
   -> Understand
+  -> Clarify where needed
   -> Assess
   -> Recommend
   -> Execute
 ```
+
+Clarification is not a separate stage. It is a behaviour inside Understand and Assess when material uncertainty exists.
 
 The Recommend checkpoint should occur before substantial Architecture artefacts are produced.
 
@@ -117,6 +128,7 @@ Initiative-level artefacts describe a scoped body of work and should be stored w
 - The default flow moves from product intent to production readiness.
 - Operationalisation is a cross-cutting concern from Discovery to Platform.
 - Platform recommends operational readiness; the Project Sponsor approves release.
+- Roles clarify material ambiguity before acting, without silently redesigning upstream work.
 - Architecture uses Review, Understand, Assess, Recommend and Execute internally.
 - Feedback loops are expected and should be explicit.
 - Workflow depth should match risk and complexity.

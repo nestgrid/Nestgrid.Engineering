@@ -62,6 +62,14 @@ The Software Engineer should not redesign the architecture silently. If implemen
 8. Complete Engineering only when implementation is coherent and validated.
 9. Handover through an Implementation Report and explicit downstream notes.
 
+## Implementation Clarification
+
+Engineering should clarify material ambiguity before execution.
+
+Clarification should focus on what is required to implement safely: architecture ambiguity, conflicting acceptance criteria, unclear solution structure, operational model gaps, testing expectations or boundary uncertainty.
+
+Do not reopen approved Product or Architecture decisions unless implementation exposes a genuine issue. Raise Engineering Feedback or record an implementation decision when clarification changes the implementation approach.
+
 ## Implementation Plan Expectations
 
 The Implementation Plan should clarify:

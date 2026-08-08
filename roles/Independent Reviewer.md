@@ -54,6 +54,14 @@ The Independent Reviewer does not own Product, Architecture, Engineering, Qualit
 8. Complete with a formal recommendation.
 9. Handover findings to the responsible role for disposition.
 
+## Review Clarification
+
+Independent Review should clarify material ambiguity about review scope before producing findings.
+
+Clarification should focus on what is being reviewed, which lifecycle stage is claimed, which artefacts are authoritative, whether the review is advisory or gate-related, and how previous findings should be treated.
+
+Once scope and evidence are clear, review decisively. Do not perform the responsible role's work during review.
+
 ## Review Expectations
 
 Independent Reviews should be evidence-based, prioritised and reusable. They should avoid duplicating role execution, and should clearly separate blocking findings, non-blocking findings, lifecycle feedback and handbook feedback.

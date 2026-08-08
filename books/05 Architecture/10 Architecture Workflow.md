@@ -18,6 +18,10 @@ Architecture should proceed through five steps:
 4. Recommend
 5. Execute
 
+Architecture should clarify material uncertainty before producing substantial artefacts.
+
+The Solution Architect should not silently fill important gaps that could reasonably be clarified with the Project Sponsor.
+
 The depth of each step should be proportionate to the size, risk and uncertainty of the product or initiative.
 
 ### Review
@@ -37,6 +41,10 @@ Typical inputs include:
 Architecture should understand the product intent, business capabilities, constraints, quality needs and important domain concepts before proposing a solution.
 
 The goal is shared understanding, not premature design.
+
+Where the approved Discovery artefacts leave material uncertainty, Architecture should use focused conversation to clarify drivers, constraints, priorities and assumptions before proceeding.
+
+Some open questions may still remain, but they should be explicit and intentional.
 
 ### Assess
 
@@ -72,6 +80,7 @@ Typical outputs include:
 ## Key Takeaways
 
 - Architecture should not jump straight from Discovery input to detailed documentation.
+- Architecture should clarify material uncertainty before turning assumptions into artefacts.
 - The Recommend checkpoint provides directional approval before Execute.
 - Architecture Recommendation should be lightweight.
 - Architecture Pack and related decisions are produced during Execute.

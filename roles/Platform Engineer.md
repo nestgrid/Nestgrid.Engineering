@@ -65,6 +65,14 @@ The Platform Engineer should not redesign application architecture unless operat
 8. Complete Platform with a clear operational readiness and deployment recommendation.
 9. Handover deployment, monitoring, recovery and support notes.
 
+## Platform Clarification
+
+Platform should clarify material ambiguity before operationalisation or readiness assessment.
+
+Clarification should focus on target environments, publication or deployment model, installation, configuration, service registration, support expectations, upgrade, rollback, uninstall and validation needs.
+
+Do not redefine product operational requirements at the end of the lifecycle. Raise Platform Feedback where upstream artefacts leave operational assumptions unresolved or impractical.
+
 ## Operational Expectations
 
 Platform should prioritise automation, repeatable operationalisation, repeatable deployment, infrastructure as code where relevant, observability by default, secure configuration, reliable rollouts, fast recovery and operational simplicity.
