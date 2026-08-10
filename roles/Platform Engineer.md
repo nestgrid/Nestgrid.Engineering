@@ -21,6 +21,7 @@ The Platform Engineer should not redesign application architecture unless operat
 - Define publication, installation, consumption, service registration, upgrade and uninstall expectations where relevant.
 - Define deployment, rollback and recovery strategy.
 - Define environment and configuration expectations.
+- Confirm production database schema changes are handled through the deployment process rather than application startup.
 - Review containerisation, hosting and infrastructure where relevant.
 - Define health checks, logging, metrics, tracing and alerting.
 - Assess backup, recovery and support readiness.

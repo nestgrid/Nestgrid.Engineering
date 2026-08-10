@@ -24,6 +24,39 @@ Tests that use in-memory persistence do not prove relational mappings, provider 
 
 Where those concerns matter, use provider-backed integration tests.
 
+### Apply Development Migrations Explicitly
+
+Development environments may apply pending Entity Framework Core migrations automatically on application startup when explicitly enabled through configuration.
+
+This supports a better developer experience for local development, fresh clones and integration-style testing.
+
+The behaviour must be controlled by configuration rather than hidden environment-only code.
+
+Example intent:
+
+```text
+Development
+ApplyMigrationsOnStartup = true
+
+Production
+ApplyMigrationsOnStartup = false
+```
+
+When enabled, startup migration should:
+
+- use `Migrate` or `MigrateAsync`, not `EnsureCreated`;
+- log when migration application starts;
+- log when there are no pending migrations;
+- log each applied migration where practical;
+- fail clearly when migration application fails;
+- and remain disabled by default for production.
+
+Do not use `EnsureCreated` for migrated relational databases because it bypasses the migration history model.
+
+Production environments must never apply migrations automatically from application startup.
+
+Production schema changes are part of the controlled deployment process and should be planned, reviewed, backed up and validated through Platform and Release.
+
 ### Use Provider-Appropriate Database Naming
 
 Database object naming should follow the standard convention for the selected database provider.
@@ -59,6 +92,9 @@ Connection strings and credentials should be managed through appropriate environ
 - Schema changes should be reviewable and repeatable.
 - Deferred migrations must be documented explicitly.
 - In-memory tests do not validate relational provider behaviour.
+- Development startup migration may be enabled explicitly through configuration.
+- Production startup migration must remain disabled.
+- Production schema changes belong to the deployment process.
 - Database object naming should follow the selected provider convention.
 - PostgreSQL database objects should use `snake_case`.
 - Default configuration should not contain local database credentials.

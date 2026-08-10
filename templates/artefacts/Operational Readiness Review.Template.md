@@ -33,6 +33,8 @@ Include publication, installation, service registration, configuration, upgrade,
 
 Describe configuration and environment readiness.
 
+For database-backed products, confirm whether startup migration is disabled outside explicitly approved non-production environments.
+
 ## Observability Readiness
 
 Describe logs, metrics, traces, dashboards and alerts.

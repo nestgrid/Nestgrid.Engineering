@@ -63,6 +63,12 @@ Describe upgrade, downgrade, uninstall and cleanup expectations.
 
 Describe migrations, rollback considerations and data safety concerns.
 
+State how production schema changes are applied during deployment.
+
+Confirm that application startup does not automatically apply production migrations.
+
+Describe any backup, validation and rollback steps required before or after migration.
+
 ## Health Checks
 
 Describe health endpoints and validation checks.

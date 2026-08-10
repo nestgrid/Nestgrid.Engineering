@@ -101,6 +101,10 @@ Describe interfaces, APIs, messages or contracts to create or update.
 
 Describe schema, migration or persistence changes.
 
+Document whether development startup migration is implemented, which configuration key controls it, and how migration application is logged.
+
+Production startup migration must remain disabled; describe any production migration deferral or handover to Platform.
+
 ## Testing Approach
 
 Describe expected unit, integration and regression tests.

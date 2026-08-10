@@ -24,6 +24,7 @@ The Software Engineer should not redesign the architecture silently. If implemen
 - Write proportionate automated tests.
 - Implement the packageable, deployable or consumable product shape required by the approved operational model.
 - Apply repository, naming, logging, validation, error-handling and testing standards.
+- Implement and document configurable development startup migration behaviour for database-backed applications where relevant.
 - Keep source and test organisation meaningful and responsibility-based.
 - Include documentation and repository assets in solution or IDE structures where useful for visibility.
 - Produce an Implementation Report for downstream handover.
@@ -87,7 +88,7 @@ The Implementation Plan should clarify:
 
 ## Engineering Standards
 
-The Software Engineer should follow handbook standards for one top-level type per file, responsibility-based organisation, clear naming, explicit database mapping, logging expectations, validation, exception handling, domain event handling, strong identifiers, tests, migrations and API contracts.
+The Software Engineer should follow handbook standards for one top-level type per file, responsibility-based organisation, clear naming, explicit database mapping, logging expectations, validation, exception handling, domain event handling, strong identifiers, tests, migrations, development startup migration behaviour and API contracts.
 
 ## Definition of Done
 
