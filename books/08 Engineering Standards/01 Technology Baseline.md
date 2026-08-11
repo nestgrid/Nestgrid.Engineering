@@ -52,6 +52,28 @@ ASP.NET Core Minimal APIs are the standard approach for HTTP APIs.
 
 Products may use other ASP.NET Core styles where the product context clearly benefits from them.
 
+### OpenAPI and API Reference UI
+
+ASP.NET Core API products should generate an OpenAPI document as part of their application contract.
+
+Scalar is the preferred interactive OpenAPI reference UI for development where it fits the product. It should be mapped after the OpenAPI document and should normally be available only in Development or another explicitly approved non-production environment.
+
+For example:
+
+```csharp
+builder.Services.AddOpenApi();
+
+if (app.Environment.IsDevelopment())
+{
+    app.MapOpenApi();
+    app.MapScalarApiReference();
+}
+```
+
+Interactive API documentation must be disabled in production by default. If it is required in a controlled non-production or production environment, access should be deliberately protected and recorded through the appropriate decision process.
+
+Scalar does not replace endpoint documentation. APIs should still provide accurate names, tags, summaries, descriptions, request models, response metadata and authorisation information so that the generated contract is useful to consumers.
+
 ### Result Pattern
 
 Nestgrid.Response is the standard result model for Nestgrid products.
@@ -91,6 +113,7 @@ Products should prefer framework capabilities before introducing third-party lib
 - Nestgrid products should follow the technology baseline by default.
 - Deviations are acceptable when justified and recorded.
 - `.NET`, C#, PostgreSQL, EF Core and ASP.NET Core Minimal APIs form the current baseline.
+- ASP.NET Core APIs should generate OpenAPI documentation, with Scalar preferred as the development reference UI where appropriate.
 - Nestgrid.Response is the standard result model.
 - FluentValidation is recommended for request validation in the Application layer.
 - Domain validation belongs in the Domain Model.
@@ -102,6 +125,7 @@ Products should prefer framework capabilities before introducing third-party lib
 - [TDR-002: Establish Technology Baseline](../../docs/decisions/TDR-002-establish-technology-baseline.md)
 - [02 Readability](02%20Readability.md)
 - [07 Application Response Model](07%20Application%20Response%20Model.md)
+- [11 API Contracts](11%20API%20Contracts.md)
 - [Testing](../../books/09%20Testing/README.md)
 
 ---

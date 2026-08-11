@@ -50,6 +50,8 @@ API workflow tests should cover more than route presence.
 
 Where APIs are part of the release surface, tests should cover successful requests, validation failures, response shapes, invalid payload mapping and authorisation posture.
 
+Where generated OpenAPI documentation is part of the release surface, verify that important endpoints are discoverable and that documented operations, tags, response types and status codes remain aligned with the implemented contract.
+
 ## Key Takeaways
 
 - End-to-end tests validate important full-system flows.
@@ -58,6 +60,7 @@ Where APIs are part of the release surface, tests should cover successful reques
 - Reliability is essential for trust.
 - Realistic behaviour improves confidence.
 - API workflows should validate contract behaviour, not only endpoint availability.
+- OpenAPI documentation should remain aligned with API behaviour.
 
 ## Related Reading
 

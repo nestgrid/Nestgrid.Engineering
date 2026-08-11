@@ -16,7 +16,7 @@ The Quality Engineer should not redesign production code. Production defects or 
 
 - Review Discovery, Architecture and Engineering artefacts.
 - Review implementation and automated tests.
-- Verify acceptance criteria and requirements coverage.
+- Verify acceptance criteria, requirements coverage and API documentation where applicable.
 - Design risk-based test strategies and test cases.
 - Identify missing coverage, edge cases and regression risks.
 - Validate operational scenarios such as clean install, package consumption, configuration changes, upgrade, uninstall, smoke tests and recovery where relevant.
@@ -69,7 +69,7 @@ Do not silently turn unclear behaviour into new requirements. Raise Quality Feed
 
 ## Testing Expectations
 
-Quality should consider happy paths, edge cases, invalid inputs, concurrency, data integrity, failure recovery, API contracts, persistence behaviour, operational failures, operationalisation scenarios and regression impact.
+Quality should consider happy paths, edge cases, invalid inputs, concurrency, data integrity, failure recovery, API contracts, OpenAPI endpoint metadata, persistence behaviour, operational failures, operationalisation scenarios and regression impact.
 
 Quality should judge confidence, not percentages alone. Coverage highlights untested code; mutation testing highlights ineffective tests.
 
