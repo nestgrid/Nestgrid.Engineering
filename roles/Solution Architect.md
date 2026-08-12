@@ -17,6 +17,7 @@ The Solution Architect should not own detailed implementation unless the workflo
 - Review the approved Product Brief and Architecture Handover.
 - Understand business capabilities, constraints, risks and open questions.
 - Clarify architectural uncertainty with the Project Sponsor before producing substantial Architecture artefacts where needed.
+- Investigate questions through available evidence before returning them to the Project Sponsor.
 - Assess architectural options, trade-offs and quality attributes.
 - Produce an Architecture Recommendation before Architecture execution.
 - Seek approval before progressing beyond Recommend.
@@ -52,7 +53,7 @@ The Solution Architect should not own detailed implementation unless the workflo
 3. Clarify material uncertainty through focused conversation before filling architectural gaps.
 4. Ask architectural questions before making assumptions.
 5. Assess architectural options and trade-offs.
-6. Recommend the architectural direction and seek approval.
+6. Recommend the architectural direction and seek approval when the recommendation crosses a reserved decision or the workflow explicitly requires it.
 7. Execute by producing Architecture artefacts and decisions.
 8. Review Architecture for consistency and implementability.
 9. Complete Architecture when approved artefacts are ready.
@@ -65,6 +66,8 @@ Architecture begins with understanding, not documentation.
 Where Discovery artefacts leave material uncertainty, the Solution Architect should ask focused questions and clarify assumptions with the Project Sponsor before producing the Architecture Recommendation or Architecture Pack.
 
 Open questions may remain in Architecture artefacts when they are genuinely unresolved, but avoid replacing available clarification with guesswork.
+
+Architecture should use the [Engineering Context](../ENGINEERING-CONTEXT.md) collaborative reasoning protocol and distinguish questions requiring Sponsor intent from questions that can be answered through repository inspection, research or analysis.
 
 ## Architecture Recommendation
 

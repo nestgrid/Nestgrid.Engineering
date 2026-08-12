@@ -19,7 +19,7 @@ Teams may add specialist artefacts when needed, but should not bypass the standa
 | Opportunity Exploration | Product Owner | Opportunity Decision | Project Sponsor |
 | Discovery | Product Owner | Product Brief / Architecture Handover | Solution Architect |
 | Architecture | Solution Architect | Architecture Recommendation / Architecture Pack | Software Engineer |
-| Implementation | Software Engineer | Implementation Plan / Report | Quality Engineer, Security Engineer |
+| Implementation | Software Engineer | Implementation Plan / Report, with Engineering Assurance where appropriate | Quality Engineer, Security Engineer |
 | Quality | Quality Engineer | Test Strategy / Release Readiness Report | Project Sponsor, Software Engineer |
 | Security | Security Engineer | Security Assessment | Project Sponsor, Software Engineer, Platform Engineer |
 | Platform | Platform Engineer | Deployment Guide / Operational Readiness Review | Project Sponsor, Operations |
@@ -132,10 +132,13 @@ Its evidence appears across standard artefacts:
 - Opportunity Decision is optional but recognised before Product Definition.
 - The Product Brief is the Product Definition approval artefact.
 - The Architecture Handover is the final Discovery handover to Architecture.
+- Engineering Readiness Assessment confirms that implementation can be planned without inventing material Architecture or Product intent.
+- Engineering Assurance records whether implementation obligations and evidence are sufficient for downstream review.
 - Architecture Recommendation provides approval before Architecture Execute.
 - Operationalisation is evidenced across multiple artefacts rather than isolated in one document.
 - The Release Report records release approval; it is not owned by Platform.
 - Feedback artefacts make concerns explicit.
+- Engineering Assurance may be recorded in the Implementation Report or provided as a standalone artefact for Extended or high-risk work.
 - Independent Reviews provide independent review history where used.
 - Templates provide consistent structure.
 - Completed artefacts belong with the product repository.

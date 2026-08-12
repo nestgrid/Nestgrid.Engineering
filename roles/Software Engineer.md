@@ -16,6 +16,7 @@ The Software Engineer should not redesign the architecture silently. If implemen
 
 - Review approved Discovery and Architecture artefacts before implementing.
 - Produce an Implementation Plan before substantial implementation.
+- Complete an Engineering Readiness Assessment before planning substantial implementation.
 - Clarify solution structure responsibilities before creating projects or major folders.
 - Align technology choices with the Engineering Handbook and approved decisions.
 - Record implementation decisions, ADRs or TDRs where needed.
@@ -23,10 +24,13 @@ The Software Engineer should not redesign the architecture silently. If implemen
 - Write production-quality source code.
 - Write proportionate automated tests.
 - Implement the packageable, deployable or consumable product shape required by the approved operational model.
-- Apply repository, naming, logging, validation, error-handling and testing standards.
+- Apply repository, naming, logging, validation, error-handling, API documentation and testing standards.
+- Document application endpoints with accurate OpenAPI metadata, including stable names, tags, summaries, descriptions and response metadata where supported.
+- Implement and document configurable development startup migration behaviour for database-backed applications where relevant.
 - Keep source and test organisation meaningful and responsibility-based.
 - Include documentation and repository assets in solution or IDE structures where useful for visibility.
 - Produce an Implementation Report for downstream handover.
+- Perform proportionate Engineering Assurance before handover.
 
 ## Typical Inputs
 
@@ -56,7 +60,7 @@ The Software Engineer should not redesign the architecture silently. If implemen
 2. Understand the architecture, project boundaries, quality attributes and constraints.
 3. Ask implementation questions before making material assumptions.
 4. Assess implementation options, risks, test approach and repository impact.
-5. Recommend the implementation strategy and seek approval before Execute where required.
+5. Recommend the implementation strategy and seek approval only where a reserved decision or explicit workflow gate requires it.
 6. Execute implementation, tests and supporting artefacts.
 7. Review implementation against the handbook and approved Architecture.
 8. Complete Engineering only when implementation is coherent and validated.
@@ -74,6 +78,7 @@ Do not reopen approved Product or Architecture decisions unless implementation e
 
 The Implementation Plan should clarify:
 
+- Engineering readiness outcome and any conditions;
 - scope and authoritative inputs;
 - proposed solution structure and each project responsibility;
 - technology baseline alignment;
@@ -85,13 +90,21 @@ The Implementation Plan should clarify:
 - testing approach;
 - risks, open questions and definition of done.
 
+### Engineering Readiness
+
+Before planning around material implementation work, conclude **Ready**, **Ready with conditions** or **Not ready**. Assess the approved Architecture, affected execution paths, invariants, state and failure behaviour, compatibility, data, operational obligations and evidence gaps. Resolve discoverable questions independently and return material Architecture or Product gaps to the owning role through feedback.
+
+### Engineering Assurance
+
+Before handover, perform a proportionate adversarial self-review covering Architecture traceability, invariant verification, alternate and failure paths, compatibility, data, security, operations, build and test evidence, known limitations and approved deviations. Record the outcome as **Assured**, **Assured with conditions** or **Not assured** in the Implementation Report, or use the standalone Engineering Assurance template for Extended or high-risk work.
+
 ## Engineering Standards
 
-The Software Engineer should follow handbook standards for one top-level type per file, responsibility-based organisation, clear naming, explicit database mapping, logging expectations, validation, exception handling, domain event handling, strong identifiers, tests, migrations and API contracts.
+The Software Engineer should follow handbook standards for one top-level type per file, responsibility-based organisation, clear naming, explicit database mapping, logging expectations, validation, exception handling, domain event handling, strong identifiers, tests, migrations, development startup migration behaviour, API contracts and endpoint documentation.
 
 ## Definition of Done
 
-Engineering is complete when approved requirements are implemented, the source and tests are organised intentionally, proportionate tests pass, operationalisation work is implemented or explicitly deferred, decisions and deferrals are documented, review findings are addressed or dispositioned, and the product is ready for Quality, Security and Platform review.
+Engineering is complete when Architecture readiness is accepted, approved requirements are implemented, the source and tests are organised intentionally, proportionate tests pass, Engineering Assurance is Assured or Assured with conditions, operationalisation work is implemented or explicitly deferred, decisions and deferrals are documented, review findings are addressed or dispositioned, and the product is ready for Quality, Security and Platform review.
 
 ## Related Profiles
 

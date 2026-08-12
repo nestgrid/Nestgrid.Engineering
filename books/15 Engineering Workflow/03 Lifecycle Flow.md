@@ -56,6 +56,8 @@ Clarification should resolve uncertainty required for the role to perform its re
 
 It should not reopen approved upstream decisions unless new evidence exposes a genuine issue.
 
+All roles should follow the [Engineering Context](../../ENGINEERING-CONTEXT.md) collaborative reasoning protocol. The protocol is a behaviour, not an additional lifecycle stage.
+
 ### Operationalisation Flow
 
 Operationalisation is the process of making the engineered product deliverable and usable in its intended environment.

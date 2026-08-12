@@ -11,6 +11,7 @@ This folder contains reusable templates for the standard Nestgrid Engineering wo
 - [Architecture Pack](Architecture%20Pack.Template.md)
 - [Implementation Plan](Implementation%20Plan.Template.md)
 - [Implementation Report](Implementation%20Report.Template.md)
+- [Engineering Assurance](Engineering%20Assurance.Template.md)
 - [Test Strategy](Test%20Strategy.Template.md)
 - [Security Assessment](Security%20Assessment.Template.md)
 - [Deployment Guide](Deployment%20Guide.Template.md)
