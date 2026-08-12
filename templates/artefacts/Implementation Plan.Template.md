@@ -19,6 +19,28 @@ related_repositories:
 
 Describe the implementation scope.
 
+## Engineering Readiness Assessment
+
+### Readiness Outcome
+
+State **Ready**, **Ready with conditions** or **Not ready**.
+
+### Architecture Obligations and Invariants
+
+List the obligations, invariants and delegated choices that Engineering must realise or verify.
+
+### Affected Execution Paths
+
+Describe principal, alternate, legacy and failure paths affected by the implementation.
+
+### State, Failure and Compatibility Analysis
+
+Describe relevant state transitions, concurrency, transactions, durability, restart, retry, recovery, existing data and compatibility concerns.
+
+### Ambiguities and Evidence Gaps
+
+List material uncertainties, contradictions, unsupported assumptions and feedback returned to Product or Architecture.
+
 ## Inputs
 
 List the artefacts and decisions used as implementation inputs.
@@ -125,3 +147,4 @@ Describe expected unit, integration and regression tests.
 - Tests added or updated
 - Review completed
 - Known risks documented
+- Engineering readiness accepted and Architecture conformance confirmed where required

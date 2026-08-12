@@ -16,8 +16,9 @@ Define the standard workflow for moving approved Architecture into implementatio
 ## Flow
 
 ```text
-Implementation Recommendation
-  -> Approval
+Engineering Readiness Assessment
+  -> Implementation Plan
+  -> Architecture conformance confirmation where required
   -> Implementation
   -> Engineering Review
   -> Quality
@@ -45,7 +46,8 @@ Implementation Recommendation
 
 ## Approval Gates
 
-- The Software Engineer should wait for approval before moving beyond Recommend.
+- The Software Engineer should proceed after readiness and conformance are confirmed when the work remains within the authorised boundary.
+- Sponsor approval is required only for a reserved decision or where the assignment explicitly requires it.
 - Material independent review findings should be resolved, accepted or deferred before Quality handover.
 
 ## Notes

@@ -6,6 +6,8 @@ The Project Sponsor owns approval authority for an engineering initiative.
 
 The role provides business direction, confirms priorities, approves lifecycle gates and arbitrates when roles surface conflicting recommendations.
 
+Within an established authorised boundary, the Project Sponsor delegates routine lifecycle progression and professional engineering decisions to the responsible roles. Sponsor approval is reserved for material scope, Architecture, risk, external consequences and release decisions.
+
 ## Authority
 
 The Project Sponsor may:
@@ -26,6 +28,7 @@ The Project Sponsor may:
 - Ensure roles have sufficient context to proceed without guessing intent.
 - Make explicit decisions when trade-offs require sponsorship authority.
 - Keep approvals traceable through artefacts, decisions or review records.
+- Establish the authorised boundary so roles can proceed without repeated approval requests.
 
 ## Typical Inputs
 

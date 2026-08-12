@@ -71,9 +71,16 @@ Pre-execution checkpoint:
 
 Engineering is ready for Quality and Security when the implementation is complete enough to validate and the implementation decisions are documented.
 
+The Software Engineer should complete an Engineering Readiness Assessment before substantial implementation and Engineering Assurance before handover.
+
+The readiness outcome should be **Ready**, **Ready with conditions** or **Not ready**. The assurance outcome should be **Assured**, **Assured with conditions** or **Not assured**.
+
+The gate should confirm that Architecture obligations, important execution paths, failure behaviour, compatibility, data, security and operational concerns have been assessed proportionately and that evidence gaps are explicit.
+
 Primary artefact:
 
 - Implementation Report
+- Engineering Assurance, recorded in the Implementation Report or provided as a standalone artefact for Extended or high-risk work
 
 ### Quality Gate
 

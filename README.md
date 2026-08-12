@@ -29,6 +29,8 @@ The methodology follows a structured engineering lifecycle.
 
 See [Engineering Lifecycle](ENGINEERING-LIFECYCLE.md) for an overview.
 
+See [Engineering Context](ENGINEERING-CONTEXT.md) for universal authority, bounded-autonomy and collaborative-reasoning rules.
+
 ## Repository Structure
 
 The operating system is organised into four conceptual areas.
