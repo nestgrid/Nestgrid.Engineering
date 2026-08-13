@@ -1,38 +1,60 @@
 # Lifecycle Mini Sample
 
-This sample demonstrates how the Nestgrid Engineering Lifecycle can be applied to a small fictional product idea.
+This sample demonstrates how the Nestgrid Engineering Operating System can be applied to a small fictional product and to a scoped product initiative.
 
-The sample is intentionally lightweight. It is not a complete product, application or architecture. Its purpose is to show how lifecycle artefacts can connect from philosophy through decisions.
+It is intentionally lightweight. It is not a complete application, product repository or replacement for the Engineering Operating System. Its purpose is to show the shape of the work, the relationship between roles and the durable records that survive a conversation.
 
 ## Scenario
 
-The fictional product is **Team Tasks**, a simple internal tool for small teams to capture tasks, assign ownership and track completion.
+The fictional product is **Team Tasks**, a simple tool for small teams to capture tasks, assign responsibility and track completion.
 
-The product is deliberately simple so the sample can focus on methodology rather than implementation.
+The sample uses a small product so the methodology remains visible. The same lifecycle can be applied to a library, API, web application, console tool, service or mobile application. The operational artefacts change with the product type; the engineering responsibilities do not.
+
+## The Complete EOS Flow
+
+The sample demonstrates the current proportionate lifecycle:
+
+```text
+Opportunity Exploration (when the idea is uncertain)
+  -> Product Discovery
+  -> Architecture
+  -> Engineering
+  -> Quality
+  -> Security
+  -> Platform and Operationalisation
+  -> Release
+```
+
+An initiative may stop, defer, use an existing solution, be reframed or become an existing-product change during Opportunity Exploration. It does not need to produce downstream artefacts unless it proceeds.
+
+Independent Review is a risk-based, cross-cutting activity. It is represented by `docs/reviews/` at product scope and by an initiative `reviews/` directory where a review belongs only to that initiative.
+
+## EOS Building Blocks
+
+The sample applies the same separation used by the full repository:
+
+- **Books** define methodology and standards.
+- **Templates** define the shape of reusable artefacts.
+- **Roles** define canonical responsibilities and handovers.
+- **Profiles** provide named implementations of roles when agents are used.
+- **Workflows** define repeatable paths and participating roles.
+- **Reviews** provide independent assurance where risk justifies it.
+- **Samples** demonstrate how the system is applied.
+- **Decisions and initiatives** preserve the operating system's own evolution.
+
+The sample is deliberately product documentation rather than an embedded copy of these operating-system resources. Use the links below to move from the example to the authoritative guidance.
 
 ## Sample Contents
 
-`/docs/handbooks`
+`/docs/handbooks` contains concise product knowledge and a local explanation of the workflow. It is not a copy of the global books.
 
-Sample handbook pages showing how early-stage engineering thinking may be captured.
+`/docs/artefacts` shows the seven standard lifecycle directories and the artefacts each stage owns.
 
-`/docs/decisions`
+`/docs/decisions` contains enduring product decisions. Initiative-specific decisions remain with the initiative until they become enduring product knowledge.
 
-Decision records that preserve important choices made during the sample.
+`/docs/reviews` is the product-level home for independent reviews. Reviews are durable engineering evidence and should be read by relevant downstream roles.
 
-`/docs/handbooks/06 Decisions.md` explains the role of decisions in the sample, while the records live in `/docs/decisions`.
-
-`/docs/artefacts`
-
-Reserved for workflow artefacts such as Product Briefs, Architecture Handovers, Architecture Recommendations, Architecture Packs and Release Reports.
-
-`/docs/reviews`
-
-Reserved for independent review artefacts such as Sentinel Reviews.
-
-`/docs/initiatives`
-
-Scoped lifecycle runs for significant features, enhancements or other engineering initiatives.
+`/docs/initiatives` contains scoped lifecycle runs for features, enhancements, migrations and other material engineering work.
 
 ## Sample Handbook
 
@@ -42,30 +64,35 @@ Scoped lifecycle runs for significant features, enhancements or other engineerin
 4. [Domain Modelling](docs/handbooks/04%20Domain%20Modelling.md)
 5. [Architecture](docs/handbooks/05%20Architecture.md)
 6. [Decisions](docs/handbooks/06%20Decisions.md)
+7. [Engineering Workflow](docs/handbooks/07%20Engineering%20Workflow.md)
+8. [Operationalisation](docs/handbooks/08%20Operationalisation.md)
+9. [Engineering Standards](docs/handbooks/09%20Engineering%20Standards.md)
 
-## Decisions
+These pages demonstrate how a product repository can record its own knowledge while linking back to the global guidance.
 
-- [Decision Index](docs/decisions/README.md)
+## Artefacts and Records
 
-## Artefacts
+- [Artefact structure](docs/artefacts/README.md)
+- [Decision index](docs/decisions/README.md)
+- [Review guidance](docs/reviews/README.md)
+- [Initiative index](docs/initiatives/README.md)
+- [Multi-Currency initiative](docs/initiatives/2026-08-multi-currency/README.md)
 
-- [Artefact Notes](docs/artefacts/README.md)
+The initiative is a compact example of a feature following the same lifecycle as a product, with proportionate artefacts at each stage.
 
-## Reviews
+## Authoritative Guidance
 
-- [Review Notes](docs/reviews/README.md)
+- [Roles](../../roles/README.md)
+- [Profiles](../../profiles/README.md)
+- [Workflows](../../workflows/README.md)
+- [Artefact Templates](../../templates/artefacts/README.md)
+- [Engineering Operating System Context](../../ENGINEERING-CONTEXT.md)
 
-## Initiatives
+## What This Sample Does Not Do
 
-- [Multi-Currency Initiative](docs/initiatives/2026-08-multi-currency/README.md)
+The sample does not include `src/` or `tests/`. During pure Discovery and Architecture, a repository may remain documentation-first. Those directories become required when Engineering begins, but adding empty folders here would imply that implementation has started.
 
-## Notes
-
-This sample is product-neutral in intent even though it uses a fictional product scenario.
-
-Readers should treat it as a learning reference, not as a template that must be copied exactly.
-
----
+The sample also does not prescribe one technology, hosting model or deployment target. Product type and approved architecture determine the concrete operational package.
 
 ## Navigation
 
@@ -76,6 +103,7 @@ Readers should treat it as a learning reference, not as a template that must be 
 **Engineering Lifecycle**
 
 - [Engineering Lifecycle](../../ENGINEERING-LIFECYCLE.md)
+- [Engineering Context](../../ENGINEERING-CONTEXT.md)
 
 **Repository**
 

@@ -4,11 +4,13 @@
 
 ## Purpose
 
-Architecture defines a simple technical direction for the sample based on discovery, domain modelling and constraints.
+Architecture defines a simple technical and operational direction for the sample based on discovery, domain modelling, quality attributes and constraints.
 
 The architecture should support maintainability without introducing unnecessary distribution.
 
 ## Guidance
+
+The Solution Architect should clarify material uncertainty through conversation before producing substantial architecture artefacts. The Architecture Recommendation is the checkpoint before detailed execution.
 
 The sample uses a modular monolith as the initial architectural style.
 
@@ -49,6 +51,18 @@ Operational needs are intentionally modest.
 
 The system should expose basic health checks, useful logs and clear configuration.
 
+### Quality Attributes
+
+- Maintainability.
+- Availability appropriate to a small internal tool.
+- Recoverability after a failed deployment or data-store outage.
+- Security and least privilege.
+- Observability through useful logs and health information.
+
+### Recommendation and Execution
+
+The Architecture Recommendation should state the proposed direction, key decisions, principal risks and trade-offs, proposed artefacts and the approval needed before execution. The Architecture Pack then records the approved design and its implementation constraints.
+
 ## Key Takeaways
 
 - Architecture follows the problem and constraints.
@@ -58,6 +72,7 @@ The system should expose basic health checks, useful logs and clear configuratio
 ## Related Reading
 
 - [Decisions](06%20Decisions.md)
+- [Engineering Workflow](07%20Engineering%20Workflow.md)
 - [Architecture Guidance](../../../../books/05%20Architecture/README.md)
 
 ---
