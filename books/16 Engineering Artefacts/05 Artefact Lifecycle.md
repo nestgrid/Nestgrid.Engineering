@@ -30,6 +30,8 @@ An artefact may be revised when new understanding emerges.
 
 Revisions should update version, date, owner and related artefacts where needed.
 
+For an Independent Review, revision means updating the canonical review document for the same scope. Keep finding IDs stable, update the current findings and dispositions, and append a row to Review History. The document's repository history preserves the previous exact state.
+
 ### Supersession
 
 An artefact is superseded when a newer artefact replaces it.
@@ -41,6 +43,7 @@ Superseded artefacts may remain for traceability but should not be treated as cu
 - Artefacts should have an explicit status.
 - Approved artefacts become handover inputs.
 - Revisions should be intentional.
+- Independent Review revisions should preserve finding identity and disposition history.
 - Superseded artefacts should remain traceable.
 
 ## Related Reading

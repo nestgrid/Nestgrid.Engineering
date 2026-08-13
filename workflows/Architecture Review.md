@@ -14,7 +14,7 @@ Define the standard workflow for reviewing Architecture before Engineering begin
 
 ```text
 Architecture Pack
-  -> Independent Review
+  -> Independent Review (create or update canonical review)
   -> Architecture Feedback
   -> Revision or Approval
 ```
@@ -33,6 +33,8 @@ Architecture Pack
 - Architecture feedback where required.
 - Updated Architecture Pack or accepted deferrals.
 - Project Sponsor approval before Engineering.
+
+The Independent Review should identify the canonical review document, current version, finding dispositions and recommendation used by the gate.
 
 ## Approval Gates
 

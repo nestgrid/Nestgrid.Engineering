@@ -75,6 +75,8 @@ Roles should investigate independently before asking the Sponsor questions that 
 
 Chats support thinking. Approved artefacts, decisions and reviews preserve engineering state. A downstream role should be able to continue from the repository without relying on copied conversation history.
 
+Independent Reviews are managed as one canonical review series per scope. The current review document is the source of truth for findings, dispositions and recommendation; follow-up reviews update that document, preserve stable finding IDs, increment its version and append to its Review History. The Independent Reviewer owns findings and recommendations, while the responsible lifecycle role owns dispositions and completion evidence.
+
 ## Proportionate Process
 
 Use the smallest process and artefact set that provides sufficient understanding, evidence, coordination and risk control. Increase lifecycle depth when evidence demonstrates greater risk. Do not create process merely to appear thorough.

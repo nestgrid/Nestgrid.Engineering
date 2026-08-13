@@ -55,4 +55,6 @@ docs/initiatives/<yyyy-mm>-<initiative-name>/artefacts/
 
 Independent Reviews should live in `docs/reviews/` for product-level reviews or inside the relevant initiative's `reviews/` folder for initiative-specific reviews.
 
+Use one stable, scope-based filename per review series. Update the canonical document for follow-up reviews, increment its version, preserve stable finding IDs and append to its Review History. Do not create competing date-stamped copies for the same scope.
+
 See [Engineering Artefacts](../../books/16%20Engineering%20Artefacts/README.md) for guidance.

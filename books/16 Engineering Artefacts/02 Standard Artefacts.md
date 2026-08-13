@@ -50,7 +50,11 @@ They may review a lifecycle stage, repository, product, decision, implementation
 
 Relevant Independent Reviews should be read by downstream roles during their Review step.
 
-Findings should be resolved, accepted or explicitly deferred by the responsible role.
+Use one canonical Independent Review document per review scope or review series. Follow-up reviews update that document, increment its version and preserve the current findings register and review history. Do not create multiple competing "latest" review files.
+
+Findings should have stable IDs and be resolved, accepted, deferred, marked not applicable or superseded by the responsible role. The responsible role owns the disposition; the Independent Reviewer owns the finding and recommendation.
+
+Separate findings, dispositions, decisions, actions and evidence. Link material dispositions to the relevant decision, initiative, work item or lifecycle artefact.
 
 ### Template Location
 

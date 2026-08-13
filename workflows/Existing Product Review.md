@@ -15,9 +15,9 @@ Define the standard workflow for assessing an existing product against the Nestg
 
 ```text
 Repository Review
-  -> Findings
+  -> Findings in canonical review
   -> Responsible Role Response
-  -> Follow-up Review
+  -> Follow-up Review updates same document
   -> Project Sponsor Decision
 ```
 
@@ -35,6 +35,8 @@ Repository Review
 - Engineering Handbook feedback where relevant.
 - Lifecycle feedback where relevant.
 - Follow-up actions assigned to responsible roles.
+
+Each review series should use one stable document. Follow-up reviews update its current findings and append to its history; they should not create competing "latest" documents.
 
 ## Approval Gates
 

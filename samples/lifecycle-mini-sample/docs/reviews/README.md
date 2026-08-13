@@ -11,8 +11,10 @@ Reviews become part of the engineering history and should be read by downstream 
 Example filename:
 
 ```text
-2026-08-03 Sentinel Review.md
+Team Tasks Architecture Independent Review.md
 ```
+
+Follow-up reviews update this same document and increment its version. The review date belongs in the document metadata and Review History.
 
 Initiative-specific reviews belong under the relevant initiative's `reviews/` directory.
 
