@@ -27,6 +27,7 @@ Upon completing this book, engineers should be able to:
 3. [03 Writing Style](03%20Writing%20Style.md)
 4. [04 Documentation Maintenance](04%20Documentation%20Maintenance.md)
 5. [05 Documentation Review](05%20Documentation%20Review.md)
+6. [06 API Usage Guides](06%20API%20Usage%20Guides.md)
 
 ## Outcome
 

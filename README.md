@@ -51,6 +51,10 @@ Reusable documentation and engineering templates.
 
 Reusable templates for standard engineering workflow artefacts.
 
+`/templates/guides`
+
+Reusable templates for durable product, consumer and contributor documentation.
+
 `/samples`
 
 Reference samples demonstrating the methodology in practice.
@@ -114,6 +118,7 @@ docs/
     10 Deployment/
     11 Operations/
     12 Documentation/
+  guides/
   artefacts/
     01 Discovery/
     02 Architecture/

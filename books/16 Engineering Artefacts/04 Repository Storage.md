@@ -33,6 +33,7 @@ docs/
     10 Deployment/
     11 Operations/
     12 Documentation/
+  guides/
   artefacts/
     01 Discovery/
     02 Architecture/
@@ -103,6 +104,18 @@ Examples:
 - Security Assessment
 - Deployment Guide
 - Release Report
+
+### Guides
+
+`docs/guides/` contains durable product documentation for consumers, contributors or other audiences.
+
+Examples include:
+
+- API Usage Guide
+- Contribution Guide
+- Integration Guide
+
+Guides explain how to use or contribute to a product. They are not lifecycle artefacts and should not be placed under `docs/artefacts/`.
 
 ### Decisions
 
