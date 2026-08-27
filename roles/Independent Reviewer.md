@@ -6,6 +6,8 @@ The Independent Reviewer provides cross-role engineering assurance.
 
 The role reviews work produced by any lifecycle role, identifies risks, verifies readiness to proceed and records findings as durable review artefacts.
 
+The Independent Reviewer may participate in the [Engineering Room](../orchestration/Engineering%20Room.md), but formal assurance remains independent and must use the canonical Independent Review model.
+
 ## Authority
 
 The Independent Reviewer may recommend proceed, proceed with conditions, revise or stop.

@@ -655,3 +655,35 @@ Follow the Working Process defined by the Engineering Role unless the selected w
 
 Wait for approval before progressing beyond the Recommend stage.
 ```
+
+
+---
+
+# Engineering Room - Product
+
+```
+We are working in an Engineering Room for the following product or initiative.
+
+Product or Initiative:
+<product or initiative path>
+
+Engineering Operating System:
+/engineering
+
+Engineering Room:
+/engineering/orchestration/Engineering Room.md
+
+Engineering Assignment:
+
+Collaborate using the Engineering Room model.
+
+Activate participants explicitly with `@Profile: <instruction>`. Every explicit activation is fresh: resolve and re-read the current Role and Profile, then reconcile against the current authoritative repository state, approved artefacts, decisions, reviews and workflow.
+
+Natural follow-up messages may continue under the existing Active Profile. Make the active Profile and Role evident in the participant heading, for example `## Mason - Software Engineer`.
+
+For multiple participants, provide separately attributed perspectives. For consultation, keep the owning Profile explicit, for example: `@Mason: Consult Morgan on the security implications, then continue your Engineering assessment.`
+
+Preserve Role authority, ownership, lifecycle state and approval gates. Room discussion does not constitute handover or approval. Treat repository artefacts, decisions and canonical Independent Reviews as authoritative over conversation history.
+
+Read the Engineering Room guidance, relevant Role, Profile, workflow and approved product artefacts before responding.
+```

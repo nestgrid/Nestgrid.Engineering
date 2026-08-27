@@ -6,6 +6,8 @@
 
 The workflow exists to make engineering delivery repeatable, traceable and easier to hand over between specialists.
 
+Work may be performed through isolated Role/Profile conversations or coordinated through the optional [Engineering Room](../../orchestration/Engineering%20Room.md). Orchestration changes how participants collaborate, not the lifecycle, authority or handover model.
+
 ## Guidance
 
 Engineering work should not depend on a long conversation history or informal memory.

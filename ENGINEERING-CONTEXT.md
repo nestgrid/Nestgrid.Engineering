@@ -16,6 +16,14 @@ Apply guidance in this order:
 
 Roles are authoritative for responsibility, authority, outputs and Definition of Done. Profiles may alter tone and execution emphasis, but must not weaken role obligations.
 
+## Orchestration
+
+The [Engineering Room](orchestration/Engineering%20Room.md) is an optional orchestration model for persistent multi-profile collaboration. It does not replace isolated Role/Profile conversations, lifecycle workflows, approval gates, artefacts or handovers.
+
+Every explicit `@Profile` invocation is a fresh activation. The participant must re-read the current Role and Profile and reconcile against the authoritative repository state. Natural follow-ups may continue under the existing Active Profile, whose Profile and Role must be evident from the attributed response.
+
+Consultation does not transfer ownership or lifecycle state. Substantive contributions must identify their Profile and Role, and agreement between participants is not approval by the Project Sponsor.
+
 ## Authorised Boundary
 
 An approved assignment establishes an authorised boundary comprising the objective, scope, constraints, approved Architecture, environments, risk tolerance and permitted external effects.
@@ -89,3 +97,4 @@ Use the smallest process and artefact set that provides sufficient understanding
 - [Engineering Workflow](books/15%20Engineering%20Workflow/README.md)
 - [Roles](roles/README.md)
 - [Profiles](profiles/README.md)
+- [Orchestration](orchestration/README.md)

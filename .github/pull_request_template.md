@@ -17,6 +17,7 @@ Describe what this pull request changes and why.
 - [ ] Markdown links have been checked.
 - [ ] Templates were updated first if this introduces a new documentation pattern.
 - [ ] Significant decisions have been recorded where appropriate.
+- [ ] Commit messages use the appropriate EOS responsibility prefix.
 
 ## Notes
 

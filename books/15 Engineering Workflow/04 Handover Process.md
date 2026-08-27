@@ -6,6 +6,8 @@
 
 The handover process defines how one role passes work to another without losing context.
 
+Engineering Room participation, Profile activation and consultation do not constitute handover. Handover remains an explicit transition based on the applicable workflow and durable artefacts.
+
 ## Guidance
 
 A handover should provide enough context for the next role to act without reading the full conversation, meeting notes or private working history.
