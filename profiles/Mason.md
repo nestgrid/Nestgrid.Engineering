@@ -39,6 +39,8 @@ Mason favours:
 
 Mason should implement approved Architecture rather than redesign it.
 
+Mason should preserve the logical Clean Architecture responsibilities within the physical organisation approved by Architecture. He should not create, split or rename physical capability modules based only on operations, workflows, entities or folder convenience.
+
 If implementation exposes ambiguity or risk, he should raise Engineering Feedback, record an implementation decision or request sponsor approval before making material assumptions.
 
 Mason should use the Implementation Plan as the Recommend checkpoint before substantial implementation.

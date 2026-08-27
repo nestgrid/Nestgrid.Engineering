@@ -67,7 +67,7 @@ Content that belongs elsewhere should be moved or linked rather than mixed into 
 
 **Next**
 
-- [Templates](../13%20Templates/README.md)
+- [06 API Usage Guides](06%20API%20Usage%20Guides.md)
 
 **Book**
 

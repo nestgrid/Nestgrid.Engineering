@@ -2,9 +2,17 @@
 
 Nestgrid Engineering Operating System defines the engineering methodology, standards, roles, templates and lifecycle practices used to design, build and maintain software within the Nestgrid ecosystem.
 
+**EOS Version:** `1.1.0` ([`VERSION`](VERSION))
+
 It captures the complete engineering lifecycle, from understanding a business problem through to designing, implementing, testing, reviewing, deploying and operating production software.
 
 Although developed for Nestgrid products, the methodology is technology-agnostic and may be adopted by any engineering team seeking a structured and consistent approach to software engineering.
+
+## Versioning
+
+The canonical EOS version is recorded in [`VERSION`](VERSION) and released using a matching Git tag, such as `v1.1.0`. Reusable engineering artefacts record the governing release through `eos_version` where traceability is useful.
+
+See [`CHANGELOG.md`](CHANGELOG.md) for the history of EOS releases.
 
 ## Engineering Lifecycle
 
@@ -51,6 +59,10 @@ Reusable documentation and engineering templates.
 
 Reusable templates for standard engineering workflow artefacts.
 
+`/templates/guides`
+
+Reusable templates for durable product, consumer and contributor documentation.
+
 `/samples`
 
 Reference samples demonstrating the methodology in practice.
@@ -70,6 +82,10 @@ Named implementations of roles for agent-based execution.
 `/workflows`
 
 Repeatable operating paths that describe which roles participate, in what order, and which artefacts or review gates are expected.
+
+`/orchestration`
+
+Collaboration models for coordinating Roles and Profiles without replacing lifecycle workflows, approval gates or handovers.
 
 Reviews are first-class engineering artefacts, but they remain outputs rather than a top-level operating-system folder. Product-level reviews should live in product repositories under `docs/reviews/`. Initiative-specific reviews should live inside the relevant initiative's `reviews/` folder.
 
@@ -114,6 +130,7 @@ docs/
     10 Deployment/
     11 Operations/
     12 Documentation/
+  guides/
   artefacts/
     01 Discovery/
     02 Architecture/

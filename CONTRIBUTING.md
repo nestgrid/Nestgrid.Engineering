@@ -38,6 +38,16 @@ Before opening a pull request:
 - Keep unrelated changes out of the pull request.
 - Explain why the change is needed.
 
+## Commit Messages
+
+Use the EOS commit convention:
+
+```text
+[Prefix] Capitalised title
+```
+
+Choose the prefix for the responsibility owning the change. Use `[Governance]` for changes to the EOS methodology, workflow, orchestration, templates or policy. See [Commit Conventions](books/08%20Engineering%20Standards/14%20Commit%20Conventions.md).
+
 ## Review Expectations
 
 Reviews should focus on correctness, clarity, consistency and maintainability.

@@ -120,6 +120,8 @@ During pure Discovery and Architecture, a repository may remain documentation-fi
 
 `docs/handbooks/` should contain enduring product documentation such as philosophy, language, domain model, architecture and operations.
 
+`docs/guides/` should contain durable consumer, contributor or usage documentation such as API Usage Guides. These documents explain how to use the product and are distinct from lifecycle artefacts.
+
 `docs/artefacts/` should contain workflow outputs such as Product Briefs, Architecture Handovers, Architecture Recommendations, Architecture Packs, Implementation Reports, Test Strategies, Security Assessments and Deployment Guides.
 
 Lifecycle artefact folders should be numbered by workflow order rather than sorted alphabetically.

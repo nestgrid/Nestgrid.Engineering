@@ -38,6 +38,7 @@ Upon completing this book, engineers should be able to:
 11. [11 API Contracts](11%20API%20Contracts.md)
 12. [12 Database Migrations](12%20Database%20Migrations.md)
 13. [13 Implementation Planning](13%20Implementation%20Planning.md)
+14. [14 Commit Conventions](14%20Commit%20Conventions.md)
 
 ## Outcome
 

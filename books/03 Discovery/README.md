@@ -23,6 +23,7 @@ Upon completing this book, engineers should be able to:
 - Identify relevant stakeholders and their concerns.
 - Define goals and outcomes clearly.
 - Capture requirements at the right level of detail.
+- Identify product shape where it may influence later Architecture.
 - Recognise constraints, assumptions and risks.
 - Establish scope and priorities for delivery.
 
@@ -34,6 +35,7 @@ Upon completing this book, engineers should be able to:
 4. [04 Requirements](04%20Requirements.md)
 5. [05 Constraints and Risks](05%20Constraints%20and%20Risks.md)
 6. [06 Scope and Priorities](06%20Scope%20and%20Priorities.md)
+7. [07 Product Shape](07%20Product%20Shape.md)
 
 ## Outcome
 

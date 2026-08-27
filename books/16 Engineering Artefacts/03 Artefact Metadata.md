@@ -16,6 +16,7 @@ The metadata should be accurate enough to identify ownership, status and relatio
 
 ```yaml
 title:
+eos_version:
 version:
 status:
 owner:
@@ -28,6 +29,8 @@ related_decisions:
 related_work_items:
 related_repositories:
 ```
+
+`eos_version` records the EOS release that governed the artefact. It is distinct from `version`, which versions the artefact itself.
 
 ## Status Values
 
@@ -42,6 +45,8 @@ Use simple status values.
 ## Versioning
 
 Use version numbers when an artefact is expected to evolve.
+
+Use the canonical [`VERSION`](../../VERSION) value when setting `eos_version`.
 
 Example:
 

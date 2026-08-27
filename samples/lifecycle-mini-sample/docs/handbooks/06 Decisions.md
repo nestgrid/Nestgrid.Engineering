@@ -14,6 +14,8 @@ The sample records only decisions that materially affect direction.
 
 Small implementation choices are intentionally omitted to keep the sample focused.
 
+Decisions may be business, product, technical or architectural. Product-level decisions belong in `docs/decisions/`; initiative-specific decisions may remain with the initiative until they become enduring product guidance.
+
 ### Recorded Decisions
 
 | ID | Title | Type | Status |

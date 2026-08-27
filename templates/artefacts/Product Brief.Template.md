@@ -2,6 +2,7 @@
 
 ```yaml
 title:
+eos_version:
 version:
 status:
 owner:
@@ -56,6 +57,12 @@ Describe the business problem being solved.
 ## Users and Personas
 
 Describe the users affected by this work.
+
+## Product Shape
+
+Describe whether the product is expected to remain one cohesive capability or evolve as a composition of multiple independently meaningful customer or business capabilities.
+
+Capture the supporting product evidence and any uncertainty. Do not select projects, assemblies, modules, services or an architectural style here.
 
 ## Scope
 

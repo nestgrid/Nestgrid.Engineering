@@ -2,6 +2,7 @@
 
 ```yaml
 title: <Opportunity Decision Title>
+eos_version:
 version: 1.0
 status: Draft
 owner: Product Owner
@@ -56,4 +57,3 @@ Use one:
 ## Next Action or Reconsideration Trigger
 
 This artefact is optional for informal brainstorming. Use it when the evidence, rationale or follow-up should endure.
-

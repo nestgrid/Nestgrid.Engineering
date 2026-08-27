@@ -33,6 +33,7 @@ docs/
     10 Deployment/
     11 Operations/
     12 Documentation/
+  guides/
   artefacts/
     01 Discovery/
     02 Architecture/
@@ -104,6 +105,18 @@ Examples:
 - Deployment Guide
 - Release Report
 
+### Guides
+
+`docs/guides/` contains durable product documentation for consumers, contributors or other audiences.
+
+Examples include:
+
+- API Usage Guide
+- Contribution Guide
+- Integration Guide
+
+Guides explain how to use or contribute to a product. They are not lifecycle artefacts and should not be placed under `docs/artefacts/`.
+
 ### Decisions
 
 Product decision records should live under `docs/decisions/`.
@@ -120,13 +133,25 @@ Independent Reviews are recognised engineering artefacts, but they are not manda
 
 They provide independent evidence about lifecycle readiness, repository quality, unresolved findings and opportunities to improve the Engineering Handbook.
 
-Use a stable date-prefixed name:
+Use one stable scope-based name for each review series. The review date and version belong inside the document:
 
 ```text
 docs/
   reviews/
-    2026-08-03 Independent Review.md
+    Finance Architecture Independent Review.md
 ```
+
+For an initiative-specific review:
+
+```text
+docs/
+  initiatives/
+    <initiative-name>/
+      reviews/
+        Read Model Independent Review.md
+```
+
+Update the canonical document for follow-up reviews. Increment its version, preserve stable finding IDs and append to its Review History. Do not create date-stamped competing copies for the same scope.
 
 Downstream roles should review relevant Independent Reviews before continuing work.
 

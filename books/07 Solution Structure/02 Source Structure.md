@@ -20,11 +20,17 @@ The source layout should reflect architectural decisions and boundaries.
 
 Layers, modules, contexts, applications or services should be organised consistently with the selected architectural style.
 
+Clean Architecture responsibilities are logical responsibilities. They remain relevant whether the approved physical organisation is layer-oriented, capability-first, service-oriented or another justified form.
+
+The approved Architecture determines how those responsibilities map to projects, assemblies, packages, modules and folders. Engineering must follow that mapping and should raise Engineering Feedback when it is incomplete or impractical.
+
 ### Keep Responsibilities Clear
 
 Projects and modules should have clear responsibilities.
 
 Mixed responsibilities make dependency management, testing and maintenance harder.
+
+Where Architecture selects capability-first modules, each module should represent a qualified enduring business capability or concept. Do not create modules for individual operations, workflows, entities or generic management groupings without an architectural rationale.
 
 ### Control Dependencies
 
@@ -57,6 +63,8 @@ Structure should introduce boundaries when they improve clarity, ownership or ma
 ## Key Takeaways
 
 - Source structure should reflect architecture.
+- Logical responsibilities do not prescribe physical projects or assemblies.
+- The approved Architecture determines the physical source organisation.
 - Responsibilities should be clear.
 - Dependency direction should be intentional.
 - Grouping should support understanding and change.

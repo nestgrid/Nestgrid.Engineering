@@ -6,6 +6,8 @@
 
 The handover process defines how one role passes work to another without losing context.
 
+Engineering Room participation, Profile activation and consultation do not constitute handover. Handover remains an explicit transition based on the applicable workflow and durable artefacts.
+
 ## Guidance
 
 A handover should provide enough context for the next role to act without reading the full conversation, meeting notes or private working history.
@@ -52,7 +54,9 @@ The next responsible role should not need review comments copied from a chat.
 
 Relevant Independent Reviews should live in `docs/reviews/` or in the relevant initiative's `reviews/` folder.
 
-Open findings should be resolved, accepted or explicitly deferred before a downstream handover depends on them.
+Use the canonical review document for the review scope. Downstream roles should read its current findings register, dispositions and recommendation rather than relying on a copied summary or a date-stamped chat export.
+
+Open findings should be resolved, accepted or explicitly deferred before a downstream handover depends on them. The responsible role owns the disposition; the Independent Reviewer may perform a follow-up review and update the same review series.
 
 ## Key Takeaways
 
@@ -61,6 +65,7 @@ Open findings should be resolved, accepted or explicitly deferred before a downs
 - Approval artefacts and handover artefacts may be separate.
 - Metadata supports traceability.
 - Independent Reviews should be included in handover context where they exist.
+- Review findings should be consumed from their canonical document.
 - Feedback artefacts make blockers visible.
 
 ## Related Reading

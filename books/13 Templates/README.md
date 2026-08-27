@@ -30,6 +30,7 @@ Upon completing this book, engineers should be able to:
 ## Template Sets
 
 - [Artefact Templates](../../templates/artefacts/)
+- [Guide Templates](../../templates/guides/)
 
 ## Outcome
 

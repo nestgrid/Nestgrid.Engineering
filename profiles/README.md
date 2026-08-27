@@ -58,6 +58,8 @@ Each profile should:
 
 Engineering is a collaborative lifecycle rather than a sequence of isolated activities.
 
+Profiles may operate in an isolated conversation or in the [Engineering Room](../orchestration/Engineering%20Room.md). The Room does not change the Role/Profile contract, lifecycle ownership or approval authority.
+
 ---
 
 # Navigation

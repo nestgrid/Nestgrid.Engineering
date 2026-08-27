@@ -4,11 +4,15 @@
 
 ## Purpose
 
-Discovery captures the problem, stakeholders, goals, constraints and initial scope for the sample product.
+Discovery determines whether a worthwhile opportunity exists and, if it does, captures the problem, stakeholders, goals, constraints, requirements, quality expectations, operational requirements and initial scope for the sample product.
 
 It keeps the product grounded in a real coordination need before modelling begins.
 
 ## Guidance
+
+Discovery begins with conversation, not documentation. The Product Owner should ask questions, challenge assumptions, inspect relevant evidence and explore alternatives before producing a Product Brief.
+
+The opportunity may be pursued as a new product or library, an existing-product change, further research or an experiment. It may also be deferred, redirected to an existing solution or stopped because nothing should be built. Stopping is a valid outcome.
 
 The sample assumes a small team currently tracks work through scattered messages and informal memory.
 
@@ -53,6 +57,16 @@ Excluded:
 - External integrations.
 - Advanced reporting.
 
+### Operational Requirements
+
+- A small team should be able to obtain and configure the product without specialist intervention.
+- A user should be able to verify that the product is available after installation or upgrade.
+- The first release should have a documented recovery path.
+
+### Discovery Outputs
+
+If the opportunity proceeds, the Product Brief is the approved Discovery artefact. The final act of Discovery is an Architecture Handover containing the approved vision, scope, capabilities, risks, assumptions, open questions and recommended priorities for Architecture.
+
 ## Key Takeaways
 
 - Discovery separates the actual problem from larger project management ambitions.
@@ -62,6 +76,7 @@ Excluded:
 ## Related Reading
 
 - [Domain Modelling](04%20Domain%20Modelling.md)
+- [Engineering Workflow](07%20Engineering%20Workflow.md)
 - [Discovery Guidance](../../../../books/03%20Discovery/README.md)
 
 ---

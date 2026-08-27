@@ -82,7 +82,9 @@ Read [Domain Modelling](books/04%20Domain%20Modelling/README.md).
 
 ## Architecture
 
-Designs the technical solution and operational model that fulfil the domain, quality and operational requirements.
+Designs the technical solution and operational model that fulfil the domain, quality and operational requirements, including the approved physical organisation of that solution.
+
+Clean Architecture responsibilities remain the logical discipline. Architecture decides how those responsibilities map to projects, assemblies, packages, modules or services; Engineering implements that decision.
 
 Read [Architecture](books/05%20Architecture/README.md).
 

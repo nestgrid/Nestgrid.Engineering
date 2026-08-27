@@ -30,6 +30,7 @@ Engineering Readiness Assessment
 ## Required Inputs
 
 - Approved Architecture Pack.
+- Approved physical solution organisation and module boundaries, where applicable.
 - Relevant decision records.
 - Existing Independent Reviews.
 - Engineering Handbook.

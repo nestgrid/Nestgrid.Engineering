@@ -18,6 +18,7 @@ Upon completing this book, engineers should be able to:
 - Separate source, tests, documentation and supporting artefacts clearly.
 - Apply naming conventions across solution artefacts.
 - Structure configuration and environments responsibly.
+- Implement physical organisation according to approved Architecture while preserving logical responsibilities.
 - Keep solution organisation aligned with architecture.
 
 ## Chapters

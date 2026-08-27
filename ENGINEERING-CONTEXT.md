@@ -2,6 +2,8 @@
 
 This document defines the universal operating rules for work performed with the Nestgrid Engineering Operating System.
 
+**EOS Version:** `1.1.0` ([`VERSION`](VERSION))
+
 ## Authority
 
 Apply guidance in this order:
@@ -13,6 +15,14 @@ Apply guidance in this order:
 5. The selected profile.
 
 Roles are authoritative for responsibility, authority, outputs and Definition of Done. Profiles may alter tone and execution emphasis, but must not weaken role obligations.
+
+## Orchestration
+
+The [Engineering Room](orchestration/Engineering%20Room.md) is an optional orchestration model for persistent multi-profile collaboration. It does not replace isolated Role/Profile conversations, lifecycle workflows, approval gates, artefacts or handovers.
+
+Every explicit `@Profile` invocation is a fresh activation. The participant must re-read the current Role and Profile and reconcile against the authoritative repository state. Natural follow-ups may continue under the existing Active Profile, whose Profile and Role must be evident from the attributed response.
+
+Consultation does not transfer ownership or lifecycle state. Substantive contributions must identify their Profile and Role, and agreement between participants is not approval by the Project Sponsor.
 
 ## Authorised Boundary
 
@@ -75,6 +85,8 @@ Roles should investigate independently before asking the Sponsor questions that 
 
 Chats support thinking. Approved artefacts, decisions and reviews preserve engineering state. A downstream role should be able to continue from the repository without relying on copied conversation history.
 
+Independent Reviews are managed as one canonical review series per scope. The current review document is the source of truth for findings, dispositions and recommendation; follow-up reviews update that document, preserve stable finding IDs, increment its version and append to its Review History. The Independent Reviewer owns findings and recommendations, while the responsible lifecycle role owns dispositions and completion evidence.
+
 ## Proportionate Process
 
 Use the smallest process and artefact set that provides sufficient understanding, evidence, coordination and risk control. Increase lifecycle depth when evidence demonstrates greater risk. Do not create process merely to appear thorough.
@@ -85,3 +97,4 @@ Use the smallest process and artefact set that provides sufficient understanding
 - [Engineering Workflow](books/15%20Engineering%20Workflow/README.md)
 - [Roles](roles/README.md)
 - [Profiles](profiles/README.md)
+- [Orchestration](orchestration/README.md)

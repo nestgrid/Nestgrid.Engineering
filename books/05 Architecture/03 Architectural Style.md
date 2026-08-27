@@ -24,11 +24,21 @@ Examples include clear boundaries, explicit dependencies, observable behaviour, 
 
 Architecture principles should be specific enough to guide trade-offs without becoming low-level coding rules.
 
+### Separate Logical and Physical Architecture
+
+Clean Architecture remains the underlying logical discipline for Nestgrid software. Its responsibilities and dependency direction should be preserved even when the physical solution is organised differently.
+
+Logical responsibilities do not prescribe the number or names of projects, assemblies, packages or services. A cohesive product may represent them in a traditional layered solution; a capability-oriented product may represent them within multiple modules while retaining the same logical separation inside each boundary where appropriate.
+
+Physical solution organisation is an architectural decision. Architecture should select and document it based on product shape, architectural drivers, quality attributes, operational needs and expected change. Engineering should implement the approved organisation rather than inventing one.
+
 ### Choose for the Context
 
 The chosen style should fit the domain, team, delivery model, operational needs and expected change.
 
 Teams should avoid adopting a style only because it is popular or familiar.
+
+The traditional layered physical structure remains the default starting point for a cohesive product unless Architecture establishes that another organisation is more appropriate.
 
 ### Understand Trade-offs
 
@@ -54,10 +64,15 @@ The reason for choosing an architectural style should be recorded.
 
 Future engineers should understand why the style was selected and which trade-offs were accepted.
 
+The Architecture Pack should make the logical responsibilities, selected physical organisation and rationale visible. Where capability-first modularisation is selected, it should also explain why each module is a meaningful boundary.
+
 ## Key Takeaways
 
 - Architectural style should be chosen intentionally.
 - Architecture principles should guide Engineering implementation.
+- Logical Clean Architecture responsibilities do not prescribe physical projects or assemblies.
+- Physical solution organisation is selected by Architecture.
+- Layered physical organisation remains an appropriate default for cohesive products.
 - There is no universally correct style.
 - Every style has trade-offs.
 - Consistency improves maintainability.

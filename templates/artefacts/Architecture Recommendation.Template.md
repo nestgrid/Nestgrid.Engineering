@@ -2,6 +2,7 @@
 
 ```yaml
 title:
+eos_version:
 version:
 status:
 owner:
@@ -39,6 +40,16 @@ Summarise material questions clarified before this recommendation was produced.
 ## Proposed Architectural Direction
 
 Describe the recommended architectural direction.
+
+## Product Shape Implication
+
+Summarise how the product shape affects the architectural recommendation.
+
+## Proposed Physical Organisation
+
+State whether the proposed physical organisation is layer-oriented, capability-first, distributed or another justified form.
+
+Explain how it preserves the logical architectural responsibilities and why it fits the product shape, quality attributes and operational needs.
 
 ## Key Architectural Decisions
 

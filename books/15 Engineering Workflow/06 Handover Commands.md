@@ -76,6 +76,14 @@ Use when deployment and production readiness have been assessed.
 Produce an Operational Readiness Review using the standard Nestgrid Engineering artefact template. Include deployment process, configuration, observability, health checks, rollback, recovery, operational risks and production recommendation.
 ```
 
+### Independent Review Follow-up
+
+Use when new evidence or role responses are available for an existing review series.
+
+```text
+Update the canonical Independent Review for this scope using the standard Nestgrid Engineering artefact template. Read its current findings register and Review History, preserve all existing finding IDs, record responsible-role dispositions and evidence, add only genuinely new findings, increment the review version and state the current recommendation and next review trigger.
+```
+
 ## Key Takeaways
 
 - Ask for artefacts, not conversation summaries.

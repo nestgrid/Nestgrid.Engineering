@@ -14,6 +14,8 @@ Where Independent Reviews exist, review gates should consider unresolved indepen
 
 Findings do not automatically block progress, but they should be resolved, accepted or explicitly deferred.
 
+The gate should use the current version of the canonical review document for the relevant scope. It should not infer current status from an older report, chat message or filename date.
+
 ### Discovery Gate
 
 The Discovery Gate has two distinct checkpoints. Do not use the Product Definition checkpoint to force an early idea into a Product Brief.

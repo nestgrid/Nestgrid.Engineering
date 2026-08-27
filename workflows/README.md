@@ -4,6 +4,8 @@ Workflows define repeatable operating paths through the Nestgrid Engineering Ope
 
 They do not replace engineering roles or the Engineering Handbook. They describe which roles participate, in what order, what artefacts are expected, and where review gates occur.
 
+Workflows may be coordinated through the optional [Engineering Room](../orchestration/Engineering%20Room.md). The Room is an orchestration model, not a workflow or lifecycle stage.
+
 ## Purpose
 
 Workflows make engineering work easier to start and easier to repeat.

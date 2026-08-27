@@ -2,6 +2,7 @@
 
 ```yaml
 title:
+eos_version:
 version:
 status:
 owner:
@@ -42,6 +43,12 @@ List the business capabilities Architecture should consider.
 | Capability | Description | Priority |
 | --- | --- | --- |
 |  |  |  |
+
+## Product Shape Observation
+
+Describe whether Discovery sees the product as one cohesive capability or a composition of multiple meaningful capabilities.
+
+Record the evidence and uncertainty without selecting a technical architecture or physical solution organisation.
 
 ## Outstanding Architectural Decisions
 

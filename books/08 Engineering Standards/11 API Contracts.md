@@ -48,6 +48,8 @@ The OpenAPI document and Scalar UI should normally be mapped only in Development
 
 The UI helps engineers and consumers explore the contract, but it does not replace accurate endpoint metadata, automated API tests or consumer-facing documentation.
 
+Where an API contains meaningful workflow sequencing or consumer context, provide an [API Usage Guide](../12%20Documentation/06%20API%20Usage%20Guides.md). The guide should explain how consumers complete normal journeys without duplicating the generated OpenAPI reference.
+
 ### Test Contract Behaviour
 
 API tests should cover:
