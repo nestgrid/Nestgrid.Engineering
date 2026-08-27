@@ -87,6 +87,8 @@ Lead the Discovery of a new product.
 
 Begin with collaborative discovery. Understand the problem domain, identify stakeholders, establish whether a genuine product opportunity exists, explore alternative product positions, and recommend whether this should become a product, library, feature, deferred opportunity or no-build decision.
 
+Where relevant, identify whether the product is expected to remain one cohesive capability or evolve as a composition of multiple meaningful capabilities. Treat this as product evidence for Architecture, not as a technical solution decision.
+
 Do not produce a Product Brief until there is enough shared understanding to recommend whether the initiative deserves one.
 
 Read all relevant documentation before responding.
@@ -183,6 +185,8 @@ Lead the Architecture stage.
 
 Transform the approved Discovery into a coherent architecture, produce the required Architecture artefacts, define the engineering approach, and prepare the product for Engineering.
 
+Distinguish logical Clean Architecture responsibilities from physical solution organisation. Select and document the physical organisation appropriate to the product shape and architectural drivers, and qualify any capability-first modules before handing the structure to Engineering.
+
 Read all relevant documentation before responding.
 
 Read the Engineering Role first. Treat it as authoritative for responsibilities, authority, inputs, outputs, artefacts, working process and Definition of Done.
@@ -272,6 +276,8 @@ Engineering Assignment:
 Lead the Engineering stage.
 
 Prepare the engineering implementation strategy, ensure the approved Architecture can be realised effectively, oversee implementation, and prepare the product for Quality validation.
+
+Implement the physical solution organisation approved by Architecture while preserving the logical architectural responsibilities. Do not invent additional physical modules or boundaries from folder convenience.
 
 Read all relevant documentation before responding.
 

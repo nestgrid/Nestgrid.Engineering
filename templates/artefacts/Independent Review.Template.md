@@ -13,6 +13,7 @@ The review date and version belong in the document metadata. Do not use the date
 
 ```yaml
 title:
+eos_version:
 review_series_id:
 version:
 status:

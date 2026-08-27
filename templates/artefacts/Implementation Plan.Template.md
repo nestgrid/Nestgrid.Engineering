@@ -2,6 +2,7 @@
 
 ```yaml
 title:
+eos_version:
 version:
 status:
 owner:
@@ -52,6 +53,8 @@ Describe projects, folders, modules or components affected.
 ## Solution Structure Responsibilities
 
 Describe the responsibility of each project, module or major folder.
+
+Implement the physical organisation approved by Architecture. Do not infer or redesign project, assembly or module boundaries from logical layer names alone.
 
 | Area | Responsibility | Notes |
 | --- | --- | --- |

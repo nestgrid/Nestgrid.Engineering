@@ -95,6 +95,8 @@ The Solution Architect should receive both artefacts:
 
 The Architecture Handover should be concise and should not repeat the full Product Brief.
 
+Where relevant, it may carry the Product Brief's product-shape observation forward so Architecture can assess physical organisation without requiring Discovery to make a technical decision.
+
 ### Architecture Recommendation
 
 Architecture Recommendation is a lightweight checkpoint before Architecture executes substantial documentation work.
@@ -106,6 +108,8 @@ It answers:
 It should include proposed architectural direction, key architectural decisions, principal risks and trade-offs, proposed Architecture artefacts and approval to Execute.
 
 Once approved, Architecture should produce the Architecture Pack and related Architecture Decision Records where needed.
+
+The Architecture Pack should distinguish logical responsibilities from physical solution organisation and should document qualified capability modules where applicable.
 
 ### Release Approval
 

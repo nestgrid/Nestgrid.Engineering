@@ -16,6 +16,7 @@ Upon completing this book, engineers should be able to:
 
 - Identify architectural drivers and quality attributes.
 - Choose architectural styles and patterns intentionally.
+- Distinguish logical architectural responsibilities from physical solution organisation.
 - Design clear system and component boundaries.
 - Reason about data, integration, security and operational concerns.
 - Evaluate architectural trade-offs before implementation.

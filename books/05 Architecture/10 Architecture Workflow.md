@@ -50,6 +50,8 @@ Some open questions may still remain, but they should be explicit and intentiona
 
 Architecture should assess architectural drivers, quality attributes, boundaries, data, integrations, security, operations, risks and trade-offs.
 
+This assessment should distinguish logical responsibilities from physical organisation. Architecture should consider whether the product is cohesive or composed of meaningful capabilities, but should select physical boundaries only where they provide clear architectural value.
+
 This assessment should identify where decisions are needed and where assumptions may affect architecture.
 
 ### Recommend
@@ -74,6 +76,8 @@ Typical outputs include:
 
 - Architecture Pack
 - Architecture Decision Records
+- The selected physical solution organisation and its rationale.
+- Qualified capability modules and their boundaries, where applicable.
 - Technical risk notes
 - Architecture feedback where upstream clarification is needed
 

@@ -2,6 +2,7 @@
 
 ```yaml
 title:
+eos_version:
 version:
 status:
 owner:

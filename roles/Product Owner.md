@@ -39,6 +39,7 @@ Valid Opportunity Decisions include:
 - Identify stakeholders, users and operating context.
 - Define functional and non-functional requirements.
 - Define operational requirements such as consumption model, target environment, installation, configuration, upgrade, support and validation expectations.
+- Describe the product shape where relevant, including whether it is one cohesive capability or a composition of multiple meaningful capabilities.
 - Explore existing internal or external solutions where relevant before recommending new product development.
 - Capture assumptions, constraints, risks and open questions.
 - Split large initiatives into deliverable increments where appropriate.
@@ -92,6 +93,8 @@ The Architecture Handover answers: what should Architecture do next?
 Operational Requirements answer: what must be true for the product, library, service or application to be deliverable, consumable, operable and supportable in its intended environment?
 
 The Architecture Handover should summarise the approved vision, approved scope, business capabilities, outstanding architectural decisions, known risks, discovery assumptions, open questions and recommended priorities.
+
+Where product shape may affect Architecture, the Product Brief and Architecture Handover should identify the relevant evidence without selecting a physical solution organisation.
 
 ## Definition of Done
 

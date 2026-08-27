@@ -2,9 +2,15 @@
 
 Nestgrid Engineering Operating System defines the engineering methodology, standards, roles, templates and lifecycle practices used to design, build and maintain software within the Nestgrid ecosystem.
 
+**EOS Version:** `1.1.0` ([`VERSION`](VERSION))
+
 It captures the complete engineering lifecycle, from understanding a business problem through to designing, implementing, testing, reviewing, deploying and operating production software.
 
 Although developed for Nestgrid products, the methodology is technology-agnostic and may be adopted by any engineering team seeking a structured and consistent approach to software engineering.
+
+## Versioning
+
+The canonical EOS version is recorded in [`VERSION`](VERSION) and released using a matching Git tag, such as `v1.1.0`. Reusable engineering artefacts record the governing release through `eos_version` where traceability is useful.
 
 ## Engineering Lifecycle
 

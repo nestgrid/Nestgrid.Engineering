@@ -2,6 +2,8 @@
 
 This folder contains reusable templates for the standard Nestgrid Engineering workflow artefacts.
 
+Templates include an `eos_version` field. Set it to the canonical EOS version recorded in [`VERSION`](../../VERSION) when completing an artefact, and use `version` for the artefact's own revision.
+
 ## Templates
 
 - [Opportunity Decision](Opportunity%20Decision.Template.md)

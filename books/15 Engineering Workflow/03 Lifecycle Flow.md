@@ -16,7 +16,7 @@ The workflow should be adapted to the size and risk of the work, but the default
 
 1. Product discovers what should be built and why.
 2. Product captures functional, quality and operational requirements.
-3. Architecture defines how the solution should be designed and operationalised.
+3. Architecture defines how the solution should be designed and operationalised, including its physical organisation.
 4. Engineering implements the approved design and operational model.
 5. Quality validates behaviour, release confidence and operational scenarios.
 6. Security assesses risk, mitigation and operational security.
@@ -34,6 +34,8 @@ Product
   -> Platform
   -> Release
 ```
+
+Discovery may identify whether the product is cohesive or composed of multiple meaningful capabilities. Architecture uses that evidence, but remains responsible for selecting the physical organisation. Engineering implements the approved structure.
 
 ### Feedback Loops
 

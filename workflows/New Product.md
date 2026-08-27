@@ -62,6 +62,7 @@ Opportunity Decision
 
 - Product Definition approval before Architecture.
 - Architecture recommendation approval before Architecture execution.
+- Discovery identifies the product shape where relevant; Architecture selects and documents the physical solution organisation before Engineering begins.
 - Engineering Readiness Assessment and, where applicable, Architecture conformance confirmation before implementation. Sponsor approval is required only for a reserved decision or where the assignment explicitly requires it.
 - Final release approval by the Project Sponsor.
 

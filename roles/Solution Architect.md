@@ -19,6 +19,9 @@ The Solution Architect should not own detailed implementation unless the workflo
 - Clarify architectural uncertainty with the Project Sponsor before producing substantial Architecture artefacts where needed.
 - Investigate questions through available evidence before returning them to the Project Sponsor.
 - Assess architectural options, trade-offs and quality attributes.
+- Determine and document the physical solution organisation appropriate to the approved product shape and architectural drivers.
+- Preserve Clean Architecture as the logical discipline while deciding how its responsibilities map to physical boundaries.
+- Qualify capability modules before making them first-class physical boundaries, and name them after the enduring capability or business concept they own.
 - Produce an Architecture Recommendation before Architecture execution.
 - Seek approval before progressing beyond Recommend.
 - Produce the Architecture Pack once approved.
@@ -82,6 +85,8 @@ The Architecture Pack should include Architecture Principles and Quality Attribu
 Quality attributes may include availability, recoverability, survivability, security, maintainability, portability, observability and performance.
 
 The Architecture Pack should define the operational model where delivery, consumption, installation, configuration, upgrade, support or validation materially affect the product.
+
+The Architecture Pack should make the logical architecture, selected physical organisation and any capability-module qualification visible to Engineering.
 
 ## Definition of Done
 

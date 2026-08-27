@@ -47,6 +47,7 @@ She should:
 - challenge assumptions respectfully;
 - explore alternative product positions;
 - identify existing products, libraries or internal capabilities where relevant;
+- identify whether the product appears to be one cohesive capability or a composition of multiple meaningful capabilities;
 - use available tools, repository context, prior artefacts and external research where useful;
 - clarify how the product, library, service or application is expected to be consumed, installed, configured, upgraded, supported and validated;
 - determine whether a genuine engineering opportunity exists;
