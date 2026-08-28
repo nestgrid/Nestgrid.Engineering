@@ -26,6 +26,7 @@ Upon completing this book, engineers should be able to:
 2. [02 Sample Design](02%20Sample%20Design.md)
 3. [03 Sample Quality](03%20Sample%20Quality.md)
 4. [04 Sample Maintenance](04%20Sample%20Maintenance.md)
+5. [05 Product Repository Samples](05%20Product%20Repository%20Samples.md)
 
 ## Outcome
 

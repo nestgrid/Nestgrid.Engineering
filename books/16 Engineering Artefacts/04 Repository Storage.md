@@ -188,6 +188,8 @@ When an initiative completes, enduring product knowledge should be promoted into
 
 `samples/` contains reference examples, sample applications, sample data or demo usage.
 
+For guidance on executable sample projects within a product repository, see [Product Repository Samples](../14%20Samples/05%20Product%20Repository%20Samples.md).
+
 `assets/` contains images, diagrams, logos, screenshots and static supporting files.
 
 `scripts/` contains repeatable local or CI helper scripts.
