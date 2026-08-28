@@ -31,6 +31,8 @@ When adding or renaming files, update all affected links.
 
 Pull requests should be focused and reviewable.
 
+Product repositories using GitHub should add `.github/pull_request_template.md`, copied and adapted from the EOS [Pull Request Template](templates/contribution/Pull%20Request%20Template.md). Keep product-specific additions proportionate and preserve the links between the change, its evidence and its owning Role.
+
 Before opening a pull request:
 
 - Check that Markdown links resolve.

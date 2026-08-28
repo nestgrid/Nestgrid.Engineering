@@ -196,6 +196,8 @@ When an initiative completes, enduring product knowledge should be promoted into
 
 `.github/` contains GitHub workflows, issue templates, pull request templates and contribution automation.
 
+For GitHub repositories, use the reusable EOS [Pull Request Template](../../templates/contribution/Pull%20Request%20Template.md) as the starting point for `.github/pull_request_template.md`. Adapt it to the product without weakening the required links between scope, ownership, evidence and validation.
+
 ## Key Takeaways
 
 - Product artefacts belong in the product repository.

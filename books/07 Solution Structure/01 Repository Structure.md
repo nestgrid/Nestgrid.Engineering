@@ -134,6 +134,8 @@ Lifecycle artefact folders should be numbered by workflow order rather than sort
 
 Optional folders such as `samples/`, `assets/`, `scripts/`, `tools/` and `.github/` should be added when the repository needs examples, supporting assets, automation, internal tooling or GitHub-specific workflows.
 
+When GitHub pull request governance is required, `.github/pull_request_template.md` should be based on the EOS [Pull Request Template](../../templates/contribution/Pull%20Request%20Template.md).
+
 ## Key Takeaways
 
 - The repository root should communicate purpose quickly.

@@ -26,15 +26,12 @@ Describe what this pull request changes and why.
 
 ## Checklist
 
-- [ ] The change follows the established handbook structure and writing style.
 - [ ] The change follows the approved product Architecture and relevant EOS guidance.
 - [ ] The change is proportionate to the product and initiative scope.
 - [ ] Related documents are linked where useful.
-- [ ] Markdown links have been checked.
-- [ ] Templates were updated first if this introduces a new documentation pattern.
 - [ ] Significant decisions have been recorded where appropriate.
-- [ ] Commit messages use the appropriate EOS responsibility prefix.
+- [ ] The commit uses the appropriate EOS responsibility prefix.
 
 ## Notes
 
-Add any review notes, trade-offs or follow-up work.
+Add review notes, trade-offs, evidence, risks or follow-up work.

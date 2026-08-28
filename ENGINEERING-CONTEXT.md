@@ -2,7 +2,7 @@
 
 This document defines the universal operating rules for work performed with the Nestgrid Engineering Operating System.
 
-**EOS Version:** `1.1.0` ([`VERSION`](VERSION))
+**EOS Version:** `1.2.0` ([`VERSION`](VERSION))
 
 ## Authority
 

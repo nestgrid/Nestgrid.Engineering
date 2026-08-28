@@ -81,6 +81,8 @@ tools/          optional
 
 `.github/` contains GitHub workflows, issue templates, pull request templates and contribution automation.
 
+When GitHub pull request governance is required, copy and adapt the EOS [Pull Request Template](../../templates/contribution/Pull%20Request%20Template.md) to `.github/pull_request_template.md`. Do not create it under `.github/workflows/`, which is reserved for GitHub Actions workflows.
+
 ## Starting Steps
 
 1. Create `docs/`.
@@ -92,6 +94,7 @@ tools/          optional
 7. Use the new product Discovery bootstrap checklist to create the initial Discovery documentation set.
 8. Create `src/` and `tests/` when Engineering begins.
 9. Add optional folders only when the repository needs them.
+10. When GitHub pull request governance is required, add `.github/pull_request_template.md` using the EOS template.
 
 ## Key Takeaways
 
