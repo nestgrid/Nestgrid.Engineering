@@ -59,6 +59,43 @@ Agreement and disagreement should be explicit. Each participant should distingui
 
 Participant agreement is not Project Sponsor approval and does not satisfy a lifecycle gate.
 
+## Group Aliases
+
+Group aliases are shorthand for activating a defined group of existing Profiles. They are orchestration conveniences, not Roles, Profiles, lifecycle stages or authority boundaries.
+
+The standard engineering panel is:
+
+```text
+@Engineers
+  -> Gideon
+  -> Mason
+  -> Harper
+  -> Morgan
+  -> Rowan
+```
+
+`@Engineers` explicitly excludes Evelyn and Sentinel. Use Evelyn explicitly for Product input and Sentinel explicitly when Independent Review is required.
+
+For example:
+
+```text
+@Engineers: Assess the current initiative and provide individual feedback on readiness for release.
+```
+
+The Room must:
+
+1. Expand the alias into its five canonical Profiles.
+2. Freshly activate each member using the normal activation protocol.
+3. Resolve and re-read each member's current Role and Profile.
+4. Reconcile each assessment against the current authoritative repository state.
+5. Provide a separately attributed response for every member.
+6. Identify agreement and disagreement explicitly.
+7. Provide an `Engineering Room - Synthesis` where useful, without replacing the individual assessments.
+
+No member becomes the Active Profile because of alias expansion. If an Active Profile existed before the group request, preserve it after the panel response. If no Active Profile existed, require explicit Profile activation for participant-specific follow-up.
+
+When `@Engineers` is used with other explicit participants, treat the request as a panel request and do not transfer active ownership. Prefer separate explicit Product or Independent Review requests where those perspectives are required, so that their authority and independence remain clear.
+
 ## Consultation
 
 Consultation does not transfer ownership. The owning Profile remains explicit:
@@ -110,6 +147,8 @@ Sentinel owns findings and recommendations. The responsible Role owns dispositio
 
 - The Engineering Room is orchestration, not a lifecycle stage.
 - Every explicit activation refreshes the current Role and Profile.
+- `@Engineers` expands to Gideon, Mason, Harper, Morgan and Rowan as an attributed panel.
+- Group expansion never creates an Active Profile or transfers ownership.
 - Natural follow-ups may continue under the Active Profile.
 - Participant headings provide visible Profile and Role attribution.
 - Consultation does not transfer ownership.
