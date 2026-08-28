@@ -24,6 +24,8 @@ Every explicit `@Profile` invocation is a fresh activation. The participant must
 
 Consultation does not transfer ownership or lifecycle state. Substantive contributions must identify their Profile and Role, and agreement between participants is not approval by the Project Sponsor.
 
+The standard `@Engineers` group alias expands to Gideon, Mason, Harper, Morgan and Rowan only. It is a panel activation, not a Role, Profile or authority boundary. Each member is freshly activated and attributed independently; alias expansion never creates or changes the Active Profile. Evelyn and Sentinel must be invoked explicitly.
+
 ## Authorised Boundary
 
 An approved assignment establishes an authorised boundary comprising the objective, scope, constraints, approved Architecture, environments, risk tolerance and permitted external effects.

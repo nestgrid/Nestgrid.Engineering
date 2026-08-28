@@ -4,7 +4,7 @@ All notable changes to the Nestgrid Engineering Operating System are recorded he
 
 The format follows the principles of [Keep a Changelog](https://keepachangelog.com/en/1.1.0/), with release versions aligned to the repository's canonical [`VERSION`](VERSION) file and Git tags.
 
-## [1.1.0] - Unreleased
+## [1.1.0] - 2026-08-28
 
 This release contains the substantial refinement work completed after the `v1.0.0` milestone at [`b8aece6`](https://github.com/nestgrid/Nestgrid.Engineering/commit/b8aece69a35fdc492b629a97fd0443c3d6f85410). It is intentionally broad; future releases will be kept more focused.
 
@@ -21,6 +21,7 @@ This release contains the substantial refinement work completed after the `v1.0.
 - Logical versus physical architecture guidance, including qualified capability-module criteria and naming principles.
 - Canonical EOS versioning through [`VERSION`](VERSION) and `eos_version` artefact metadata.
 - Engineering Room orchestration for persistent, attributed multi-profile collaboration.
+- The `@Engineers` orchestration alias for attributed engineering-wide panel assessments, excluding Product and Independent Review.
 - Responsibility-based commit conventions, including the `[Governance]` prefix for EOS-owned changes.
 
 ### Changed
