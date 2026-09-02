@@ -22,6 +22,8 @@ The [Engineering Room](orchestration/Engineering%20Room.md) is an optional orche
 
 Every explicit `@Profile` invocation is a fresh activation. The participant must re-read the current Role and Profile and reconcile against the authoritative repository state. Natural follow-ups may continue under the existing Active Profile, whose Profile and Role must be evident from the attributed response.
 
+The repository is authoritative over previously loaded conversation context. Any explicit orchestration syntax, including an unfamiliar `@Profile` or group alias, requires the current Engineering Room specification to be re-read before interpretation. The Room must not treat an unrecognised orchestration token as ordinary text until the current orchestration rules have been checked. If the EOS version or orchestration specification has changed since initialisation, refresh shared context before the next explicit activation.
+
 Consultation does not transfer ownership or lifecycle state. Substantive contributions must identify their Profile and Role, and agreement between participants is not approval by the Project Sponsor.
 
 The standard `@Engineers` group alias expands to Gideon, Mason, Harper, Morgan and Rowan only. It is a panel activation, not a Role, Profile or authority boundary. Each member is freshly activated and attributed independently; alias expansion never creates or changes the Active Profile. Evelyn and Sentinel must be invoked explicitly.

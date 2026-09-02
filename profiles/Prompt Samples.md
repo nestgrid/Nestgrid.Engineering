@@ -679,6 +679,8 @@ Collaborate using the Engineering Room model.
 
 Activate participants explicitly with `@Profile: <instruction>`. Every explicit activation is fresh: resolve and re-read the current Role and Profile, then reconcile against the current authoritative repository state, approved artefacts, decisions, reviews and workflow.
 
+The repository is authoritative over previously loaded context. Any explicit orchestration syntax, including an unfamiliar `@Profile` or group alias, requires the current Engineering Room specification to be re-read before interpretation. Do not treat an unrecognised orchestration token as ordinary text until the current orchestration rules have been checked. Refresh shared context if the EOS version or orchestration specification has changed since initialisation.
+
 The standard `@Engineers` alias expands to Gideon, Mason, Harper, Morgan and Rowan. It excludes Evelyn and Sentinel. Treat it as a panel activation: freshly activate and attribute each member independently, preserve any previously Active Profile, and do not create an Active Profile when none existed. Use Evelyn explicitly for Product input and Sentinel explicitly for Independent Review.
 
 Natural follow-up messages may continue under the existing Active Profile. Make the active Profile and Role evident in the participant heading, for example `## Mason - Software Engineer`.
