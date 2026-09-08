@@ -691,3 +691,29 @@ Preserve Role authority, ownership, lifecycle state and approval gates. Room dis
 
 Read the Engineering Room guidance, relevant Role, Profile, workflow and approved product artefacts before responding.
 ```
+
+
+---
+
+# Engineering Room - Continue Approved Lifecycle
+
+Use after a Sponsor approval or other explicit lifecycle continuation instruction when the next responsible participant should proceed from the latest authoritative handover.
+
+```text
+Continue the approved lifecycle from the latest authoritative handover.
+
+Resolve the next responsible Role from the current workflow and approved artefacts. Freshly activate the corresponding Profile, have them read the current Role, Profile, workflow, handover and all other authoritative artefacts, and proceed within their authority.
+
+Each participant should continue until one of the following applies:
+
+- the participant reaches its next Recommend, Execute, validation or approval boundary;
+- a genuine Sponsor decision is required;
+- an unresolved blocker prevents progress; or
+- the participant completes its work and produces the required handover for the next Role.
+
+Do not skip a lifecycle gate, infer approval from conversation, or treat consultation as a handover. Preserve completed work and use the latest approved artefacts, decisions and reviews as authoritative over chat history.
+
+When a handover is complete, continue to the next responsible participant only where the workflow and handover authorise that continuation. Otherwise, stop and report the exact next handover or approval required from the Sponsor.
+```
+
+This prompt is an explicit continuation instruction for the current Engineering Room. It does not itself create a lifecycle stage, change Role authority or replace the formal handover process. Until governed lifecycle-continuation orchestration is introduced, the Room should resolve and activate each next participant explicitly.

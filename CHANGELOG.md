@@ -10,6 +10,7 @@ The format follows the principles of [Keep a Changelog](https://keepachangelog.c
 
 - Reusable pull request governance guidance for product repositories, including scope, evidence, documentation, validation and EOS responsibility ownership.
 - Engineering Room context-refresh guidance for newly introduced or changed orchestration syntax.
+- A reusable Engineering Room prompt for continuing an approved lifecycle from the latest authoritative handover while preserving gates, authority and Sponsor decision points.
 
 ## [1.1.0] - 2026-08-28
 
