@@ -188,6 +188,8 @@ When an initiative completes, enduring product knowledge should be promoted into
 
 `samples/` contains reference examples, sample applications, sample data or demo usage.
 
+For guidance on executable sample projects within a product repository, see [Product Repository Samples](../14%20Samples/05%20Product%20Repository%20Samples.md).
+
 `assets/` contains images, diagrams, logos, screenshots and static supporting files.
 
 `scripts/` contains repeatable local or CI helper scripts.
@@ -195,6 +197,8 @@ When an initiative completes, enduring product knowledge should be promoted into
 `tools/` contains custom internal tooling.
 
 `.github/` contains GitHub workflows, issue templates, pull request templates and contribution automation.
+
+For GitHub repositories, use the reusable EOS [Pull Request Template](../../templates/contribution/Pull%20Request%20Template.md) as the starting point for `.github/pull_request_template.md`. Adapt it to the product without weakening the required links between scope, ownership, evidence and validation.
 
 ## Key Takeaways
 

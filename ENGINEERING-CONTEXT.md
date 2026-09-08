@@ -2,7 +2,7 @@
 
 This document defines the universal operating rules for work performed with the Nestgrid Engineering Operating System.
 
-**EOS Version:** `1.1.0` ([`VERSION`](VERSION))
+**EOS Version:** `1.2.0` ([`VERSION`](VERSION))
 
 ## Authority
 
@@ -21,6 +21,8 @@ Roles are authoritative for responsibility, authority, outputs and Definition of
 The [Engineering Room](orchestration/Engineering%20Room.md) is an optional orchestration model for persistent multi-profile collaboration. It does not replace isolated Role/Profile conversations, lifecycle workflows, approval gates, artefacts or handovers.
 
 Every explicit `@Profile` invocation is a fresh activation. The participant must re-read the current Role and Profile and reconcile against the authoritative repository state. Natural follow-ups may continue under the existing Active Profile, whose Profile and Role must be evident from the attributed response.
+
+The repository is authoritative over previously loaded conversation context. Any explicit orchestration syntax, including an unfamiliar `@Profile` or group alias, requires the current Engineering Room specification to be re-read before interpretation. The Room must not treat an unrecognised orchestration token as ordinary text until the current orchestration rules have been checked. If the EOS version or orchestration specification has changed since initialisation, refresh shared context before the next explicit activation.
 
 Consultation does not transfer ownership or lifecycle state. Substantive contributions must identify their Profile and Role, and agreement between participants is not approval by the Project Sponsor.
 

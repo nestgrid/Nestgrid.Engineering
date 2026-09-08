@@ -43,6 +43,16 @@ Do not add a separate repetitive status block after each activation.
 
 If no Active Profile exists and a message does not identify a participant, ask which Role/Profile should respond.
 
+## Context Refresh
+
+The repository is authoritative over previously loaded conversation context. Engineering Room initialisation may load shared EOS guidance, but that context must not be treated as an immutable cache.
+
+When a message contains explicit orchestration syntax, including an unfamiliar `@Profile` or group alias, the Room must re-read the current Engineering Room specification before interpreting or responding to the request. An unrecognised orchestration token must not be treated as ordinary text until the current orchestration rules have been checked.
+
+Every explicit activation or group-alias invocation must also re-read the current Role, Profile and relevant authoritative repository state. Natural follow-ups may continue under the Active Profile without repeating activation, subject to the normal refresh rules when explicit orchestration syntax is used.
+
+The Room should retain the EOS version and orchestration specification used at initialisation. If the repository's EOS version or orchestration specification has changed, refresh the shared context before processing the next explicit activation.
+
 ## Multiple Participants
 
 Multiple participants may be activated for the same request:
@@ -147,6 +157,7 @@ Sentinel owns findings and recommendations. The responsible Role owns dispositio
 
 - The Engineering Room is orchestration, not a lifecycle stage.
 - Every explicit activation refreshes the current Role and Profile.
+- Explicit orchestration syntax, including unfamiliar aliases, triggers a refresh of the current Room rules before interpretation.
 - `@Engineers` expands to Gideon, Mason, Harper, Morgan and Rowan as an attributed panel.
 - Group expansion never creates an Active Profile or transfers ownership.
 - Natural follow-ups may continue under the Active Profile.

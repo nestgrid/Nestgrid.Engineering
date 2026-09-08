@@ -4,6 +4,14 @@ All notable changes to the Nestgrid Engineering Operating System are recorded he
 
 The format follows the principles of [Keep a Changelog](https://keepachangelog.com/en/1.1.0/), with release versions aligned to the repository's canonical [`VERSION`](VERSION) file and Git tags.
 
+## [1.2.0] - Unreleased
+
+### Added
+
+- Reusable pull request governance guidance for product repositories, including scope, evidence, documentation, validation and EOS responsibility ownership.
+- Engineering Room context-refresh guidance for newly introduced or changed orchestration syntax.
+- A reusable Engineering Room prompt for continuing an approved lifecycle from the latest authoritative handover while preserving gates, authority and Sponsor decision points.
+
 ## [1.1.0] - 2026-08-28
 
 This release contains the substantial refinement work completed after the `v1.0.0` milestone at [`b8aece6`](https://github.com/nestgrid/Nestgrid.Engineering/commit/b8aece69a35fdc492b629a97fd0443c3d6f85410). It is intentionally broad; future releases will be kept more focused.
@@ -58,4 +66,6 @@ Initial tagged release of the Nestgrid Engineering Operating System, ending at [
 - Established the initial repository structure for the Engineering Operating System and its product-repository conventions.
 - Expanded documentation, workflow, handover and artefact guidance through the initial release milestone.
 
-<!-- Release links are added here once the corresponding tags exist. -->
+[1.2.0]: https://github.com/nestgrid/Nestgrid.Engineering/releases/tag/v1.2.0
+[1.1.0]: https://github.com/nestgrid/Nestgrid.Engineering/releases/tag/v1.1.0
+[1.0.0]: https://github.com/nestgrid/Nestgrid.Engineering/releases/tag/v1.0.0
