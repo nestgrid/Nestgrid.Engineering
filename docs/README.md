@@ -14,6 +14,10 @@ Decision records for significant choices made while evolving the operating syste
 
 Scoped lifecycle runs used to improve the operating system.
 
+`reviews/`
+
+Independent Review artefacts for the operating system itself.
+
 ---
 
 ## Navigation
