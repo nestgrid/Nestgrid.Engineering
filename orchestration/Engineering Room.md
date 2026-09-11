@@ -147,11 +147,36 @@ Participants should create or update the normal durable artefacts when the work 
 
 Do not create a Room transcript merely to preserve routine conversation. Preserve durable state through the established artefacts, decisions and reviews.
 
+## Governed Lifecycle Continuation
+
+The Room supports governed lifecycle continuation through the explicit `@Continue` orchestration command:
+
+```text
+@Continue: Resume the approved lifecycle from the latest authoritative handover.
+```
+
+`@Continue` is an orchestration capability, not a lifecycle stage, Role, Profile or approval. It may be used only when the repository contains an authorised handover or continuation instruction.
+
+When `@Continue` is invoked, the Room must:
+
+1. Re-read this specification and the current workflow.
+2. Locate the latest authoritative handover, decision, review and routing metadata.
+3. Resolve the next responsible Role and, where specified, its Profile.
+4. Freshly activate that participant using the normal activation rules.
+5. Continue within that Role's authority until the next Recommend, Execute, validation or approval boundary, a genuine blocker, a required Sponsor decision, or a completed handover.
+6. Produce or update the required artefact, including routing metadata for the next responsible participant where a handover is completed.
+
+The routing metadata guides continuation but does not create approval or override the workflow. If routing is missing, stale, contradictory or ambiguous, stop and report the ambiguity rather than guessing. If a Sponsor decision is required, stop at that boundary and identify the decision clearly.
+
+Continuation may activate several participants sequentially, but each contribution must remain visibly attributed and each Role must retain its own authority. A continuation command never turns consultation into ownership or bypasses a lifecycle gate.
+
 ## Independent Review
 
 Sentinel may participate in the Room when contextual consultation is useful. Formal assurance should use the canonical Independent Review model and may use a separate Review conversation when stronger contextual independence is appropriate.
 
 Sentinel owns findings and recommendations. The responsible Role owns dispositions and completion evidence. Room participation must not weaken Sentinel's independence or replace the canonical review artefact.
+
+For formal assurance, Sentinel must establish the review mandate, scope and authoritative Product and architectural evaluation criteria before inspecting implementation. Sentinel then inspects implementation, resulting behaviour, tests and operational evidence, reconciles intended outcome, recorded design, observed implementation and evidence, and records the current assessment. Previous review findings, dispositions and narrative are consulted only afterwards for continuity, regression and duplicate identification.
 
 ## Key Takeaways
 
@@ -165,6 +190,8 @@ Sentinel owns findings and recommendations. The responsible Role owns dispositio
 - Consultation does not transfer ownership.
 - Agreement is not approval.
 - Artefacts, decisions and reviews remain authoritative over conversation history.
+- `@Continue` may advance authorised work only through the governed workflow and routing metadata.
+- Missing or ambiguous routing stops continuation rather than being guessed.
 - Isolated Role/Profile conversations remain fully supported.
 
 ## Related Reading

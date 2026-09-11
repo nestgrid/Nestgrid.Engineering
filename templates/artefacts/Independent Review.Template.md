@@ -42,6 +42,12 @@ The current document is the authoritative state. The Review History records what
 
 Do not renumber an existing finding because its status changes. Stable finding IDs allow roles, decisions, actions and later reviews to refer to the same concern.
 
+## Independent Assessment Sequence
+
+Form the current assessment before reading previous review findings, dispositions or reviewer conclusions. Establish the review mandate, scope and authoritative evaluation criteria first, including Product outcomes, acceptance criteria and applicable architectural constraints. Then inspect the implementation, resulting behaviour, tests and operational evidence; inspect the deeper Product and Architecture reasoning, decisions and assumptions; and reconcile intended outcome, recorded design, observed implementation and evidence.
+
+After the current assessment has been recorded, consult prior review history for continuity, regression and duplicate identification. Preserve the canonical document, stable finding IDs, dispositions and Review History when updating the review.
+
 ## Purpose
 
 Summarise the purpose and scope of the independent review.
