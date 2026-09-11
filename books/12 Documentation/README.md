@@ -6,6 +6,8 @@ Documentation preserves understanding beyond conversations, commits and individu
 
 Good documentation helps engineers, stakeholders and future contributors understand why a system exists, how it works and how it should evolve.
 
+The Technical Writer role may lead documentation work where a product needs dedicated audience, structure, examples or publishing attention. The role that owns the underlying product, technical, security or operational decision remains responsible for its correctness.
+
 ## Purpose
 
 To establish documentation practices that make engineering knowledge clear, discoverable and maintainable.

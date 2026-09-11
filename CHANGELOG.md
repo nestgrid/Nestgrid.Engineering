@@ -4,6 +4,21 @@ All notable changes to the Nestgrid Engineering Operating System are recorded he
 
 The format follows the principles of [Keep a Changelog](https://keepachangelog.com/en/1.1.0/), with release versions aligned to the repository's canonical [`VERSION`](VERSION) file and Git tags.
 
+## [1.3.0] - Unreleased
+
+### Added
+
+- Product Designer role and Iris profile for user journeys, information architecture, interaction design, usability and accessibility.
+- Technical Writer role and Quinn profile for tutorials, API guides, reference documentation, examples, onboarding and release notes.
+- Governed `@Continue` Engineering Room orchestration for progressing authorised work from the latest handover until the next lifecycle boundary, blocker or Sponsor decision.
+- Handover routing metadata identifying the next stage, responsible Role, optional Profile, required action, approval requirement and blockers.
+- Normative independent-assessment-first sequencing for Sentinel, with previous review history deferred until the current assessment is recorded.
+
+### Changed
+
+- Specialist Product Design and Technical Writing participants are explicitly activatable but remain outside the existing `@Engineers` group alias.
+- Handover guidance now distinguishes routing direction from authority, approval and lifecycle transition.
+
 ## [1.2.0] - Unreleased
 
 ### Added
@@ -67,5 +82,6 @@ Initial tagged release of the Nestgrid Engineering Operating System, ending at [
 - Expanded documentation, workflow, handover and artefact guidance through the initial release milestone.
 
 [1.2.0]: https://github.com/nestgrid/Nestgrid.Engineering/releases/tag/v1.2.0
+[1.3.0]: https://github.com/nestgrid/Nestgrid.Engineering/releases/tag/v1.3.0
 [1.1.0]: https://github.com/nestgrid/Nestgrid.Engineering/releases/tag/v1.1.0
 [1.0.0]: https://github.com/nestgrid/Nestgrid.Engineering/releases/tag/v1.0.0

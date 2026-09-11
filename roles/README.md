@@ -21,6 +21,8 @@ Profiles are named implementations of roles. See [Profiles](../profiles/README.m
 | [Quality Engineer](Quality%20Engineer.md) | Quality | How do we know it works? |
 | [Security Engineer](Security%20Engineer.md) | Security | Can it be trusted? |
 | [Platform Engineer](Platform%20Engineer.md) | Platform | Can it reliably serve its users? |
+| [Product Designer](Product%20Designer.md) | Product experience | Can users understand and use it effectively? |
+| [Technical Writer](Technical%20Writer.md) | Documentation | Can users, consumers and contributors act on it? |
 | [Independent Reviewer](Independent%20Reviewer.md) | Review | Is the work ready to proceed? |
 
 ## Principles

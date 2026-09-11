@@ -24,6 +24,8 @@ Profiles provide reusable execution personalities for agent-based delivery.
 | [Quality Engineer](../roles/Quality%20Engineer.md) | [Harper](Harper.md) | Quality | How do we know it works? |
 | [Security Engineer](../roles/Security%20Engineer.md) | [Morgan](Morgan.md) | Security | Can it be trusted? |
 | [Platform Engineer](../roles/Platform%20Engineer.md) | [Rowan](Rowan.md) | Platform | Can it reliably serve its users? |
+| [Product Designer](../roles/Product%20Designer.md) | [Iris](Iris.md) | Product experience | Can users understand and use it effectively? |
+| [Technical Writer](../roles/Technical%20Writer.md) | [Quinn](Quinn.md) | Documentation | Can users, consumers and contributors act on it? |
 | [Independent Reviewer](../roles/Independent%20Reviewer.md) | [Sentinel](Sentinel.md) | Review | Is the work ready to proceed? |
 
 The [Project Sponsor](../roles/Project%20Sponsor.md) provides approval authority, business direction and final arbitration.
