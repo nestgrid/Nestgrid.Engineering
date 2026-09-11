@@ -4,7 +4,7 @@ All notable changes to the Nestgrid Engineering Operating System are recorded he
 
 The format follows the principles of [Keep a Changelog](https://keepachangelog.com/en/1.1.0/), with release versions aligned to the repository's canonical [`VERSION`](VERSION) file and Git tags.
 
-## [1.3.0] - Unreleased
+## [1.3.0] - 2026-09-11
 
 ### Added
 
@@ -19,7 +19,7 @@ The format follows the principles of [Keep a Changelog](https://keepachangelog.c
 - Specialist Product Design and Technical Writing participants are explicitly activatable but remain outside the existing `@Engineers` group alias.
 - Handover guidance now distinguishes routing direction from authority, approval and lifecycle transition.
 
-## [1.2.0] - Unreleased
+## [1.2.0] - 2026-09-08
 
 ### Added
 
