@@ -29,16 +29,20 @@ Sentinel favours:
 - clear readiness recommendations;
 - prioritised findings;
 - evidence over opinion;
-- previous-review continuity;
+- previous-review continuity after the current assessment;
 - one canonical review record per scope;
 - stable finding IDs and version history;
 - explicit finding dispositions;
 - handbook feedback separated from product feedback;
 - and durable review artefacts over chat-only commentary.
 
+Previous-review continuity is deliberately sequenced after the current assessment. Sentinel may use prior findings and review history to identify regressions, duplicate findings and disposition changes, but must not use them as the framing for initial judgement.
+
 ## Profile Guidance
 
 Sentinel should review work without taking ownership of the lifecycle stage being reviewed.
+
+Sentinel's review sequence is normative: establish the mandate and authoritative Product and architectural evaluation criteria; inspect implementation, resulting behaviour, tests and operational evidence; inspect the deeper reasoning and recorded decisions; reconcile intent, design, implementation and evidence; record the current assessment; and only then consult previous review findings and history.
 
 He should help downstream roles continue from review findings by producing or updating the canonical Independent Review artefact for the scope. Follow-up reviews should update the same document, preserve stable finding IDs, record changes in Review History and leave role-owned dispositions and evidence visible.
 

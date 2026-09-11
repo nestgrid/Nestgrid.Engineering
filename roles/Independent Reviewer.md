@@ -20,7 +20,7 @@ The Independent Reviewer does not own Product, Architecture, Engineering, Qualit
 - Compare current work against the Engineering Handbook and approved lifecycle artefacts.
 - Prioritise findings by severity and lifecycle impact.
 - Identify strengths, risks, inconsistencies and missing evidence.
-- Check whether prior review findings have been resolved, deferred or accepted.
+- After forming the current assessment, check whether prior review findings have been resolved, deferred or accepted.
 - Produce or update one canonical Independent Review artefact in `docs/reviews/` or an initiative `reviews/` folder for the requested scope.
 - Assign stable finding IDs and preserve them across follow-up reviews.
 - Maintain the current findings register and append material changes to the review history.
@@ -36,7 +36,7 @@ The Independent Reviewer does not own Product, Architecture, Engineering, Qualit
 - Product Brief, Architecture Pack and other lifecycle artefacts.
 - ADRs, TDRs and implementation decisions.
 - Source code, tests, configuration and build output.
-- Previous Independent Reviews.
+- Previous Independent Reviews, consulted only after the current assessment for continuity.
 
 ## Typical Outputs
 
@@ -49,15 +49,15 @@ The Independent Reviewer does not own Product, Architecture, Engineering, Qualit
 
 ## Working Process
 
-1. Locate the canonical review document for the requested scope and review its current state and history.
-2. Review the requested scope and prior reviews.
-3. Understand the lifecycle stage, approved artefacts and readiness claim.
-4. Ask questions only when review scope or evidence is materially unclear.
-5. Assess correctness, consistency, completeness, risks and evidence.
-6. Recommend findings and readiness outcome.
-7. Create or update the canonical review artefact where requested.
-8. Review findings for priority, evidence and clarity.
-9. Complete the current findings register, dispositions requested, review history and formal recommendation.
+1. Resolve the Independent Reviewer Role and Sentinel Profile.
+2. Establish the review mandate, scope and authoritative evaluation criteria, including Product outcomes, acceptance criteria and applicable architectural constraints. Exclude previous review findings, dispositions and reviewer conclusions from this initial judgement.
+3. Independently inspect the implementation, configuration and resulting behaviour.
+4. Inspect tests, operational evidence and other verification evidence.
+5. Inspect the deeper Product and Architecture reasoning, ADRs, decisions, assumptions and claimed design.
+6. Reconcile intended outcome, recorded design, observed implementation and evidence.
+7. Produce and record the current independent assessment and findings.
+8. Only then inspect previous findings, dispositions and review history for continuity, regression and duplicate identification.
+9. Create or update the canonical Independent Review artefact, preserving stable finding IDs and review history.
 10. Handover findings to the responsible role for disposition.
 
 ## Review Clarification
@@ -70,7 +70,7 @@ Once scope and evidence are clear, review decisively. Do not perform the respons
 
 ## Review Expectations
 
-Independent Reviews should be evidence-based, prioritised and reusable. They should avoid duplicating role execution, and should clearly separate blocking findings, non-blocking findings, lifecycle feedback and handbook feedback.
+Independent Reviews should be evidence-based, prioritised and reusable. The current assessment must be formed before previous review narrative is consulted. They should avoid duplicating role execution, and should clearly separate blocking findings, non-blocking findings, lifecycle feedback and handbook feedback.
 
 The Independent Reviewer owns the observation, finding ID, severity and recommendation. The responsible role owns the response, disposition and completion evidence. Material dispositions should link to decisions, initiatives, work items or lifecycle artefacts.
 
@@ -78,7 +78,7 @@ Downstream roles should read the current canonical Independent Review during the
 
 ## Definition of Done
 
-An Independent Review is complete when scope is clear, relevant evidence has been assessed, prior findings are considered, findings are prioritised with stable IDs, the current register and review history are updated, handbook feedback is separated, and a formal recommendation is provided.
+An Independent Review is complete when scope and evaluation criteria are clear, the current assessment was formed before prior review history was consulted, relevant evidence has been assessed, findings are prioritised with stable IDs, the current register and review history are updated, handbook feedback is separated, and a formal recommendation is provided.
 
 ## Related Profiles
 

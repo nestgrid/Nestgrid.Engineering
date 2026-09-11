@@ -30,9 +30,24 @@ The handover should explain what the next role should do, not repeat every detai
 
 ### Include Metadata
 
-Each artefact should identify its title, version, status, owner, date and related artefacts.
+Each artefact should identify its title, version, status, owner, date, related artefacts and routing metadata.
 
 This supports traceability and review.
+
+### Include Routing Metadata
+
+Handover artefacts should include a concise routing block that tells the next participant how to continue without inferring ownership from conversation history.
+
+The routing block should identify, where known:
+
+- the next lifecycle stage;
+- the next responsible Role;
+- the expected Profile, if a named Profile is being used;
+- the required next action;
+- whether Sponsor approval or another gate is required before continuation; and
+- blockers, dependencies or unresolved decisions that affect routing.
+
+Routing metadata directs work but does not grant authority, approve a stage or replace the applicable workflow.
 
 ### Capture Open Questions
 
@@ -64,6 +79,7 @@ Open findings should be resolved, accepted or explicitly deferred before a downs
 - Approved artefacts are the primary handover input.
 - Approval artefacts and handover artefacts may be separate.
 - Metadata supports traceability.
+- Routing metadata makes the next responsible participant and action explicit.
 - Independent Reviews should be included in handover context where they exist.
 - Review findings should be consumed from their canonical document.
 - Feedback artefacts make blockers visible.

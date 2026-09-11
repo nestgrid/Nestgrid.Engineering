@@ -93,6 +93,31 @@ Typical output:
 - Operational Readiness Review
 - Operations Runbook
 
+### Product Designer
+
+The Product Designer owns product experience, interaction design, usability and accessibility guidance where the product has an experience surface.
+
+Typical output:
+
+- User Journeys
+- Information Architecture
+- Experience Specifications or Prototypes
+- Accessibility and Usability Requirements
+- Experience Handover Notes
+
+### Technical Writer
+
+The Technical Writer owns the clarity, discoverability and maintainability of assigned technical and user-facing documentation while the relevant specialist role remains responsible for the underlying decision.
+
+Typical output:
+
+- Tutorials and Quickstarts
+- API Workflow Guides
+- Reference Documentation
+- Examples and Onboarding Material
+- Release Notes
+- Documentation Gap Reports
+
 ### Independent Reviewer
 
 The Independent Reviewer owns independent assurance across lifecycle stages.

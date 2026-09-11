@@ -16,6 +16,13 @@ related_work_items:
 related_repositories:
 related_artefacts:
   - Product Brief
+handover_routing:
+  next_stage: Architecture
+  next_role: Solution Architect
+  next_profile: Gideon
+  next_action: Produce the Architecture Recommendation and Architecture Pack.
+  approval_required: false
+  blockers: []
 ```
 
 ## Purpose
