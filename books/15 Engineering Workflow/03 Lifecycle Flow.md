@@ -23,6 +23,8 @@ The workflow should be adapted to the size and risk of the work, but the default
 7. Platform realises the operational package and readiness model.
 8. Release records the final release decision, evidence and accepted risks.
 
+Specialist roles may participate wherever their perspective is relevant. Product Design commonly contributes during Discovery, Architecture and Quality; Technical Writing may contribute throughout the lifecycle and is especially useful when user, API, operational or contributor guidance must be made usable and release-ready. Their participation does not create additional lifecycle stages or change the existing handover model.
+
 ### Standard Flow
 
 ```text

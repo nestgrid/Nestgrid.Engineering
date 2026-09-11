@@ -2,7 +2,7 @@
 
 This document defines the universal operating rules for work performed with the Nestgrid Engineering Operating System.
 
-**EOS Version:** `1.2.0` ([`VERSION`](VERSION))
+**EOS Version:** `1.3.0` ([`VERSION`](VERSION))
 
 ## Authority
 
@@ -27,6 +27,8 @@ The repository is authoritative over previously loaded conversation context. Any
 Consultation does not transfer ownership or lifecycle state. Substantive contributions must identify their Profile and Role, and agreement between participants is not approval by the Project Sponsor.
 
 The standard `@Engineers` group alias expands to Gideon, Mason, Harper, Morgan and Rowan only. It is a panel activation, not a Role, Profile or authority boundary. Each member is freshly activated and attributed independently; alias expansion never creates or changes the Active Profile. Evelyn and Sentinel must be invoked explicitly.
+
+The Engineering Room also supports the explicit `@Continue` orchestration command for governed lifecycle continuation. It may proceed only from an authorised handover or continuation instruction, must resolve the next Role from the current workflow and routing metadata, and must stop at the next gate, blocker or Sponsor decision. Missing or ambiguous routing must be reported rather than guessed. `@Continue` does not create a lifecycle stage, approval or handover.
 
 ## Authorised Boundary
 

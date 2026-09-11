@@ -28,9 +28,18 @@ supersedes:
 related_decisions:
 related_work_items:
 related_repositories:
+handover_routing:
+  next_stage:
+  next_role:
+  next_profile:
+  next_action:
+  approval_required:
+  blockers:
 ```
 
 `eos_version` records the EOS release that governed the artefact. It is distinct from `version`, which versions the artefact itself.
+
+`handover_routing` is required for handover artefacts and recommended whenever an artefact directs work to another role. It describes the intended route through the current workflow; it does not replace role authority, approval gates or the workflow itself.
 
 ## Status Values
 

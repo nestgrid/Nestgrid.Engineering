@@ -8,6 +8,8 @@ It coordinates participation without replacing the Engineering Handbook, lifecyc
 
 - [Engineering Room](Engineering%20Room.md) - a persistent, multi-profile collaboration model for a product or initiative.
 
+The Engineering Room includes governed lifecycle continuation through `@Continue`, which follows authorised handover routing without replacing lifecycle stages, approval gates or explicit handover.
+
 The isolated Role/Profile conversation remains a supported operating model. Use the model that best suits the work.
 
 ---
